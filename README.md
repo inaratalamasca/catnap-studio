@@ -35,3 +35,5 @@ The hosting repository contains separate installable extensions for integrated T
 **Imported** means existing source is now contained here. **Prepared** means changes exist in source and have the stated checks. **Live verified** requires a dated host/browser/server observation. **Planned** means an issue or specification, not an implemented feature. Passing a local test is not a live Suno or broadcast test.
 
 All repositories begin private while source, artwork rights and host data boundaries are reviewed. Store listing drafts are preparation only. No Chrome Web Store upload, public release, Twitch/YouTube broadcast or live bot deployment is implied by this setup.
+
+Project landing page: [CatnapRadio.com](https://catnapradio.com/). It links to the Catnap repositories; website deployment is separate from application release acceptance.

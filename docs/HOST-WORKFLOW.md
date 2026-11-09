@@ -27,3 +27,12 @@ Operator actions should be paced, idempotent and scoped to one session/channel. 
 `Catnap/YYYY/YYYY-MM-DD/` and `Guest-Shows/Host-Name/YYYY-MM-DD/` hold Event.txt, Input, Working and Final. Preserve originals, cache metadata once per set, retain prior finals in Working/Revisions and keep a dated verification note. Private data stays on the host's computer/server.
 
 The detailed local handoff, approved templates, current rules and November 1 MCP tests remain under the workspace Reference area. They are references rather than blanket permission to operate a new show.
+
+## Current AIU intake and assisted-development direction
+
+Host update, November 8, 2026: official and semi-official AIU after parties use uploader/inbox submissions. Chat-drop intake remains an explicitly selected emergency or non-AIU option. Announcements/co-host conversation are independent of song-request intake. Existing chat-drop presets and source modes do not establish permission to use them at an AIU event.
+
+Prefer supported, authenticated MCP routes for AI-assisted service operations, including Suno playlist operations; verify capabilities and read back writes. Browser actions remain for missing capabilities or documented fallback. Standalone Theatre remains AI-independent. A supported uploader API/MCP contract is a planned collaboration with its maintainer, not an available interface assumed by the code.
+
+Bot helper/co-host testing depends on verified community permissions. Keep credentials in authorized service connections/browser sessions; dedicated test profiles are preferred when ready. Direct password-manager access and login readiness must be verified separately.
+
