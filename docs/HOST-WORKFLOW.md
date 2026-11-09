@@ -36,3 +36,17 @@ Prefer supported, authenticated MCP routes for AI-assisted service operations, i
 
 Bot helper/co-host testing depends on verified community permissions. Keep credentials in authorized service connections/browser sessions; dedicated test profiles are preferred when ready. Direct password-manager access and login readiness must be verified separately.
 
+
+## Ina full hosting package — deliverable contract
+
+The advanced AIU hosting package for Ina produces the following. These are hosting requirements, not requirements for standalone Theatre.
+
+- LP: create the ordered playlist, playlist artwork using the current confirmed artist lineup, and the established dark-mode cue PDF with show artwork/cover, a summary/index page and one cue page per track. Keep square playlist cover and wide announcement outputs distinct under the existing workflow.
+- AP: create the ordered playlist and AP artwork without a fixed artist cast list. No cue PDF is required by default unless specifically requested.
+- Both LP and AP inbox playlists use FIFO by submission date/time: oldest first, bottom-up in the newest-first inbox, retaining observed bottom-up order for equal timestamps. New arrivals append. A supplied existing playlist is not automatically reversed; any explicitly selected advanced queue mode/host override must be recorded separately from original FIFO intake order.
+- YouTube or future external-media submissions without a Suno song require a legitimate placeholder in the Suno playlist at the submission's FIFO position. Keep a unique internal submission/slot identity and explicit external URL/provider mapping. Do not silently skip such entries, manufacture paid placeholder audio or assume one repeated Suno ID supports multiple independent slots. If no usable placeholder exists, report the slot blocked rather than claim the playlist complete.
+- When both YouTube and Suno links are supplied, retain both: use Suno for playlist membership/identity and internally mark YouTube as the preferred playback source. This supersedes the older blanket “prefer Suno” rule. Do not autoplay the Suno audio over the preferred external video; implementation must pause native audio/advance, track slot completion and restore playback deliberately. An unavailable external source needs a visible host decision, not a silent source substitution.
+- Capture the YouTube alternative from the inbox when CSV omits it. Keep external-media identity, artwork/audio review and clearance distinct from the Suno track's lyric review.
+
+Placeholder lifecycle and preferred-source handoff are required advanced development work, not claims of implemented or live-verified behavior. Standalone Theatre may retain its separately scoped optional video conveniences without owning inbox ingestion, playlist/art generation or cue-PDF production.
+
