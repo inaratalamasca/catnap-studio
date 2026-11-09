@@ -26,6 +26,7 @@ Source: Ina's Catnap Theatre/Catnap Studio request, November 8, 2026. This is a 
 | AIU + Created by Catnap Radio on every layout | Theatre; keep attribution; verified logo asset and usage permission needed before release |
 | Private Chrome distribution, Firefox bonus | Theatre; test first, prepare listing/privacy/screenshots; separate Firefox acceptance |
 | Automatic uploader warnings and suicide-support banner | Advanced Hosting; timed Theatre overlay, optional scoped bot/helper warning, verified regional support templates; [feature specification](https://github.com/inaratalamasca/catnap-radio-hosting/blob/main/docs/AUTOMATIC-WARNINGS-REQUEST.md) |
+| Playlist media/avatar dock, Jah reactions and Ina emotion puppet | Advanced Hosting; manual GIF/image dock, optional scoped bot selection, camera-free expression library; live MMD/RP/VRC-style source insertion is Studio research; [feature specification](https://github.com/inaratalamasca/catnap-radio-hosting/blob/main/docs/MEDIA-AVATAR-DOCK-REQUEST.md) |
 | Full host and uploader workflow | Hosting; only host-authorized inbox and existing browser/MCP credentials; Kai cooperation for supported API |
 | Better Discord + web audio | Simulcast research; measured latency/sync, no duplicate listening path |
 | OBS-like studio or OBS setup integration | Studio research; favor proven capture/encoding components first |
