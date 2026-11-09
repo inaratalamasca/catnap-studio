@@ -140,3 +140,15 @@ footer { display: flex; justify-content: space-between; gap: 25px; padding: 35px
   .community-intro img { width: 140px; }
   .community-intro h2 { font-size: 33px; }
 }
+
+/* Mobile navigation uses touch-friendly targets and wraps on narrow phones. */
+@media (max-width: 760px) {
+  nav { flex-wrap: wrap; }
+  nav a { display: inline-flex; align-items: center; min-height: 44px; }
+}
+@media (max-width: 360px) {
+  .brands { gap: 12px; }
+  .brand { font-size: 15px; letter-spacing: 2.5px; }
+  .brand img { width: 38px; height: 38px; }
+  .aiu-brand img { width: 86px; height: 57px; }
+}
