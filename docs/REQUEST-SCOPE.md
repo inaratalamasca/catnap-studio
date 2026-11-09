@@ -17,7 +17,7 @@ Source: Ina's Catnap Theatre/Catnap Studio request, November 8, 2026. This is a 
 | Waiting/pre-show/after-show with AIU radio | Theatre; future lounge mode, deliberate audio-source switch to prevent double audio |
 | User playlist instead of radio | Theatre; planned optional lounge source; preserve native account boundary |
 | Next listening-party schedule | Theatre/hosting; use verified source, timezone/DST handling, unavailable state |
-| Warning/message/intake banners and typed text | Theatre; text and explicitly selected media, expiry and clear controls |
+| Warning/message/intake banners and typed text | Theatre; optional control-panel-operated GIF/banner overlays where feasible, expiry/clear; advanced avatar library/stage is not a standalone requirement |
 | Live updating playlist with current marker and selection | Theatre; do not refresh playing page; virtualized list limits disclosed; test native action readback |
 | YouTube maximum-area playback | Theatre later; pasted URL first, no bypass of embed restrictions |
 | YouTube in placeholder song | Hosting later; explicit slot-to-video map, stop native audio/advance deliberately and restore after |
@@ -26,7 +26,7 @@ Source: Ina's Catnap Theatre/Catnap Studio request, November 8, 2026. This is a 
 | AIU + Created by Catnap Radio on every layout | Theatre; keep attribution; verified logo asset and usage permission needed before release |
 | Private Chrome distribution, Firefox bonus | Theatre; test first, prepare listing/privacy/screenshots; separate Firefox acceptance |
 | Automatic uploader warnings and suicide-support banner | Advanced Hosting; timed Theatre overlay, optional scoped bot/helper warning, verified regional support templates; [feature specification](https://github.com/inaratalamasca/catnap-radio-hosting/blob/main/docs/AUTOMATIC-WARNINGS-REQUEST.md) |
-| Playlist media/avatar dock, Jah reactions and Ina emotion puppet | Advanced Hosting; manual GIF/image dock, optional scoped bot selection, camera-free expression library; live MMD/RP/VRC-style source insertion is Studio research; [feature specification](https://github.com/inaratalamasca/catnap-radio-hosting/blob/main/docs/MEDIA-AVATAR-DOCK-REQUEST.md) |
+| Playlist media/avatar dock, Jah reactions and Ina emotion puppet | Advanced Hosting; substantial stage sized alongside large art/lyrics and 3–5 playlist entries, long-loop instrument/dance library, emotion variants and avatar/GIF zoom; optional Jah selection; live MMD/RP/VRC-style insertion is Studio research; [feature specification](https://github.com/inaratalamasca/catnap-radio-hosting/blob/main/docs/MEDIA-AVATAR-DOCK-REQUEST.md) |
 | Full host and uploader workflow | Hosting; only host-authorized inbox and existing browser/MCP credentials; Kai cooperation for supported API |
 | Better Discord + web audio | Simulcast research; measured latency/sync, no duplicate listening path |
 | OBS-like studio or OBS setup integration | Studio research; favor proven capture/encoding components first |
