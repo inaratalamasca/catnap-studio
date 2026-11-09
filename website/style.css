@@ -110,3 +110,33 @@ footer { display: flex; justify-content: space-between; gap: 25px; padding: 35px
   footer > span:nth-child(2) { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .card { transition: none; } }
+
+/* Owner-directed AI:Underground community branding; source logo remains unchanged. */
+.brands { display: flex; align-items: center; gap: 23px; }
+.brand-divider { width: 1px; height: 34px; background: var(--line); }
+.aiu-brand { display: block; line-height: 0; }
+.aiu-brand img { width: 108px; height: 72px; object-fit: contain; mix-blend-mode: screen; }
+.community-hub { margin: 0 58px 70px; }
+.community-intro { display: flex; align-items: center; gap: 34px; padding: 30px 0 35px; border-top: 1px solid var(--line); }
+.community-intro > a { flex: 0 0 175px; }
+.community-intro img { display: block; width: 175px; height: auto; mix-blend-mode: screen; }
+.community-intro .eyebrow { color: var(--teal); margin: 0 0 8px; }
+.community-intro h2 { font-size: 36px; letter-spacing: -1.1px; margin: 0 0 12px; }
+.community-intro p:last-child { color: var(--muted); font-size: 14px; line-height: 1.7; margin: 0; }
+.community-hub .community { margin: 0; }
+@media (max-width: 1000px) {
+  .brands { gap: 14px; }
+  .aiu-brand img { width: 85px; height: 57px; }
+  nav { gap: 15px; }
+  .community-hub { margin-left: 35px; margin-right: 35px; }
+}
+@media (max-width: 760px) {
+  .brands { width: 100%; justify-content: space-between; gap: 18px; }
+  .brand-divider { margin-left: auto; }
+  .aiu-brand img { width: 96px; height: 64px; }
+  .community-hub { margin: 0 24px 43px; }
+  .community-intro { align-items: flex-start; flex-direction: column; gap: 15px; padding: 27px 0; }
+  .community-intro > a { flex: none; }
+  .community-intro img { width: 140px; }
+  .community-intro h2 { font-size: 33px; }
+}
