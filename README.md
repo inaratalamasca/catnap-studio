@@ -10,19 +10,20 @@ Catnap helps a host turn a Suno playlist into a readable, branded listening part
 | --- | --- | --- |
 | [Catnap Theatre](https://github.com/inaratalamasca/catnap-theatre) | Simple standalone Suno presentation extension | No AI, bot, server or copied Suno credentials required |
 | [Catnap Radio Hosting](https://github.com/inaratalamasca/catnap-radio-hosting) | Integrated Theatre, host control, durable requests, show preparation | Existing host-authorized sessions and optional Suno MCP; private configuration stays with the host |
-| [Catnap Simulcast](https://github.com/inaratalamasca/catnap-simulcast) | Explore better audio alongside Discord visuals | Research; no operational listener service promised |
+| [Catnap Simulcast](https://github.com/inaratalamasca/catnap-simulcast) | Better music alongside Discord visuals | Local audio pilot with low-delay Live and buffered mobile Radio |
 | Catnap Studio (this repo) | Shared roadmap and potential all-in-one studio | Design only; evaluate OBS integration before building an encoder |
 
 ## Why these are repositories, not forks
 
 A repository is a project's source and history. A fork starts from somebody else's repository. Our tools already have their own source and goals, so we create our own repositories. We do not fork or redistribute Kraesk's private Nightwire project. Its ideas can inform requirements; reuse of its code/assets needs an appropriate license or permission.
 
-The three product focuses are standalone Theatre, integrated Theatre and radio hosting. The latter two live together because they share session state and releases. We avoid two independently maintained copies of the new standalone core. The existing integrated Theatre is preserved as a legacy compatibility extension until a tested adapter can use the standalone core.
+The three product focuses are standalone Theatre, integrated Theatre and radio hosting. The latter two live together because they share session state and releases. The new integrated development build synchronizes the shared Theatre presentation files with standalone and preserves its existing advanced visual-command bridge. A guarded sync script and hash inventory keep presentation parity reviewable; installing either new build remains a between-broadcast action.
 
 The hosting repository contains separate installable extensions for integrated Theatre and host control. A separate Jah browser controller is an adjacent existing extension, documented in the inventory; it is not a dependency of standalone Theatre. The Discord posting helper is currently part of host control, not falsely counted as a third standalone install.
 
 ## Start here
 
+- [November 12 audio, player and Theatre update](docs/UPDATES-2026-11-12.md)
 - [Architecture and boundaries](docs/ARCHITECTURE.md)
 - [Roadmap and acceptance gates](docs/ROADMAP.md)
 - [Complete requested scope](docs/REQUEST-SCOPE.md)
