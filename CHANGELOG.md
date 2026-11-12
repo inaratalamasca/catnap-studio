@@ -1,5 +1,11 @@
 # Changes
 
+## 0.5.0 Theatre development — 2026-11-12
+
+- Moved presentation settings, visual/banner options and lyric options into the persistent pop-out, leaving one Controls entry on the canvas.
+- Added optional translucent lower-edge music bars beneath all presentation panels, with enable/transparency preferences.
+- Updated standalone/integrated parity checks and the short website feature list.
+
 ## 2026-11-12 — audio pilot and Theatre development builds
 
 - Added low-delay stereo Live listening and buffered 320 kbps Radio; the host verified phone Radio through app switching and screen lock.
