@@ -1,5 +1,7 @@
 # Catnap Studio
 
+Project website: [catnapradio.com](https://catnapradio.com/). The landing page source lives in [website/](website/), with owner-supplied Catnap artwork and links to AIU Radio, the uploader and merch shop; repositories remain private during development.
+
 **Project hub and future studio design.** This repository organizes Catnap Radio's tools. It is not an OBS replacement you can download today.
 
 Catnap helps a host turn a Suno playlist into a readable, branded listening party, then adds only the integrations that host needs. Standalone Theatre is the first priority.
