@@ -1,29 +1,44 @@
-# Screenshots, assets and host decisions
+# Downloads, screenshots and host decisions
 
-None of these blocks project setup. Record them when available; do not fabricate screenshots of working software.
+## Current public package choices
+
+Use the [0.6.3 preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.6.3-preview) to choose:
+
+- **Theatre + Inbox** — presentation plus optional LP/AP inbox/playlist creation and managed Suno/YouTube show controls.
+- **Inbox-only** — playlist creation without Theatre playback, broadcasting or an advanced hosting bot.
+
+Both are development previews with included setup instructions and noncommercial/license notices. No LLM is required for deterministic managed-queue operations. Optional Suno authorization/playlist creation uses the host's own account and desktop companion setup. Keep private pairing, publish keys and inbox records out of packages and screenshots.
+
+The [older 0.5.0 presentation-only release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.5.0) remains available. The **0.5.0 Chrome Web Store beta is pending review**; no published Store listing is claimed. Private advanced Theatre 0.6.3 / Host Controls 0.4.7 source and paired downloads are not public deliverables.
+
+The 0.6.2 own-profile authorization, playlist creation and clean Suno/HQ audio reports are useful smoke evidence. The 0.6.3 LP correction still needs a live profile recheck. Label screenshots from isolated fixtures as fixtures; do not present them as real-show acceptance.
+
+## Evidence and decisions still needed
+
+None of these blocks a clearly labeled development preview. Record real evidence when available; do not fabricate screenshots of working software.
 
 | Needed | Purpose | When |
 | --- | --- | --- |
+| Quiet LP Load followed by separate Play | Verify the 0.6.3 staging/manual correction | Before trusting the new build on air |
+| Managed Suno → YouTube → Suno with explicit playback | Source identity, one audio owner and native-advance guard | Mixed-source rehearsal |
+| AP watching/append with optional autoplay | FIFO append and end-of-track recovery | Explicit test AP |
+| Warning overlay, timeout/repeat and private notes | Uploader flag and operator/presentation separation | Managed-show rehearsal |
+| Clipboard announcement using actual source/uploader | Review/manual send without placeholder credit | Test queue; no unintended Discord post |
+| Managed/Legacy controller handoff | One writer, drained pending work and inactive defaults | Private advanced rehearsal |
 | Current two-panel Theatre at 1920×1080 | Baseline and Store listing screenshot | Safe between-shows rehearsal |
-| Three-panel Theatre with several playlist entries | Demonstrate layout/current-song marker | After native playlist acceptance |
-| Lyrics with bracketed tags, long text and unusual characters | Recovery and optional cleanup evidence | Alpha test |
-| No-lyrics song and animated artwork | Art-only/fallback behavior | Alpha test |
-| Pre-show/BRB/after-show and warnings | Lounge/banner acceptance | As those modes are implemented |
-| Controller separate from shared output | Operator/program separation | Integration rehearsal |
-| Clean authorized AIU logo, Catnap logo and optional member logo | Header, icons and attribution | Before member pilot |
-| 128px extension icon and 1280×800 or 640×400 screenshots | Chrome listing assets | Before Store submission |
-| Support contact and publisher/developer account choice | Listing, privacy and support forms | Before publication |
-| Testers' Google accounts or managed tester group | Private Store access | Before pilot submission |
-| Kai's supported uploader integration contract | Stable host intake adapter | Before relying on uploader API |
-| Rabbit Studio (formerly Luma) maintainer's source/API/platform details | Decide possible interop | Before an integration commitment |
-| Target listener count, devices and acceptable audio delay | Select simulcast transport | Before hosting/codec decisions |
+| Three-panel Theatre with several entries | Demonstrate layout/current-song marker | After native/managed queue acceptance |
+| Long/plain/tagged/Unicode lyrics and missing lyrics | Recovery and optional cleanup evidence | Member test |
+| Square/portrait/animated/missing artwork | Containment and fallback behavior | Member test |
+| Lounge/BRB/after-show and local media banners | Explicit audio-source and overlay behavior | Rehearsal |
+| Controller separate from shared output | Operator/program separation | Private integration rehearsal |
+| Store support/contact, privacy and remaining listing assets | Review and publication readiness | Store beta review follow-up |
+| Kai's maintained uploader contract | Stable future API/MCP adapter | Before relying on a new API |
+| Target listener count, devices and acceptable delay | Audio pilot scale and mobile behavior | Ongoing measured listening tests |
 
-Capture screenshots without browser account menus, private chats, pairing keys, queue identities or unrelated tabs. Use authorized test music/art. Existing Kraesk screenshot stays local as a reference; it is not our product screenshot.
+Capture without account menus, private chats, pairing keys, queue identities or unrelated tabs. Use original synthetic fixtures or authorized test music/art. The supplied Kraesk screenshot remains local reference material, not a Catnap product screenshot.
 
-## Default decisions already made
+## Decisions already made
 
-Public Theatre, overview and inbox guide; private advanced-hosting/simulcast source during the pilot; noncommercial first-party licensing with separate commercial permission; Chrome/Brave first; Firefox a separate pilot; standalone first; bounded customization; Suno remains native audio; no Catnap-managed copy of a user's Suno login; prefer an OBS adapter before a new studio encoder. The old local path remains compatible while canonical documentation uses Catnap Streaming.
+Public Theatre, overview/website and inbox guide; private advanced-hosting/simulcast source during the pilot; PolyForm Noncommercial terms with separate commercial permission; approved AIU branding inclusion with separate branding rights; Chrome/Brave first and Firefox separate; host-owned Suno authorization; deterministic queue operations without an LLM; managed external entries without required Suno placeholders; prefer a proven OBS adapter before a new Studio encoder.
 
-## November 15 housekeeping record
-
-AIU branding inclusion in public Catnap source/downloads was approved by the maintainer. Standalone and integrated Theatre are at 0.5.0; compatible Host Controls is 0.4.6.2. Public release/overview links are listed in [current versions](RELEASES.md). Broader Store and device acceptance above remains separate.
+Source, release publication, website deployment, browser activation and live acceptance remain separately recorded steps. See [current versions](RELEASES.md) and [the roadmap](ROADMAP.md).

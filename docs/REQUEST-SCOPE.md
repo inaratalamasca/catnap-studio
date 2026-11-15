@@ -1,6 +1,6 @@
 # Requested scope and project allocation
 
-Source: Ina's Catnap Theatre/Catnap Studio request, November 8, 2026. This is a scope ledger, not a completion claim. See each implementation repository for tested status.
+Source: Ina's ongoing Catnap Theatre/Catnap Studio requests; updated November 15, 2026. This is a scope ledger, not a full acceptance claim. The 0.6.3 public preview adds managed inbox/playlists and mixed-source playback; the LP correction still needs live rechecking. See [current versions](RELEASES.md) for public versus private availability.
 
 | Request | Owner / planned acceptance |
 | --- | --- |
@@ -19,20 +19,20 @@ Source: Ina's Catnap Theatre/Catnap Studio request, November 8, 2026. This is a 
 | Next listening-party schedule | Theatre/hosting; use verified source, timezone/DST handling, unavailable state |
 | Warning/message/intake banners and typed text | Theatre; optional control-panel-operated GIF/banner overlays where feasible, expiry/clear; advanced avatar library/stage is not a standalone requirement |
 | Live updating playlist with current marker and selection | Theatre; do not refresh playing page; virtualized list limits disclosed; test native action readback |
-| YouTube maximum-area playback | Theatre later; pasted URL first, no bypass of embed restrictions |
-| YouTube in placeholder song | Hosting later; explicit slot-to-video map, stop native audio/advance deliberately and restore after |
-| Separate operator controls | Hosting current; standalone optional future extension control page |
+| Managed Suno/YouTube playback | Theatre 0.6.3 preview; YouTube-only entries retained without placeholders and preferred when both links are supplied; respect embed/autoplay restrictions; live transitions still need rehearsal |
+| YouTube in a physical Suno placeholder | Legacy hosting only; explicit slot mapping and source handoff remain separate from new managed external entries |
+| Separate operator controls | Prepared presentation and Inbox/show windows; private advanced Host Controls 0.4.7 coordinates Managed versus deliberately selected Legacy ownership |
 | User background/logo customization | Theatre; bounded styling, validated local assets, simple reset |
 | AIU + Created by Catnap Radio on every layout | Theatre; keep attribution; verified logo asset and usage permission needed before release |
 | Private Chrome distribution, Firefox bonus | Theatre; test first, prepare listing/privacy/screenshots; separate Firefox acceptance |
-| Automatic uploader warnings and suicide-support banner | Advanced Hosting; timed Theatre overlay, optional scoped bot/helper warning, verified regional support templates; [feature specification](https://github.com/inaratalamasca/catnap-radio-hosting/blob/main/docs/AUTOMATIC-WARNINGS-REQUEST.md) |
-| Playlist media/avatar dock, Jah reactions and Ina emotion puppet | Advanced Hosting; substantial stage sized alongside large art/lyrics and 3–5 playlist entries, long-loop instrument/dance library, emotion variants and avatar/GIF zoom; optional Jah selection; live MMD/RP/VRC-style insertion is Studio research; [feature specification](https://github.com/inaratalamasca/catnap-radio-hosting/blob/main/docs/MEDIA-AVATAR-DOCK-REQUEST.md) |
-| Full host and uploader workflow | Hosting; only host-authorized inbox and existing browser/MCP credentials; Kai cooperation for supported API |
+| Uploader warning overlays and broader support banners | Timed warning flags on load/advance in the 0.6.3 managed preview; optional bot chat warnings and verified regional support templates remain advanced work |
+| Playlist media/avatar dock, Jah reactions and Ina emotion puppet | Advanced Hosting; substantial stage sized alongside large art/lyrics and 3–5 playlist entries, long-loop instrument/dance library, emotion variants and avatar/GIF zoom; optional Jah selection; live MMD/RP/VRC-style insertion is Studio research |
+| Full host and uploader workflow | Managed queue preview is deterministic without an LLM; full advanced hosting additionally prepares playlist artwork and reviewed dark cue PDFs. Supported uploader API/MCP cooperation remains future work |
 | Better Discord + web audio | Simulcast research; measured latency/sync, no duplicate listening path |
 | OBS-like studio or OBS setup integration | Studio research; favor proven capture/encoding components first |
 | Kraesk review after October 25 | Local evidence report; exact history and provenance, no unsupported authorship claims |
-| GitHub organization and local cleanup | Four private repos, scoped issues/milestones, preserved working files, migration record |
+| GitHub organization and local cleanup | Public Theatre/overview/guide; private hosting/simulcast source; scoped releases, preserved operating files and private-data guards |
 
 ## Not part of setup acceptance
 
-Chrome Store approval, Firefox compatibility, provider streaming acceptance, permanent public hosting, live automation watches and a complete new studio application all need their own acceptance evidence. Do not label roadmap stubs as released products.
+Chrome Store approval (the 0.5.0 beta is pending review), Firefox compatibility, provider streaming acceptance, long-running live watches and a complete new Studio application all need their own acceptance evidence. Do not label roadmap stubs as released products.
