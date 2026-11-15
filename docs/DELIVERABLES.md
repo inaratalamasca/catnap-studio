@@ -11,7 +11,7 @@ Both are development previews with included setup instructions and noncommercial
 
 The [older 0.5.0 presentation-only release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.5.0) remains available. The **0.5.0 Chrome Web Store beta is pending review**; no published Store listing is claimed. Private advanced Theatre 0.6.6 / Host Controls 0.4.7 source and paired downloads are not public deliverables.
 
-The 0.6.2 own-profile authorization, playlist creation and clean Suno/HQ audio reports are useful smoke evidence. The 0.6.3 trial missed the native Play control; 0.6.4 found the row and quiet Load worked, but Play timed out waiting for the selected song. The 0.6.5 host retry reported “Target matched, audio not found”. Version 0.6.6 corrects active-music versus silent-helper selection; the host confirmed its first real Suno Play and is testing the next song. Manual ending, mixed-source transitions and Discord/HQ checks remain pending. Label screenshots from isolated fixtures as fixtures; do not present them as real-show acceptance.
+The 0.6.2 own-profile authorization, playlist creation and clean Suno/HQ audio reports are useful smoke evidence. The 0.6.3 trial missed the native Play control; 0.6.4 found the row and quiet Load worked, but Play timed out waiting for the selected song. The 0.6.5 host retry reported “Target matched, audio not found”. Version 0.6.6 corrects active-music versus silent-helper selection; the host confirmed the standalone sequence Play song 1 → held ending → Load Next paused → Play song 2. Mixed-source, AP, advanced live integration and Discord/HQ checks remain separate. Label screenshots from isolated fixtures as fixtures; do not present them as real-show acceptance.
 
 ## Evidence and decisions still needed
 
@@ -19,7 +19,7 @@ None of these blocks a clearly labeled development preview. Record real evidence
 
 | Needed | Purpose | When |
 | --- | --- | --- |
-| Quiet LP Load, separate Play, then next song/manual ending | Verify selected-source playback and held ending without implicit advance | First real 0.6.6 Suno Play confirmed; next-song/ending checks pending |
+| Longer manual LP run and interruption recovery | Extend the confirmed two-song sequence through rebind/reconnect and unavailable media | Between-shows rehearsal |
 | Pause or changed selection during preparation; timeout | Cancel the pending start and remain held rather than playing late | Cold-player/cancellation rehearsal |
 | Managed Suno → YouTube → Suno with explicit playback | Source identity, one audio owner and native-advance guard | Mixed-source rehearsal |
 | AP watching/append with optional autoplay | FIFO append and end-of-track recovery | Explicit test AP |

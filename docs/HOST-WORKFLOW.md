@@ -14,9 +14,9 @@ submission uploader’s `@credit` for manual review/send, without a private iden
 map. This preview still needs real-show rehearsal. In 0.6.4, quiet Load worked
 but Play timed out waiting for the selected native song; the 0.6.5 retry reported
 “Target matched, audio not found”. Version 0.6.6 distinguishes active music from
-Suno’s silent helper; the host confirmed its first real Suno Play and is testing
-the next song. Manual ending, mixed-source transitions and Discord/HQ checks
-remain pending. Preparation remains bounded and
+Suno’s silent helper. The host confirmed the standalone 0.6.6 sequence: Play
+song 1, hold at its ending, Load Next paused, then Play song 2. Mixed-source,
+AP, advanced live integration and Discord/HQ checks remain separate. Preparation remains bounded and
 muted; Pause, changed selection and timeout cancel it. Load remains separate
 from Play.
 

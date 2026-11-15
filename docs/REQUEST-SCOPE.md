@@ -1,6 +1,6 @@
 # Requested scope and project allocation
 
-Source: Ina's ongoing Catnap Theatre/Catnap Studio requests; updated November 15, 2026. This is a scope ledger, not a full acceptance claim. The 0.6.6 public preview adds managed inbox/playlists and mixed-source playback. After 0.6.4 quiet Load succeeded but Play timed out, the 0.6.5 retry reported “Target matched, audio not found”. The host confirmed the first real Suno Play with the 0.6.6 active-music/silent-helper correction and is testing the next song; manual ending, mixed-source transitions and Discord/HQ checks remain pending. See [current versions](RELEASES.md) for public versus private availability.
+Source: Ina's ongoing Catnap Theatre/Catnap Studio requests; updated November 15, 2026. This is a scope ledger, not a full acceptance claim. The 0.6.6 public preview adds managed inbox/playlists and mixed-source playback. After 0.6.4 quiet Load succeeded but Play timed out, the 0.6.5 retry reported “Target matched, audio not found”. With the 0.6.6 active-music/silent-helper correction, the host confirmed the standalone sequence Play song 1 → held ending → Load Next paused → Play song 2. Mixed-source, AP, advanced live integration and Discord/HQ checks remain separate. See [current versions](RELEASES.md) for public versus private availability.
 
 | Request | Owner / planned acceptance |
 | --- | --- |
