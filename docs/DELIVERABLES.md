@@ -2,16 +2,16 @@
 
 ## Current public package choices
 
-Use the [0.6.3 preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.6.3-preview) to choose:
+Use the [0.6.4 preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.6.4-preview) to choose:
 
 - **Theatre + Inbox** — presentation plus optional LP/AP inbox/playlist creation and managed Suno/YouTube show controls.
 - **Inbox-only** — playlist creation without Theatre playback, broadcasting or an advanced hosting bot.
 
 Both are development previews with included setup instructions and noncommercial/license notices. No LLM is required for deterministic managed-queue operations. Optional Suno authorization/playlist creation uses the host's own account and desktop companion setup. Keep private pairing, publish keys and inbox records out of packages and screenshots.
 
-The [older 0.5.0 presentation-only release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.5.0) remains available. The **0.5.0 Chrome Web Store beta is pending review**; no published Store listing is claimed. Private advanced Theatre 0.6.3 / Host Controls 0.4.7 source and paired downloads are not public deliverables.
+The [older 0.5.0 presentation-only release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.5.0) remains available. The **0.5.0 Chrome Web Store beta is pending review**; no published Store listing is claimed. Private advanced Theatre 0.6.4 / Host Controls 0.4.7 source and paired downloads are not public deliverables.
 
-The 0.6.2 own-profile authorization, playlist creation and clean Suno/HQ audio reports are useful smoke evidence. The 0.6.3 LP correction still needs a live profile recheck. Label screenshots from isolated fixtures as fixtures; do not present them as real-show acceptance.
+The 0.6.2 own-profile authorization, playlist creation and clean Suno/HQ audio reports are useful smoke evidence. The 0.6.3 live trial successfully loaded and quietly staged an LP entry but the later Play action could not find the native control. The 0.6.4 lookup correction still needs a renewed live Play check. Label screenshots from isolated fixtures as fixtures; do not present them as real-show acceptance.
 
 ## Evidence and decisions still needed
 
@@ -19,11 +19,11 @@ None of these blocks a clearly labeled development preview. Record real evidence
 
 | Needed | Purpose | When |
 | --- | --- | --- |
-| Quiet LP Load followed by separate Play | Verify the 0.6.3 staging/manual correction | Before trusting the new build on air |
+| Quiet LP Load followed by separate Play | Verify the 0.6.4 native Play correction and preserve quiet manual staging | Before trusting the new build on air |
 | Managed Suno → YouTube → Suno with explicit playback | Source identity, one audio owner and native-advance guard | Mixed-source rehearsal |
 | AP watching/append with optional autoplay | FIFO append and end-of-track recovery | Explicit test AP |
 | Warning overlay, timeout/repeat and private notes | Uploader flag and operator/presentation separation | Managed-show rehearsal |
-| Clipboard announcement using actual source/uploader | Review/manual send without placeholder credit | Test queue; no unintended Discord post |
+| Copy now playing with the selected source and uploader `@credit` | Valid inbox ID → user mention; otherwise name credit/Unavailable. Verify credit and review/send manually without a private identity map | Test queue; no unintended Discord post |
 | Managed/Legacy controller handoff | One writer, drained pending work and inactive defaults | Private advanced rehearsal |
 | Current two-panel Theatre at 1920×1080 | Baseline and Store listing screenshot | Safe between-shows rehearsal |
 | Three-panel Theatre with several entries | Demonstrate layout/current-song marker | After native/managed queue acceptance |

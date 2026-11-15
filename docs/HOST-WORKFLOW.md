@@ -4,14 +4,16 @@ This general guide records the existing process. The host's local `AGENTS.md`, c
 
 ## Simpler managed queue preview
 
-The public Theatre + Inbox and Inbox-only 0.6.3 previews add a deterministic
+The public Theatre + Inbox and Inbox-only 0.6.4 previews add a deterministic
 workflow without an LLM or the advanced bot: Pending FIFO intake, source flags,
 uploader notes, own-account playlist creation and a managed mixed-source show.
 YouTube-only entries stay in managed order without a Suno placeholder; YouTube
 is preferred when both links are supplied. LP Load and Play are separate; AP
-autoplay is optional. Notes stay in host controls and announcements are copied
-for manual review/send. This preview still needs real-show rehearsal, including
-the live recheck of its 0.6.3 LP correction.
+autoplay is optional. Notes stay in host controls. Copy now playing uses the selected source and
+submission uploader’s `@credit` for manual review/send, without a private identity
+map. This preview still needs real-show rehearsal, including
+a renewed live Play check: 0.6.3 loaded an LP entry successfully, and 0.6.4
+updates the native Play lookup that failed during that trial.
 
 The full LP/AP preparation below remains a larger deliverable contract,
 including artwork and dark cue PDF/review. Its historical physical-Suno
@@ -65,5 +67,5 @@ The advanced AIU hosting package for Ina produces the following. These are hosti
 - When both YouTube and Suno links are supplied, retain both: use Suno for playlist membership/identity and internally mark YouTube as the preferred playback source. This supersedes the older blanket “prefer Suno” rule. Do not autoplay the Suno audio over the preferred external video; implementation must pause native audio/advance, track slot completion and restore playback deliberately. An unavailable external source needs a visible host decision, not a silent source substitution.
 - Capture the YouTube alternative from the inbox when CSV omits it. Keep external-media identity, artwork/audio review and clearance distinct from the Suno track's lyric review.
 
-Legacy placeholder lifecycle and the broader full-hosting integration remain separately scoped work. The standalone 0.6.3 preview now owns optional managed inbox/playlist and mixed-source playback; artwork generation and the full cue-PDF/review package remain separate. Preview implementation and fixture checks are not full live acceptance.
+Legacy placeholder lifecycle and the broader full-hosting integration remain separately scoped work. The standalone 0.6.4 preview now owns optional managed inbox/playlist and mixed-source playback; artwork generation and the full cue-PDF/review package remain separate. Preview implementation and fixture checks are not full live acceptance.
 

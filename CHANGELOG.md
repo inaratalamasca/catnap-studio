@@ -1,5 +1,12 @@
 # Changes
 
+## Suno Play lookup preview — 2026-11-15
+
+- Updated current public Theatre + Inbox and Inbox-only links/version notes to the 0.6.4 preview, preserving the earlier publication record below.
+- Recorded successful 0.6.3 LP Load/quiet staging and the later native Play-control lookup failure that prompted 0.6.4; the new Play correction still needs renewed live verification.
+- Updated Copy now playing notes for source-correct uploader `@credit` from the submission, with manual review/send and no private identity map.
+- Kept advanced Theatre 0.6.4 / Host Controls 0.4.7 private, retained the older 0.5.0 presentation download separately and left the 0.5.0 Store beta marked pending review.
+
 ## Inbox preview and current downloads — 2026-11-15
 
 - Updated the website host tools and public overview for Theatre + Inbox and Inbox-only 0.6.3 development previews; retained the older 0.5.0 presentation-only download separately.
