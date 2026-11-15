@@ -2,16 +2,16 @@
 
 ## Current public package choices
 
-Use the [0.6.4 preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.6.4-preview) to choose:
+Use the [0.6.6 preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.6.6-preview) to choose:
 
 - **Theatre + Inbox** — presentation plus optional LP/AP inbox/playlist creation and managed Suno/YouTube show controls.
 - **Inbox-only** — playlist creation without Theatre playback, broadcasting or an advanced hosting bot.
 
 Both are development previews with included setup instructions and noncommercial/license notices. No LLM is required for deterministic managed-queue operations. Optional Suno authorization/playlist creation uses the host's own account and desktop companion setup. Keep private pairing, publish keys and inbox records out of packages and screenshots.
 
-The [older 0.5.0 presentation-only release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.5.0) remains available. The **0.5.0 Chrome Web Store beta is pending review**; no published Store listing is claimed. Private advanced Theatre 0.6.4 / Host Controls 0.4.7 source and paired downloads are not public deliverables.
+The [older 0.5.0 presentation-only release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.5.0) remains available. The **0.5.0 Chrome Web Store beta is pending review**; no published Store listing is claimed. Private advanced Theatre 0.6.6 / Host Controls 0.4.7 source and paired downloads are not public deliverables.
 
-The 0.6.2 own-profile authorization, playlist creation and clean Suno/HQ audio reports are useful smoke evidence. The 0.6.3 live trial successfully loaded and quietly staged an LP entry but the later Play action could not find the native control. The 0.6.4 lookup correction still needs a renewed live Play check. Label screenshots from isolated fixtures as fixtures; do not present them as real-show acceptance.
+The 0.6.2 own-profile authorization, playlist creation and clean Suno/HQ audio reports are useful smoke evidence. The 0.6.3 trial missed the native Play control; 0.6.4 found the row and quiet Load worked, but Play timed out waiting for the selected song. The 0.6.5 host retry reported “Target matched, audio not found”. Version 0.6.6 corrects active-music versus silent-helper selection; its renewed host trial is pending. Label screenshots from isolated fixtures as fixtures; do not present them as real-show acceptance.
 
 ## Evidence and decisions still needed
 
@@ -19,7 +19,8 @@ None of these blocks a clearly labeled development preview. Record real evidence
 
 | Needed | Purpose | When |
 | --- | --- | --- |
-| Quiet LP Load followed by separate Play | Verify the 0.6.4 native Play correction and preserve quiet manual staging | Before trusting the new build on air |
+| Quiet LP Load followed by separate Play | Verify native preparation stays muted and audible playback uses the selected source | Renewed 0.6.6 host trial |
+| Pause or changed selection during preparation; timeout | Cancel the pending start and remain held rather than playing late | Cold-player/cancellation rehearsal |
 | Managed Suno → YouTube → Suno with explicit playback | Source identity, one audio owner and native-advance guard | Mixed-source rehearsal |
 | AP watching/append with optional autoplay | FIFO append and end-of-track recovery | Explicit test AP |
 | Warning overlay, timeout/repeat and private notes | Uploader flag and operator/presentation separation | Managed-show rehearsal |

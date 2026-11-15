@@ -1,5 +1,13 @@
 # Changes
 
+## Native audio preparation preview — 2026-11-15
+
+- Updated current Theatre + Inbox and Inbox-only download/version notes to the 0.6.6 preview, preserving the earlier publication records below.
+- Recorded the actual 0.6.4 quiet-Load/Play-timeout result and the 0.6.5 “Target matched, audio not found” retry. The renewed 0.6.6 host trial remains pending.
+- Described active-music versus silent-helper selection, bounded muted preparation on explicit Play, final selected-source authorization and cancellation by Pause, changed selection or timeout; quiet Load remains separate.
+- Recorded 203 maintained checks and the isolated synthetic-audio Chromium rehearsal, including helper isolation and held music ending, without treating them as real-Suno/full-show acceptance.
+- Corrected the current scope table to reflect approved AIU branding inclusion while preserving attribution and separate branding rights.
+
 ## Suno Play lookup preview — 2026-11-15
 
 - Updated current public Theatre + Inbox and Inbox-only links/version notes to the 0.6.4 preview, preserving the earlier publication record below.
