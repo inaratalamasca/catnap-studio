@@ -1,29 +1,37 @@
 # Roadmap
 
-Updated November 15, 2026. Standalone Theatre 0.5.0 is an early-access release; integrated Theatre 0.5.0/Host Controls 0.4.6.2 have been loaded and connected by the maintainer. The listener 0.1.6 and metadata 0.2.1 pilot are operational during broadcasts. The stages below retain broader acceptance tasks; they do not erase completed implementation or promise dates.
+Updated November 15, 2026. The public **Theatre + Inbox and Inbox-only 0.6.3 development previews** extend the older 0.5.0 presentation release. The **0.5.0 Chrome Web Store beta is pending review**. Advanced Theatre 0.6.3 and compatible Host Controls 0.4.7 are private previews; listener 0.1.7 and metadata 0.2.1 are operational during broadcasts. Prepared code, Store submission, publication, installation and live acceptance are separate states.
 
-## 0 — Contain and document (this setup)
+## 0 — Containment and public boundaries
 
-Create repositories with deliberate public/private boundaries, import selected first-party source, preserve operational locations, inventory live versions, record research and prepare installation/support material. Separate local event/private reference data from Git history.
+Theatre, this overview/website and the inbox walkthrough are public. Advanced hosting and simulcast source remain private during the pilot. Preserve operating locations, private event/configuration data and original reference research outside Git. Maintain noncommercial first-party terms and separate branding rights.
 
-## 1 — Standalone Theatre alpha
+## 1 — Presentation and member testing
 
-Prepare the smallest independent extension from Catnap's existing Theatre: two-panel view, optional compact playlist, art containment/current-song animation, raw/clean lyric toggle, bounded reload, manual scroll correction, font settings and text/media banners. Local checks are followed by a real Suno smoke test before use on air.
+The 0.5.0 baseline includes two/three-column and artwork-focus layouts, contained artwork, lyric controls, visible playlist rows, separate settings, banners/local media, a lounge and optional HQ broadcasting/visualizer. Keep checking tagged and plain lyrics, Unicode, missing lyrics/artwork, animated artwork, narrow/1080p layouts, real song changes and native source changes. A successful fixture does not establish all current Suno selectors or full-show behavior.
 
-Acceptance includes 10 consecutive track changes; tagged and untagged lyrics; an unusual Unicode title; no-lyrics track; long lyrics; pause/seek/reload; square and portrait artwork; available and failed animation; narrow and 1080p layouts; no backend connection; no music interruption caused by metadata refresh. Test native playlist selection and append/resync without replacing an already playing list.
+The 0.5.0 Store beta submission is awaiting review; there is no published Store install link. Continue accessibility/privacy/listing work and real member rehearsals independently. Firefox requires its own port and testing.
 
-## 2 — Member pilot and packaging
+## 2 — Managed inbox and mixed-source preview
 
-Test Chrome with a clean member profile and no Catnap server configuration. AIU branding inclusion was approved by the maintainer on November 15, 2026. Icons and original fixture screenshots are prepared. Complete accessibility checks, remaining live acceptance and store-specific privacy declarations. Define preference backup/reset and local-file handling. Pilot Firefox separately. Package a versioned zip; record browser version, source commit and manual results. Only then submit to a private trusted-tester Store channel.
+The 0.6.3 preview provides an optional deterministic LP/AP workflow: read the intended Pending inbox oldest-first, retain submission identity/context/source flags, create or reconcile a Suno playlist, and keep external entries in the managed running order. The Inbox-only variant creates playlists without presentation playback or publishing. An LLM is not required for these queue operations.
 
-## 3 — Lounge and external video
+Managed YouTube entries replace the need to manufacture placeholder songs for this workflow. Prefer the supplied YouTube alternative when both links exist. Preserve explicit Load/Play for LP; AP autoplay remains optional. Requested content-warning flags produce timed overlays. Notes stay in host controls, and source-correct announcements are copied for manual review/send.
 
-Add waiting/pre-show/BRB/after-show modes and explicit switching among Suno, AIU Radio and optional user playlists. Integrate the existing preshow source without hardcoding a private host's schedule for everybody. Add YouTube paste/play first; placeholder mapping second. Confirm one active audio source, stopped playlist advance during a video, predictable restoration and a manual-tab fallback.
+The maintainer reported own-account OAuth, playlist creation and clean Suno/HQ playback in 0.6.2. A newly found LP staging issue led to the 0.6.3 correction. **Live verification of that correction remains open.** Rehearse manual Load without audio, separate Play, end-of-song behavior, AP autoplay/append, YouTube transitions, blocked embeds/autoplay, warning timeout/repeat, rebind/close/reopen, authorization recovery and Discord/HQ coexistence. Keep one show writer active.
 
-## 4 — Integrated hosting
+Supported uploader integration still needs a maintained contract with Kai. The current inbox reader uses the selected signed-in uploader page read-only; Pending status, manual release and no cleanup remain explicit boundaries.
 
-Stabilize a versioned session adapter and reuse standalone display code. Keep the legacy installed integration until the replacement passes a full show rehearsal. Supported Uplink API integration needs Kai's cooperation; preserve pending-only LP/AP intake, oldest-first running order, manual release, verified membership and crash recovery. AI assistance remains optional for deterministic queue operations.
+## 3 — Advanced controller coordination and full hosting
 
-## 5 — Simulcast and Studio experiments
+The private advanced 0.6.3 Theatre reuses the managed workflow. Host Controls 0.4.7 defaults to Managed Inbox; the older bot/backend/Suno queue remains behind deliberate Legacy mode. The pinned extensions coordinate queue ownership so that mode changes stop new legacy work, drain pending operations and release ownership before the other writer starts. Fixture evidence must be followed by a controlled live rehearsal; old installed versions do not acquire that protection by receiving new shortcuts.
 
-The local WebRTC Live / buffered Radio pilot exists; continue measuring delay, devices, scale and recovery. Prototype an operator/program split that works with existing Theatre and OBS. Keep latency and rights tests separate from encoding success. Record costs and support burden before committing to a hosted multi-user service.
+Ina's full LP package still includes a verified ordered playlist, artwork with the current artist lineup, and the dark cue PDF with cover/artwork, summary/index and individual track review/cues. AP normally needs its ordered playlist and artwork without a fixed artist list or cue PDF. The managed queue is not automatic artwork/cue production or a substitute for content, rights and platform review.
+
+Retain the deliberately selected legacy physical-Suno placeholder workflow separately from new managed mixed-source shows. Complete broader bot announcements, support banners using verified regional resources, fair-play/session adapter acceptance, avatar reaction libraries/zoom and possible live avatars without creating a second queue writer.
+
+## 4 — Audio listener and Studio experiments
+
+Listener 0.1.7 uses larger responsive artwork (up to 400 pixels), low-delay stereo Opus Live at a 256 kbps target and buffered 320 kbps MP3 Radio. Continue testing real latency, drift, scale, reconnect, Wi-Fi/cellular and mobile app switching/screen lock/calls/Bluetooth. Suno-based public metadata must not mislabel a YouTube entry; broader mixed-source listener context remains work.
+
+Prototype an operator/program split using the existing Theatre and proven OBS/capture/encoding components. Keep latency, media rights and full-show recovery separate from successful encoding. A hosted multi-user service or all-in-one Studio is not promised by the local audio pilot.

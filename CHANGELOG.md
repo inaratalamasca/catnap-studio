@@ -1,5 +1,12 @@
 # Changes
 
+## Inbox preview and current downloads — 2026-11-15
+
+- Updated the website host tools and public overview for Theatre + Inbox and Inbox-only 0.6.3 development previews; retained the older 0.5.0 presentation-only download separately.
+- Described FIFO/Pending intake, source preferences, private uploader notes, manual LP/optional AP playback, managed YouTube entries and clipboard announcements without claiming a fully rehearsed show.
+- Recorded the 0.6.2 own-profile results, remaining live 0.6.3 LP recheck, private advanced 0.6.3/Host Controls 0.4.7 preview and listener 0.1.7 artwork update.
+- Marked the Chrome Web Store 0.5.0 beta as pending review, with no Store installation link; kept private hosting source, paired configurations and runtime data out of public downloads.
+
 ## Public project overview — 2026-11-15
 
 - Consolidated the existing website/audio notes into main and refreshed the project front door, versions, roadmap and GitHub guide.

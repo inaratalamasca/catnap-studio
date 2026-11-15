@@ -2,6 +2,23 @@
 
 This general guide records the existing process. The host's local `AGENTS.md`, current inputs and explicit corrections control an actual event.
 
+## Simpler managed queue preview
+
+The public Theatre + Inbox and Inbox-only 0.6.3 previews add a deterministic
+workflow without an LLM or the advanced bot: Pending FIFO intake, source flags,
+uploader notes, own-account playlist creation and a managed mixed-source show.
+YouTube-only entries stay in managed order without a Suno placeholder; YouTube
+is preferred when both links are supplied. LP Load and Play are separate; AP
+autoplay is optional. Notes stay in host controls and announcements are copied
+for manual review/send. This preview still needs real-show rehearsal, including
+the live recheck of its 0.6.3 LP correction.
+
+The full LP/AP preparation below remains a larger deliverable contract,
+including artwork and dark cue PDF/review. Its historical physical-Suno
+placeholder mapping belongs to the deliberately selected legacy workflow;
+it is not a requirement to manufacture placeholders for new managed shows.
+Keep one intake/playback writer active.
+
 ## Prepare an LP
 
 1. Confirm host, event date/time/timezone and the intended LP Pending inbox. CSV exports contain historical rows and may omit status; reconcile against current Pending by song ID. Build oldest-first from the uploader's newest-first display. Do not reverse an already supplied Suno playlist.
@@ -44,9 +61,9 @@ The advanced AIU hosting package for Ina produces the following. These are hosti
 - LP: create the ordered playlist, playlist artwork using the current confirmed artist lineup, and the established dark-mode cue PDF with show artwork/cover, a summary/index page and one cue page per track. Keep square playlist cover and wide announcement outputs distinct under the existing workflow.
 - AP: create the ordered playlist and AP artwork without a fixed artist cast list. No cue PDF is required by default unless specifically requested.
 - Both LP and AP inbox playlists use FIFO by submission date/time: oldest first, bottom-up in the newest-first inbox, retaining observed bottom-up order for equal timestamps. New arrivals append. A supplied existing playlist is not automatically reversed; any explicitly selected advanced queue mode/host override must be recorded separately from original FIFO intake order.
-- YouTube or future external-media submissions without a Suno song require a legitimate placeholder in the Suno playlist at the submission's FIFO position. Keep a unique internal submission/slot identity and explicit external URL/provider mapping. Do not silently skip such entries, manufacture paid placeholder audio or assume one repeated Suno ID supports multiple independent slots. If no usable placeholder exists, report the slot blocked rather than claim the playlist complete.
+- In the legacy physical-Suno hosting workflow, YouTube or future external-media submissions without a Suno song require a legitimate placeholder in the Suno playlist at the submission's FIFO position. New managed shows retain external entries directly without placeholders. Keep a unique internal submission/slot identity and explicit external URL/provider mapping. Do not silently skip such entries, manufacture paid placeholder audio or assume one repeated Suno ID supports multiple independent slots. If no usable placeholder exists, report the slot blocked rather than claim the playlist complete.
 - When both YouTube and Suno links are supplied, retain both: use Suno for playlist membership/identity and internally mark YouTube as the preferred playback source. This supersedes the older blanket “prefer Suno” rule. Do not autoplay the Suno audio over the preferred external video; implementation must pause native audio/advance, track slot completion and restore playback deliberately. An unavailable external source needs a visible host decision, not a silent source substitution.
 - Capture the YouTube alternative from the inbox when CSV omits it. Keep external-media identity, artwork/audio review and clearance distinct from the Suno track's lyric review.
 
-Placeholder lifecycle and preferred-source handoff are required advanced development work, not claims of implemented or live-verified behavior. Standalone Theatre may retain its separately scoped optional video conveniences without owning inbox ingestion, playlist/art generation or cue-PDF production.
+Legacy placeholder lifecycle and the broader full-hosting integration remain separately scoped work. The standalone 0.6.3 preview now owns optional managed inbox/playlist and mixed-source playback; artwork generation and the full cue-PDF/review package remain separate. Preview implementation and fixture checks are not full live acceptance.
 
