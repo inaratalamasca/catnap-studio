@@ -1,10 +1,10 @@
 # Roadmap
 
-No release dates are promised. Work proceeds in this order.
+Updated November 15, 2026. Standalone Theatre 0.5.0 is an early-access release; integrated Theatre 0.5.0/Host Controls 0.4.6.2 have been loaded and connected by the maintainer. The listener 0.1.6 and metadata 0.2.1 pilot are operational during broadcasts. The stages below retain broader acceptance tasks; they do not erase completed implementation or promise dates.
 
 ## 0 — Contain and document (this setup)
 
-Create private repositories, import selected first-party source, preserve operational locations, inventory live versions, record research and prepare installation/support material. Separate local event/private reference data from Git history.
+Create repositories with deliberate public/private boundaries, import selected first-party source, preserve operational locations, inventory live versions, record research and prepare installation/support material. Separate local event/private reference data from Git history.
 
 ## 1 — Standalone Theatre alpha
 
@@ -14,7 +14,7 @@ Acceptance includes 10 consecutive track changes; tagged and untagged lyrics; an
 
 ## 2 — Member pilot and packaging
 
-Test Chrome with a clean member profile and no Catnap server configuration. Complete AIU branding permission, release icons, screenshots, accessibility checks and privacy declarations. Define preference backup/reset and local-file handling. Pilot Firefox separately. Package a versioned zip; record browser version, source commit and manual results. Only then submit to a private trusted-tester Store channel.
+Test Chrome with a clean member profile and no Catnap server configuration. AIU branding inclusion was approved by the maintainer on November 15, 2026. Icons and original fixture screenshots are prepared. Complete accessibility checks, remaining live acceptance and store-specific privacy declarations. Define preference backup/reset and local-file handling. Pilot Firefox separately. Package a versioned zip; record browser version, source commit and manual results. Only then submit to a private trusted-tester Store channel.
 
 ## 3 — Lounge and external video
 
@@ -26,4 +26,4 @@ Stabilize a versioned session adapter and reuse standalone display code. Keep th
 
 ## 5 — Simulcast and Studio experiments
 
-Measure OBS/WebRTC/Owncast options before choosing a listener stack. Prototype an operator/program split that works with existing Theatre and OBS. Keep latency and rights tests separate from encoding success. Record costs and support burden before committing to a hosted multi-user service.
+The local WebRTC Live / buffered Radio pilot exists; continue measuring delay, devices, scale and recovery. Prototype an operator/program split that works with existing Theatre and OBS. Keep latency and rights tests separate from encoding success. Record costs and support burden before committing to a hosted multi-user service.

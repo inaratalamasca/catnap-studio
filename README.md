@@ -1,42 +1,53 @@
-# Catnap Studio
+# Catnap Radio · projects and guides
 
-Project website: [catnapradio.com](https://catnapradio.com/). The landing page source lives in [website/](website/), with owner-supplied Catnap artwork and links to AIU Radio, the uploader and merch shop; repositories remain private during development.
+Music tools for AI:Underground listening parties, with Ina & Len.
 
-**Project hub and future studio design.** This repository organizes Catnap Radio's tools. It is not an OBS replacement you can download today.
-
-Catnap helps a host turn a Suno playlist into a readable, branded listening party, then adds only the integrations that host needs. Standalone Theatre is the first priority.
-
-| Project | Purpose | Current boundary |
-| --- | --- | --- |
-| [Catnap Theatre](https://github.com/inaratalamasca/catnap-theatre) | Simple standalone Suno presentation extension | No AI, bot, server or copied Suno credentials required |
-| [Catnap Radio Hosting](https://github.com/inaratalamasca/catnap-radio-hosting) | Integrated Theatre, host control, durable requests, show preparation | Existing host-authorized sessions and optional Suno MCP; private configuration stays with the host |
-| [Catnap Simulcast](https://github.com/inaratalamasca/catnap-simulcast) | Better music alongside Discord visuals | Local audio pilot with low-delay Live and buffered mobile Radio |
-| Catnap Studio (this repo) | Shared roadmap and potential all-in-one studio | Design only; evaluate OBS integration before building an encoder |
-
-## Why these are repositories, not forks
-
-A repository is a project's source and history. A fork starts from somebody else's repository. Our tools already have their own source and goals, so we create our own repositories. We do not fork or redistribute Kraesk's private Nightwire project. Its ideas can inform requirements; reuse of its code/assets needs an appropriate license or permission.
-
-The three product focuses are standalone Theatre, integrated Theatre and radio hosting. The latter two live together because they share session state and releases. The new integrated development build synchronizes the shared Theatre presentation files with standalone and preserves its existing advanced visual-command bridge. A guarded sync script and hash inventory keep presentation parity reviewable; installing either new build remains a between-broadcast action.
-
-The hosting repository contains separate installable extensions for integrated Theatre and host control. A separate Jah browser controller is an adjacent existing extension, documented in the inventory; it is not a dependency of standalone Theatre. The Discord posting helper is currently part of host control, not falsely counted as a third standalone install.
+**[Listen](https://listen.catnapradio.com/) · [CatnapRadio.com](https://catnapradio.com/) · [Download Theatre 0.5.0](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.5.0) · [Simple inbox walkthrough](https://github.com/inaratalamasca/aiu-inbox-playlist-guide)**
 
 ## Start here
 
-- [November 12 audio, player and Theatre update](docs/UPDATES-2026-11-12.md)
-- [Architecture and boundaries](docs/ARCHITECTURE.md)
-- [Roadmap and acceptance gates](docs/ROADMAP.md)
+- **Listening?** Open the [web player](https://listen.catnapradio.com/) and tap Play. Live aims for low delay; Radio is buffered for mobile/background listening. In Discord, mute the shared stream's audio and keep individual voices on.
+- **Hosting with Suno?** Start with [standalone Theatre](https://github.com/inaratalamasca/catnap-theatre). It displays artwork, lyrics, visible playlist rows, banners and local media. Its settings open in a separate window. No bot, AI or Catnap server is required for presentation.
+- **Keeping an AP/LP playlist updated?** Give your agent the [simple inbox guide](https://github.com/inaratalamasca/aiu-inbox-playlist-guide). It starts with one verified addition, uses the intended Pending inbox oldest-first and checks about every five minutes during an active watch.
+- **Developing or reporting a bug?** Use the relevant project's Issues. See the [GitHub guide](docs/GITHUB-GUIDE.md) and [contribution notes](CONTRIBUTING.md).
+
+## Projects
+
+| Project | What it does | Availability |
+| --- | --- | --- |
+| [Catnap Theatre](https://github.com/inaratalamasca/catnap-theatre) | Standalone Suno presentation, separate controls, visual overlays, optional background bars and music publishing | Public source and 0.5.0 early-access download for Chrome/Brave |
+| [AIU inbox playlist guide](https://github.com/inaratalamasca/aiu-inbox-playlist-guide) | Minimal agent instructions for LP/AP playlists and optional now-playing assistance | Public guide; actual tool/browser access must be verified |
+| Advanced Radio Hosting | Integrated Theatre, Host Controls, persistent requests and show preparation | Private development; integrated Theatre 0.5.0 and Host Controls 0.4.6.2 loaded/connected in the maintainer's profile |
+| Catnap Simulcast | Music-only relay and web player, alongside separate Discord voices | [Listener available during broadcasts](https://listen.catnapradio.com/); server source remains private during the pilot |
+| Catnap Studio | This overview, website, roadmap and future operator/studio design | Public documentation; an all-in-one studio is planned |
+
+## Advanced hosting
+
+The advanced suite is separate from standalone Theatre. Its integrated Theatre shares the 0.5.0 presentation and retains the host-controller bridge. The compatible Host Controls version is **0.4.6.2**; the host-control extension has an amber fader icon, while Theatre uses the purple/teal headphone cat.
+
+The full hosting workflow is intended to produce LP/AP playlists and artwork, plus a dark cue PDF with cover and summary for Ina's LP package. Normal AIU intake uses the uploader/inbox. Emergency or non-AIU chat intake is an explicit exception. Requested uploader warnings, external-video placeholders/preferred playback, avatar reactions and live-avatar staging remain [roadmap work](docs/REQUEST-SCOPE.md); presentation parity does not mean every advanced feature is complete.
+
+The source is private while configuration boundaries and full-show behavior are being stabilized. Private operation data, pairing credentials and name correlations are never part of the public tools.
+
+## Audio listener
+
+The listener offers stereo Opus Live audio with a 256 kbps target and buffered 320 kbps MP3 Radio. Current artwork/title, last played and upcoming context come from the publishing tab. A longer visible-playlist view can show estimates when timing is known. It is not Suno's complete internal queue. Radio audio can lag the displayed host metadata.
+
+The host confirmed Android Radio continues through app switching and a short screen-lock test. Other devices, longer sessions, calls and Bluetooth still need their own checks. Mobile and network behavior vary; no exact universal latency is promised. The listener itself requires no publish key or Suno login.
+
+## Roadmap and references
+
+- [Current versions and release notes](docs/RELEASES.md)
+- [Roadmap and remaining acceptance](docs/ROADMAP.md)
 - [Complete requested scope](docs/REQUEST-SCOPE.md)
-- [Hosting and cue workflow](docs/HOST-WORKFLOW.md)
-- [Screenshots and host decisions](docs/DELIVERABLES.md)
-- [GitHub guide](docs/GITHUB-GUIDE.md)
-- [Repository maintenance](CONTRIBUTING.md)
-- [Private material and reporting](SECURITY.md)
+- [Architecture](docs/ARCHITECTURE.md)
+- [Hosting/cue workflow](docs/HOST-WORKFLOW.md)
+- [Screenshots and evidence](docs/DELIVERABLES.md)
+- [November 12 technical update](docs/UPDATES-2026-11-12.md)
+- [GitHub, visibility and maintenance](docs/GITHUB-GUIDE.md)
 
-## Status language
+## Use and sharing
 
-**Imported** means existing source is now contained here. **Prepared** means changes exist in source and have the stated checks. **Live verified** requires a dated host/browser/server observation. **Planned** means an issue or specification, not an implemented feature. Passing a local test is not a live Suno or broadcast test.
+First-party Catnap code and documentation use [PolyForm Noncommercial 1.0.0](LICENSE). Commercial use outside its permitted purposes requires separate written permission from Ina. [Branding and third-party rights](LICENSING.md) remain separate. No identity spreadsheet, inbox export, private research or deployment credentials are published here.
 
-All repositories begin private while source, artwork rights and host data boundaries are reviewed. Store listing drafts are preparation only. No Chrome Web Store upload, public release, Twitch/YouTube broadcast or live bot deployment is implied by this setup.
-
-Project landing page: [CatnapRadio.com](https://catnapradio.com/). It links to the Catnap repositories; website deployment is separate from application release acceptance.
+This repository's `website/` directory is the source for [CatnapRadio.com](https://catnapradio.com/). A source update and a deployed website are separate recorded steps. There is no browser-store release or downloadable all-in-one Studio yet.

@@ -8,4 +8,4 @@ Record imported source paths and versions, never replace manifest versions with 
 
 Never commit credentials, pairing files, personal IDs/messages, event CSVs, full lyrics, third-party private code, browser profiles or server data. Add only intended source files; review `git diff --cached` before committing. Run `scripts/check-repository.sh REPO_PATH` for a basic publication check; it is a guard, not a proof that every file is safe.
 
-Private repository access is not a substitute for permissions to redistribute artwork or third-party source. All rights are reserved pending an explicit first-party licensing decision and asset review.
+Private repository access is not a substitute for permissions to redistribute artwork or third-party source. First-party code/docs use PolyForm Noncommercial 1.0.0, with commercial permission separately agreed with Ina; see LICENSING.md. New contributions must have appropriate provenance and terms compatible with the project. Discuss significant outside contributions with the maintainer before acceptance; no exclusive ownership or automatic commercial relicensing of someone else's work is assumed.

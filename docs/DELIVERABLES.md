@@ -22,4 +22,8 @@ Capture screenshots without browser account menus, private chats, pairing keys, 
 
 ## Default decisions already made
 
-Private repositories; Chrome first; Firefox a separate pilot; standalone first; bounded customization; Suno remains native audio; no Catnap-managed copy of a user's Suno login; prefer an OBS adapter before a new studio encoder. The old local path remains compatible while canonical documentation uses Catnap Streaming.
+Public Theatre, overview and inbox guide; private advanced-hosting/simulcast source during the pilot; noncommercial first-party licensing with separate commercial permission; Chrome/Brave first; Firefox a separate pilot; standalone first; bounded customization; Suno remains native audio; no Catnap-managed copy of a user's Suno login; prefer an OBS adapter before a new studio encoder. The old local path remains compatible while canonical documentation uses Catnap Streaming.
+
+## November 15 housekeeping record
+
+AIU branding inclusion in public Catnap source/downloads was approved by the maintainer. Standalone and integrated Theatre are at 0.5.0; compatible Host Controls is 0.4.6.2. Public release/overview links are listed in [current versions](RELEASES.md). Broader Store and device acceptance above remains separate.

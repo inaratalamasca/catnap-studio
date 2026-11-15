@@ -1,5 +1,11 @@
 # Changes
 
+## Public project overview — 2026-11-15
+
+- Consolidated the existing website/audio notes into main and refreshed the project front door, versions, roadmap and GitHub guide.
+- Linked the Theatre early-access download and simple LP/AP inbox walkthrough; directed advanced/pilot visitors to readable public descriptions.
+- Added noncommercial licensing, branding notices and tracked-file publication guards.
+
 ## 0.5.0 Theatre development — 2026-11-12
 
 - Moved presentation settings, visual/banner options and lyric options into the persistent pop-out, leaving one Controls entry on the canvas.
