@@ -1,5 +1,11 @@
 # Changes
 
+## Theatre Lite and AIU readiness choices — 2026-11-15
+
+- Kept the unchanged Theatre 0.5.0 release active as Theatre Lite for ordinary Suno/non-AIU hosting, prominently beside the separate AIU Inbox edition. Its original ZIP, checksum, filename and manifest are preserved.
+- Prepared AIU Theatre + Inbox and Inbox-only 0.6.10 download/version notes with labeled top Suno/Inbox readiness dots and per-step status; ordinary-use indicators are grey/inactive.
+- Kept Inbox/helper setup out of Lite requirements and retained the prior host evidence without claiming actual 0.6.10 workflow acceptance. Private advanced source/configuration boundaries and pending Store review remain unchanged.
+
 ## Clearer host controls preview — 2026-11-15
 
 - Prepared current Theatre + Inbox and Inbox-only download/version notes for 0.6.9; compatible private Host Controls remains 0.4.8.

@@ -1,6 +1,6 @@
 # Roadmap
 
-Updated November 15, 2026. The public **Theatre + Inbox and Inbox-only 0.6.9 development previews** extend the older 0.5.0 presentation release. The **0.5.0 Chrome Web Store beta is pending review**. Advanced Theatre 0.6.9 and compatible Host Controls 0.4.8 are private previews; listener 0.1.7 and metadata 0.2.1 are operational during broadcasts. Prepared code, Store submission, publication, installation and live acceptance are separate states.
+Updated November 15, 2026. **Theatre Lite 0.5.0 remains a separate active presentation-only edition with unchanged files and no Inbox/helper requirement.** The public **AIU Theatre + Inbox and Inbox-only 0.6.10 development previews** carry the optional AIU workflow. The **0.5.0 Chrome Web Store beta is pending review**. Advanced Theatre 0.6.10 and compatible Host Controls 0.4.8 are private previews; listener 0.1.7 and metadata 0.2.1 are operational during broadcasts. Prepared code, Store submission, publication, installation and live acceptance are separate states.
 
 ## 0 — Containment and public boundaries
 
@@ -8,13 +8,13 @@ Theatre, this overview/website and the inbox walkthrough are public. Advanced ho
 
 ## 1 — Presentation and member testing
 
-The 0.5.0 baseline includes two/three-column and artwork-focus layouts, contained artwork, lyric controls, visible playlist rows, separate settings, banners/local media, a lounge and optional HQ broadcasting/visualizer. Keep checking tagged and plain lyrics, Unicode, missing lyrics/artwork, animated artwork, narrow/1080p layouts, real song changes and native source changes. A successful fixture does not establish all current Suno selectors or full-show behavior.
+The active Theatre Lite 0.5.0 baseline includes two/three-column and artwork-focus layouts, contained artwork, lyric controls, visible playlist rows, separate settings, banners/local media, a lounge and optional HQ broadcasting/visualizer. Keep checking tagged and plain lyrics, Unicode, missing lyrics/artwork, animated artwork, narrow/1080p layouts, real song changes and native source changes. A successful fixture does not establish all current Suno selectors or full-show behavior.
 
 The 0.5.0 Store beta submission is awaiting review; there is no published Store install link. Continue accessibility/privacy/listing work and real member rehearsals independently. Firefox requires its own port and testing.
 
-## 2 — Managed inbox and mixed-source preview
+## 2 — AIU Inbox and mixed-source preview
 
-The 0.6.9 preview provides an optional deterministic LP/AP workflow: read the intended Pending inbox oldest-first, retain submission identity/context/source flags, create or reconcile a Suno playlist, and keep external entries in the managed running order. The Inbox-only variant creates playlists without presentation playback or publishing. An LLM is not required for these queue operations.
+The separate AIU Inbox 0.6.10 preview adds labeled top readiness dots and per-step setup status; ordinary use leaves those indicators grey/inactive, and the host check remains pending. It provides an optional deterministic LP/AP workflow: read the intended Pending inbox oldest-first, retain submission identity/context/source flags, create or reconcile a Suno playlist, and keep external entries in the managed running order. The Inbox-only variant creates playlists without presentation playback or publishing. An LLM is not required for these queue operations.
 
 Managed YouTube entries replace the need to manufacture placeholder songs for this workflow. Prefer the supplied YouTube alternative when both links exist. Preserve explicit Load/Play for LP; AP autoplay remains optional. Requested content-warning flags produce timed overlays. Notes stay in host controls. Copy now playing uses the selected source and submission uploader's `@credit` for manual review/send; it does not require a private identity map.
 
@@ -24,7 +24,7 @@ Supported uploader integration still needs a maintained contract with Kai. The c
 
 ## 3 — Advanced controller coordination and full hosting
 
-The private advanced 0.6.9 Theatre reuses the managed workflow. Host Controls 0.4.8 leaves lyric collection to Theatre and defaults to Managed Inbox; the older bot/backend/Suno queue remains behind deliberate Legacy mode. The pinned extensions coordinate queue ownership so that mode changes stop new legacy work, drain pending operations and release ownership before the other writer starts. Fixture evidence must be followed by a controlled live rehearsal; old installed versions do not acquire that protection by receiving new shortcuts.
+The private advanced 0.6.10 Theatre reuses the managed workflow. Host Controls 0.4.8 leaves lyric collection to Theatre and defaults to Managed Inbox; the older bot/backend/Suno queue remains behind deliberate Legacy mode. The pinned extensions coordinate queue ownership so that mode changes stop new legacy work, drain pending operations and release ownership before the other writer starts. Fixture evidence must be followed by a controlled live rehearsal; old installed versions do not acquire that protection by receiving new shortcuts.
 
 Ina's full LP package still includes a verified ordered playlist, artwork with the current artist lineup, and the dark cue PDF with cover/artwork, summary/index and individual track review/cues. AP normally needs its ordered playlist and artwork without a fixed artist list or cue PDF. The managed queue is not automatic artwork/cue production or a substitute for content, rights and platform review.
 

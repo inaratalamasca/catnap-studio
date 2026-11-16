@@ -2,9 +2,15 @@
 
 This general guide records the existing process. The host's local `AGENTS.md`, current inputs and explicit corrections control an actual event.
 
+## Choose the edition
+
+Theatre Lite 0.5.0 remains the active, unchanged presentation-only choice for ordinary Suno and non-AIU hosts. It needs no Inbox or playlist helper; the AIU setup and production steps below do not become Lite requirements.
+
+The AIU Inbox edition adds optional intake, playlist and managed-show features. Version 0.6.10 shows labeled Suno/Inbox readiness dots and a result for each setup step. In ordinary use of this edition the dots remain grey/inactive. The actual updated host workflow still needs its check.
+
 ## Simpler managed queue preview
 
-The public Theatre + Inbox and Inbox-only 0.6.9 previews add a deterministic
+The public AIU Theatre + Inbox and Inbox-only 0.6.10 previews add a deterministic
 workflow without an LLM or the advanced bot: Pending FIFO intake, source flags,
 uploader notes, own-account playlist creation and a managed mixed-source show.
 YouTube-only entries stay in managed order without a Suno placeholder; YouTube
@@ -16,8 +22,7 @@ but Play timed out waiting for the selected native song; the 0.6.5 retry reporte
 “Target matched, audio not found”. Version 0.6.6 distinguished active music from
 Suno’s silent helper. The host confirmed the standalone 0.6.6 sequence: Play
 song 1, hold at its ending, Load Next paused, then Play song 2. That trial exposed
-missing managed lyrics. The 0.6.7 host retry still showed missing lyrics,
-after Reload. The 0.6.8 lyrics/intake fixes remain pending
+missing managed lyrics. The 0.6.7 host retry still showed missing lyrics after Reload. The 0.6.8 lyrics/intake fixes remain pending
 a real retry. Version 0.6.9 groups matching Presentation/Inbox controls and labels
 the displayed list Inbox Show or Suno Playlist; Inbox Submissions shows readable
 Pending/held counts and the read time. Mixed-source, AP, advanced live integration and
@@ -76,5 +81,5 @@ The advanced AIU hosting package for Ina produces the following. These are hosti
 - When both YouTube and Suno links are supplied, retain both: use Suno for playlist membership/identity and internally mark YouTube as the preferred playback source. This supersedes the older blanket “prefer Suno” rule. Do not autoplay the Suno audio over the preferred external video; implementation must pause native audio/advance, track slot completion and restore playback deliberately. An unavailable external source needs a visible host decision, not a silent source substitution.
 - Capture the YouTube alternative from the inbox when CSV omits it. Keep external-media identity, artwork/audio review and clearance distinct from the Suno track's lyric review.
 
-Legacy placeholder lifecycle and the broader full-hosting integration remain separately scoped work. The standalone 0.6.9 preview now owns optional managed inbox/playlist and mixed-source playback; artwork generation and the full cue-PDF/review package remain separate. Preview implementation and fixture checks are not full live acceptance.
+Legacy placeholder lifecycle and the broader full-hosting integration remain separately scoped work. The standalone 0.6.10 preview now owns optional managed inbox/playlist and mixed-source playback; artwork generation and the full cue-PDF/review package remain separate. Preview implementation and fixture checks are not full live acceptance.
 
