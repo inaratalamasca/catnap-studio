@@ -1,5 +1,11 @@
 # Changes
 
+## Clearer host controls preview — 2026-11-15
+
+- Prepared current Theatre + Inbox and Inbox-only download/version notes for 0.6.9; compatible private Host Controls remains 0.4.8.
+- Added matching grouped Presentation/Inbox controls, explicit Inbox Show versus Suno Playlist labels and a prominent Inbox Submissions Pending/held/read-time summary to the public feature notes.
+- Retained the confirmed 0.6.6 manual LP sequence and the 0.6.2 own-account/playlist/HQ evidence. The 0.6.8 lyrics/intake fixes still need a real retry; interface changes and fixture evidence are not full-show acceptance.
+
 ## Plain-text lyrics preview — 2026-11-15
 
 - Prepared current Theatre + Inbox and Inbox-only download/version notes for 0.6.8, with private advanced Theatre 0.6.8 / Host Controls 0.4.8; release publication and live activation remain separate.

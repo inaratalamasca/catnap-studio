@@ -2,16 +2,16 @@
 
 ## Current public package choices
 
-Use the [0.6.8 preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.6.8-preview) to choose:
+Use the [0.6.9 preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.6.9-preview) to choose:
 
 - **Theatre + Inbox** — presentation plus optional LP/AP inbox/playlist creation and managed Suno/YouTube show controls.
 - **Inbox-only** — playlist creation without Theatre playback, broadcasting or an advanced hosting bot.
 
 Both are development previews with included setup instructions and noncommercial/license notices. No LLM is required for deterministic managed-queue operations. Optional Suno authorization/playlist creation uses the host's own account and desktop companion setup. Keep private pairing, publish keys and inbox records out of packages and screenshots.
 
-The [older 0.5.0 presentation-only release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.5.0) remains available. The **0.5.0 Chrome Web Store beta is pending review**; no published Store listing is claimed. Private advanced Theatre 0.6.8 / Host Controls 0.4.8 source and paired downloads are not public deliverables.
+The [older 0.5.0 presentation-only release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.5.0) remains available. The **0.5.0 Chrome Web Store beta is pending review**; no published Store listing is claimed. Private advanced Theatre 0.6.9 / Host Controls 0.4.8 source and paired downloads are not public deliverables.
 
-The 0.6.2 own-profile authorization, playlist creation and clean Suno/HQ audio reports are useful smoke evidence. The 0.6.3 trial missed the native Play control; 0.6.4 found the row and quiet Load worked, but Play timed out waiting for the selected song. The 0.6.5 host retry reported “Target matched, audio not found”. Version 0.6.6 corrected active-music versus silent-helper selection; the host confirmed the standalone sequence Play song 1 → held ending → Load Next paused → Play song 2. The trial exposed missing managed lyrics; the 0.6.7 host retry still showed missing lyrics even after Reload. The 0.6.8 plain-text/local-panel correction still needs its real host check. Mixed-source, AP, advanced live integration and Discord/HQ checks remain separate. Label screenshots from isolated fixtures as fixtures; do not present them as real-show acceptance.
+The 0.6.2 own-profile authorization, playlist creation and clean Suno/HQ audio reports are useful smoke evidence. The 0.6.3 trial missed the native Play control; 0.6.4 found the row and quiet Load worked, but Play timed out waiting for the selected song. The 0.6.5 host retry reported “Target matched, audio not found”. Version 0.6.6 corrected active-music versus silent-helper selection; the host confirmed the standalone sequence Play song 1 → held ending → Load Next paused → Play song 2. The trial exposed missing managed lyrics; the 0.6.7 host retry still showed missing lyrics even after Reload. The 0.6.8 plain-lyrics/intake fixes remain pending a real retry in the updated build. Version 0.6.9 adds grouped controls, explicit Inbox Show/Suno Playlist labels and prominent Inbox Submissions counts. Mixed-source, AP, advanced live integration and Discord/HQ checks remain separate. Label screenshots from isolated fixtures as fixtures; do not present them as real-show acceptance.
 
 ## Evidence and decisions still needed
 
@@ -19,6 +19,7 @@ None of these blocks a clearly labeled development preview. Record real evidence
 
 | Needed | Purpose | When |
 | --- | --- | --- |
+| Presentation and Inbox controls, queue-source heading and submission summary | Verify matching control groups, Inbox Show versus Suno Playlist and Pending/held/read-time context | 0.6.9 interface rehearsal |
 | Longer manual LP run and interruption recovery | Extend the confirmed two-song sequence through rebind/reconnect and unavailable media | Between-shows rehearsal |
 | Pause or changed selection during preparation; timeout | Cancel the pending start and remain held rather than playing late | Cold-player/cancellation rehearsal |
 | Managed Suno → YouTube → Suno with explicit playback | Source identity, one audio owner and native-advance guard | Mixed-source rehearsal |
