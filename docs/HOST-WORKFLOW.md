@@ -36,7 +36,7 @@ Pending/held counts and the read time. Mixed-source, AP, advanced live integrati
 Discord/HQ checks remain separate. Preparation remains bounded and muted;
 Pause, changed selection and timeout cancel it. Load remains separate from Play.
 
-In 0.8.1, selecting a song keeps the intended running order. Completed songs form the actual played prefix; a newly eligible repeat joins the ready tail. Manual Hold/Release and moves stay explicit. YouTube replaces artwork cleanly, and Theatre can reopen while publishing. Those fixes and fair-queue/Decline behavior still need a host rehearsal. Reading does not change uploader status; manual Decline requires its own confirmation and verified result.
+In 0.8.1, selecting a song keeps the intended running order. Completed songs form the actual played prefix; a newly eligible repeat joins the ready tail. Manual Hold/Release and moves stay explicit. YouTube fills the Theatre window without a permanent Catnap button strip, and Theatre can reopen while publishing. Those fixes and fair-queue/Decline behavior still need a host rehearsal. Reading does not change uploader status; manual Decline requires its own confirmation and verified result.
 
 The full LP/AP preparation below remains a larger deliverable contract,
 including artwork and dark cue PDF/review. Its historical physical-Suno

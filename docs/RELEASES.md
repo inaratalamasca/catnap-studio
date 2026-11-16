@@ -28,7 +28,7 @@ Advanced source/downloads, paired configurations, identity records and runtime k
 ## Three fixes in 0.8.1
 
 - Choosing a song keeps it in place in the running order.
-- YouTube video replaces the artwork cleanly.
+- YouTube video fills the Theatre window without a permanent Catnap button strip.
 - Reopen Theatre while live without stopping the broadcast.
 
 These changes are ready for rehearsal; host acceptance of the fixes is pending.

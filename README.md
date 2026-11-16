@@ -25,7 +25,7 @@ The 0.8.1 preview retains a source-only On Air indicator and green Theatre AIU l
 ## Three fixes in 0.8.1
 
 - Choosing a song keeps it in place in the running order.
-- YouTube video replaces the artwork cleanly.
+- YouTube video fills the Theatre window without a permanent Catnap button strip.
 - Reopen Theatre during a live broadcast without stopping the music.
 
 These fixes are ready for rehearsal; real host acceptance remains pending.

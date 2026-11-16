@@ -25,7 +25,7 @@ None of these blocks a clearly labeled development preview. Record real evidence
 | Needed | Purpose | When |
 | --- | --- | --- |
 | Radio and compact controls | Extend the confirmed 0.8 Radio broadcast to UI, startup and recovery cases | Radio working November 16; broader cases pending |
-| 0.8.1 selection, YouTube and reopen fixes | Confirm song selection keeps order, video replaces artwork, and Theatre reopens during publishing | Host hotfix rehearsal |
+| 0.8.1 selection, YouTube and reopen fixes | Confirm song selection keeps order, YouTube has no permanent Catnap button strip, and Theatre reopens during publishing | Host hotfix rehearsal |
 | Fair repeats, managed playlist order and manual Decline | Verify real completion releases one repeat at the tail, saved order and exact decline readback/recovery | Real provider rehearsal pending |
 | YouTube viewport on Play and quiet Loaded staging | Verify the red source badge, window view, restore and held/manual source transitions | 0.8.1 mixed-source rehearsal |
 | Readiness across broader setup/recovery cases | Extend the Dev1 status-indicator confirmation to broader per-step/recovery cases; Lite stays independent | Activation/status indicators confirmed November 16; broader cases pending |

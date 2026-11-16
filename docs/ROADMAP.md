@@ -4,7 +4,7 @@ Updated November 16, 2026. **Theatre Lite 0.5.0 remains a separate active presen
 
 The host confirmed working **0.8 Radio broadcasting on November 16** after an initial startup timeout; its cause remains unproven. Fair rotation, playlist ordering, manual Decline, the 0.8.1 hotfixes and advanced live acceptance still require their own rehearsal.
 
-The 0.8.1 fixes keep selection in place, replace artwork cleanly with YouTube video, and allow Theatre reopening while live. The desktop Suno companion is unchanged from 0.8.0. Hosts already using the 0.8.0 companion do not need to reinstall it for 0.8.1. Older companions need the 0.8 package update for managed removal/reordering; OAuth scopes are unchanged. Radio-only needs no companion.
+The 0.8.1 fixes keep selection in place, show YouTube without a permanent Catnap button strip, and allow Theatre reopening while live. The desktop Suno companion is unchanged from 0.8.0. Hosts already using the 0.8.0 companion do not need to reinstall it for 0.8.1. Older companions need the 0.8 package update for managed removal/reordering; OAuth scopes are unchanged. Radio-only needs no companion.
 
 ## 0 — Containment and public boundaries
 

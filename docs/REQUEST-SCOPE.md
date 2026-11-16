@@ -8,7 +8,7 @@ The host confirmed working **0.8 Radio broadcasting on November 16** after an in
 | --- | --- |
 | Separate Theatre Lite and AIU Inbox editions | Keep Lite 0.5.0 unchanged and current for ordinary/non-AIU hosts, with no Inbox or playlist helper; AIU Inbox retains the labeled readiness dots/per-step status introduced in 0.6.10 and keeps ordinary-use indicators grey/inactive; Dev1 activation/status indicators and managed lyrics confirmed November 16; broader workflow checks remain separate |
 | Radio-only and compact 0.8.1 controls | Suno/AIU party source-only On Air, green AIU logo, single gear → Presentation → Radio/Inbox, mode-aware error status and YouTube window view/red badge/Loaded staging; no actual 0.8.1 host acceptance yet |
-| 0.8.1 presentation fixes | Selection stays in place, YouTube replaces artwork cleanly, and Theatre can reopen while publishing; new real host checks pending |
+| 0.8.1 presentation fixes | Selection stays in place, YouTube fills the window without a permanent Catnap button strip, and Theatre can reopen while publishing; new real host checks pending |
 | Fair queue and manual Decline | Explicit host order/Hold/Release, one repeat admitted at the ready tail after actual completion, verified managed playlist projection and confirmed manual Decline; real provider acceptance pending |
 | Standalone works without AI/bot/server | Theatre Lite; load unpacked, play native Suno with backend unreachable |
 | Minimal two-panel view | Theatre; small header, large contained art, readable lyrics, bottom transport |
