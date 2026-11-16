@@ -1,23 +1,25 @@
 # Current versions · November 16, 2026
 
+The 0.8.1 host follow-up found that ordinary Suno selections stayed in place, but a paired YouTube entry still reached the top, apparently after completion. The host also could not find the full-window video exit before it ended. The 0.8.2 changes address those remaining cases; their live acceptance is pending.
+
 ## Public downloads
 
 | Component | Version / state | Where to start |
 | --- | --- | --- |
 | Theatre Lite | **0.5.0 active presentation-only edition**, unchanged package for ordinary Suno/non-AIU hosts; no Inbox or playlist helper | [Original release/setup](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.5.0) · [Lite ZIP](https://github.com/inaratalamasca/catnap-theatre/releases/download/v0.5.0/Catnap-Theatre-v0.5.0.zip) · [SHA256](https://github.com/inaratalamasca/catnap-theatre/releases/download/v0.5.0/Catnap-Theatre-v0.5.0.zip.sha256) |
-| AIU Theatre + Inbox | **0.8.1 development preview** — presentation plus optional inbox/playlist and mixed-source show controls | [Preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.8.1-preview) · [Combined ZIP](https://github.com/inaratalamasca/catnap-theatre/releases/download/v0.8.1-preview/Catnap-Theatre-Inbox-Dev-v0.8.1.zip) |
-| Radio-only | **0.8.1 development preview** — publish a Suno or AIU party player tab without Inbox or desktop helper | [Preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.8.1-preview) · [Radio-only ZIP](https://github.com/inaratalamasca/catnap-theatre/releases/download/v0.8.1-preview/Catnap-Radio-Dev-v0.8.1.zip) |
-| Inbox-only | **0.8.1 development preview** — create playlists without Theatre playback or broadcasting | [Same preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.8.1-preview) · [Inbox-only ZIP](https://github.com/inaratalamasca/catnap-theatre/releases/download/v0.8.1-preview/Catnap-Inbox-Dev-v0.8.1.zip) |
+| AIU Theatre + Inbox | **0.8.2 development preview** — presentation plus optional inbox/playlist and mixed-source show controls | [Preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.8.2-preview) · [Combined ZIP](https://github.com/inaratalamasca/catnap-theatre/releases/download/v0.8.2-preview/Catnap-Theatre-Inbox-Dev-v0.8.2.zip) |
+| Radio-only | **0.8.2 development preview** — publish a Suno or AIU party player tab without Inbox or desktop helper | [Preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.8.2-preview) · [Radio-only ZIP](https://github.com/inaratalamasca/catnap-theatre/releases/download/v0.8.2-preview/Catnap-Radio-Dev-v0.8.2.zip) |
+| Inbox-only | **0.8.2 development preview** — create playlists without Theatre playback or broadcasting | [Same preview release](https://github.com/inaratalamasca/catnap-theatre/releases/tag/v0.8.2-preview) · [Inbox-only ZIP](https://github.com/inaratalamasca/catnap-theatre/releases/download/v0.8.2-preview/Catnap-Inbox-Dev-v0.8.2.zip) |
 | Chrome Web Store beta | **0.5.0 submitted; pending review** | No published Store listing is claimed; use the release's setup instructions |
 | Inbox playlist walkthrough | LP/AP agent guide with optional Advanced pings | [Read the guide](https://github.com/inaratalamasca/aiu-inbox-playlist-guide) |
 
-The 0.8.1 preview release contains three packages: Theatre + Inbox, Inbox-only and Radio-only. The two creators include desktop companion setup for Suno playlist operations; Radio-only needs no helper. It can accompany Theatre Lite. Choose either the integrated publisher or Radio-only for the show. Theatre Lite remains the separate, unchanged 0.5.0 release; its original asset name is retained. Install only the chosen variant for the intended workflow. Read the package guide and verify its checksum before a deliberate between-show installation; publishing a release does not reload an installed extension.
+The 0.8.2 preview release contains three packages: Theatre + Inbox, Inbox-only and Radio-only. The two creators include desktop companion setup for Suno playlist operations; Radio-only needs no helper. It can accompany Theatre Lite. Choose either the integrated publisher or Radio-only for the show. Theatre Lite remains the separate, unchanged 0.5.0 release; its original asset name is retained. Install only the chosen variant for the intended workflow. Read the package guide and verify its checksum before a deliberate between-show installation; publishing a release does not reload an installed extension.
 
 ## Private development and live listener
 
 | Component | Version / state | Availability |
 | --- | --- | --- |
-| Integrated advanced Theatre | **0.8.1 preview**, shared managed workflow and preserved visual bridge | Private hosting project; prepared source is not live activation |
+| Integrated advanced Theatre | **0.8.2 preview**, shared managed workflow and preserved visual bridge | Private hosting project; prepared source is not live activation |
 | Host Controls | **0.4.8 preview**, Managed/Legacy ownership coordination and Theatre-owned lyrics | Private hosting project; configured testing and live rehearsal remain separate |
 | Audio listener | **0.1.7 live pilot**, responsive artwork capped at 400 pixels | [Listen during a broadcast](https://listen.catnapradio.com/) |
 | Metadata service | **0.2.1** | Private simulcast pilot |
@@ -25,17 +27,17 @@ The 0.8.1 preview release contains three packages: Theatre + Inbox, Inbox-only a
 
 Advanced source/downloads, paired configurations, identity records and runtime keys remain private. Public project overviews describe their purpose without publishing those operational materials.
 
-## Three fixes in 0.8.1
+## Stable order and an easier video exit in 0.8.2
 
-- Choosing a song keeps it in place in the running order.
-- YouTube video fills the Theatre window without a permanent Catnap button strip.
+- Choosing or finishing a song keeps its row in place in Theatre and the control panel.
+- Leave full-window video while it is playing using a small, visible Exit video button.
 - Reopen Theatre while live without stopping the broadcast.
 
-These changes are ready for rehearsal; host acceptance of the fixes is pending.
+Playback history is retained separately; an explicitly managed Suno playlist can still reflect actual played order. These changes need a new host rehearsal.
 
-The host confirmed working **0.8 Radio broadcasting on November 16** after an initial startup timeout; its cause remains unproven. Fair rotation, playlist ordering, manual Decline, the 0.8.1 hotfixes and advanced live acceptance still require their own rehearsal.
+The host confirmed working **0.8 Radio broadcasting on November 16** after an initial startup timeout; its cause remains unproven. Fair rotation, playlist ordering, manual Decline, the 0.8.2 hotfixes and advanced live acceptance still require their own rehearsal.
 
-The desktop Suno companion is unchanged from 0.8.0. Hosts already using the 0.8.0 companion do not need to reinstall it for 0.8.1. Older companions need the 0.8 package update for managed removal/reordering; OAuth scopes are unchanged. Radio-only needs no companion.
+The desktop Suno companion is unchanged from 0.8.0. Hosts already using the 0.8.0 companion do not need to reinstall it for 0.8.2. Older companions need the 0.8 package update for managed removal/reordering; OAuth scopes are unchanged. Radio-only needs no companion.
 
 ## Retained preview features
 
@@ -51,7 +53,7 @@ The desktop Suno companion is unchanged from 0.8.0. Hosts already using the 0.8.
 
 - Preserve host moves and Hold/Release across refreshes. Held songs stay out of the managed Suno playlist.
 - Real completion releases only the next submission from that uploader at the current ready tail; later repeats keep waiting. Manual Release stays released.
-- The managed playlist follows actual played history and the intended upcoming order. Selecting a current song does not move it ahead of earlier ready songs.
+- Theatre and control-panel rows stay in place through selection, replay and completion. The managed Suno playlist can follow separately recorded actual played history and the intended upcoming order when synchronized.
 - Manual Decline uses a separate confirmation and verifies the uploader result. Nothing is auto-declined or marked Accepted/Played. An uncertain result stays held until read-only recovery verifies it.
 - Labeled Suno/Inbox readiness dots at the top and a status for each setup step. In ordinary use of the Inbox edition the dots are grey/inactive; Theatre Lite has no Inbox/helper setup. The host confirmed Dev1 activation and working status indicators on November 16; broader per-step/recovery cases remain separate.
 - Presentation and Inbox controls use matching button styles and clear groups. The displayed list is labeled Inbox Show or Suno Playlist; Inbox Submissions shows Pending/held counts and the read time.
