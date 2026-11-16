@@ -1,5 +1,14 @@
 # Changes
 
+## Native audio and managed lyrics preview — 2026-11-15
+
+- Updated current Theatre + Inbox and Inbox-only download/version notes to the 0.6.7 preview and private advanced compatibility to Theatre 0.6.7 / Host Controls 0.4.8, preserving earlier publication records below.
+- Recorded the 0.6.4 quiet-Load/Play-timeout result, the 0.6.5 audio-selection failure and the host-confirmed standalone 0.6.6 sequence Play song 1 → held ending → Load Next paused → Play song 2. Mixed-source, AP, advanced live integration and Discord/HQ checks remain separate.
+- Recorded the missing managed lyrics exposed in that trial and the 0.6.7 native-details/matching-song correction, whose real lyrics check remains pending. Host Controls leaves lyric collection to Theatre.
+- Described active-music versus silent-helper selection, bounded muted preparation on explicit Play, final selected-source authorization and Pause/selection/timeout cancellation; quiet Load remains separate.
+- Recorded 219 maintained checks plus isolated Chromium audio and managed-lyrics rehearsals without treating fixture evidence as full-show acceptance.
+- Corrected the current scope table to reflect approved AIU branding inclusion while preserving attribution and separate branding rights.
+
 ## Suno Play lookup preview — 2026-11-15
 
 - Updated current public Theatre + Inbox and Inbox-only links/version notes to the 0.6.4 preview, preserving the earlier publication record below.
