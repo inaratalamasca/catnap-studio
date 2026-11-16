@@ -6,11 +6,13 @@ This general guide records the existing process. The host's local `AGENTS.md`, c
 
 Theatre Lite 0.5.0 remains the active, unchanged presentation-only choice for ordinary Suno and non-AIU hosts. It needs no Inbox or playlist helper; the AIU setup and production steps below do not become Lite requirements.
 
+Radio-only 0.7.0 can publish a Suno or AIU party tab alongside Lite without an Inbox or desktop helper. The two AIU playlist creators still use the host’s own Suno connection and desktop companion. Use one publisher for a show.
+
 The AIU Inbox edition adds optional intake, playlist and managed-show features. Version 0.6.10 shows labeled Suno/Inbox readiness dots and a result for each setup step. In ordinary use of this edition the dots remain grey/inactive. On November 16, the host confirmed manual 0.6.10 activation in Dev1, working status indicators and managed lyrics. Intake retries, playlist updates, AP, YouTube and advanced live acceptance remain separate.
 
 ## Simpler managed queue preview
 
-The public AIU Theatre + Inbox and Inbox-only 0.6.10 previews add a deterministic
+The public AIU Theatre + Inbox and Inbox-only 0.7.0 previews add a deterministic
 workflow without an LLM or the advanced bot: Pending FIFO intake, source flags,
 uploader notes, own-account playlist creation and a managed mixed-source show.
 YouTube-only entries stay in managed order without a Suno placeholder; YouTube
@@ -35,6 +37,8 @@ including artwork and dark cue PDF/review. Its historical physical-Suno
 placeholder mapping belongs to the deliberately selected legacy workflow;
 it is not a requirement to manufacture placeholders for new managed shows.
 Keep one intake/playback writer active.
+
+The 0.7.0 preview uses one gear for Presentation controls, with Radio and Inbox buttons in that operator window. Source-only On Air and the green AIU logo reflect actual publishing; the top status also names Inbox versus Suno playlist mode. Managed YouTube Play fills the Theatre viewport with a red badge, while quiet staging is labeled Loaded. The real 0.7.0 host/mixed-source rehearsal remains pending.
 
 ## Prepare an LP
 
@@ -82,5 +86,5 @@ The advanced AIU hosting package for Ina produces the following. These are hosti
 - When both YouTube and Suno links are supplied, retain both: use Suno for playlist membership/identity and internally mark YouTube as the preferred playback source. This supersedes the older blanket “prefer Suno” rule. Do not autoplay the Suno audio over the preferred external video; implementation must pause native audio/advance, track slot completion and restore playback deliberately. An unavailable external source needs a visible host decision, not a silent source substitution.
 - Capture the YouTube alternative from the inbox when CSV omits it. Keep external-media identity, artwork/audio review and clearance distinct from the Suno track's lyric review.
 
-Legacy placeholder lifecycle and the broader full-hosting integration remain separately scoped work. The standalone 0.6.10 preview now owns optional managed inbox/playlist and mixed-source playback; artwork generation and the full cue-PDF/review package remain separate. Preview implementation and fixture checks are not full live acceptance.
+Legacy placeholder lifecycle and the broader full-hosting integration remain separately scoped work. The standalone 0.7.0 preview now owns optional managed inbox/playlist and mixed-source playback; artwork generation and the full cue-PDF/review package remain separate. Preview implementation and fixture checks are not full live acceptance.
 

@@ -1,5 +1,12 @@
 # Changes
 
+## Radio-only and compact controls preview — 2026-11-16
+
+- Prepared current 0.7.0 download/version notes for Theatre + Inbox, Inbox-only and the new Radio-only package. Theatre Lite keeps its exact original 0.5.0 download and unchanged files.
+- Described Suno/AIU-party source-only On Air, green Theatre AIU logo, one gear opening Presentation with Radio/Inbox buttons, error-aware mode status, and YouTube window view/red badge/Loaded staging.
+- Added the compact loaded/playing card and click-to-copy artwork link, plus the Theatre + Inbox first-run stream-name prompt with existing names preserved.
+- Kept Radio independent of the Suno helper and the two playlist creators on their own-account companion setup. Actual 0.7.0 host/advanced acceptance remains pending; the November 16 Dev1 status/lyrics result remains specific to 0.6.10.
+
 ## Dev1 status and managed lyrics confirmed — 2026-11-16
 
 - Recorded the host’s “Statuses and lyrics work” confirmation after manual 0.6.10 activation in Dev1. Acceptance covers that activation, the status indicators and managed lyrics only.
