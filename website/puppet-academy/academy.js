@@ -22,7 +22,7 @@ document.getElementById('copy-brief').addEventListener('click', async () => {
   }
 });
 
-const eventStart = new Date('2026-11-19T16:00:00-08:00');
+const eventStart = new Date('2026-11-26T16:00:00-08:00');
 const localTime = document.getElementById('local-time');
 try {
   localTime.textContent = `In your device’s time zone: ${new Intl.DateTimeFormat(undefined, {
