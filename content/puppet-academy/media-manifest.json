@@ -1,0 +1,372 @@
+{
+  "ensemble": {
+    "source": "Reference/Puppet Academy_ Felt Faculty Poster.png",
+    "source_sha256": "98c127e8080c7761bc52162395cdec7962b7b10298a519d763c4059cccc244e2",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/ensemble-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/ensemble-thumb.webp"
+  },
+  "professors/aurora-vintesang": {
+    "source": "Char sheets/Aurora Vintesang.png",
+    "source_sha256": "2f81fb11b5cdb56d4e47d2857111870ac135db604cd979e2ceea0c497c916e0a",
+    "width": 1122,
+    "height": 1402,
+    "thumb_width": 640,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/aurora-vintesang-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/aurora-vintesang-thumb.webp"
+  },
+  "professors/beatconductor": {
+    "source": "Char sheets/Professor BeatConductor Character Sheet.png",
+    "source_sha256": "bfd1fbde69429e1c80dbfe108dba95dcf9e038eea3edc1624dfb9b7a7ceb93bd",
+    "width": 1448,
+    "height": 1086,
+    "thumb_width": 640,
+    "thumb_height": 480,
+    "full": "/puppet-academy/assets/catalog/professors/beatconductor-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/beatconductor-thumb.webp"
+  },
+  "professors/brid-oquill": {
+    "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_01 PM-4.png",
+    "source_sha256": "6d0267b288b310664a9b1d8062bbc8bc1ee7b31fff076ac674d7d99755524d98",
+    "width": 1122,
+    "height": 1402,
+    "thumb_width": 640,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/brid-oquill-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/brid-oquill-thumb.webp"
+  },
+  "professors/chrisjen-avasarala": {
+    "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_48 PM-2.png",
+    "source_sha256": "2cfab3c9f614fa2ef9351d6556ab60346c780a30bf0714bba01557d94f6bc97d",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/professors/chrisjen-avasarala-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/chrisjen-avasarala-thumb.webp"
+  },
+  "professors/derya-yildirim": {
+    "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_36_59 PM-2.png",
+    "source_sha256": "d6c129beb466233916fcae03e33d724584b74cdf45daf653dca881bcf8e3ca0b",
+    "width": 1122,
+    "height": 1402,
+    "thumb_width": 640,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/derya-yildirim-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/derya-yildirim-thumb.webp"
+  },
+  "professors/gkar": {
+    "source": "Char sheets/Professor G’Kar_ Narn Wisdom Archive.png",
+    "source_sha256": "25f30d50a5b1e114c8745602a9175c52a30a6c5ead4e72629264a9f81986a2a3",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/professors/gkar-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/gkar-thumb.webp"
+  },
+  "professors/garfunkel": {
+    "source": "Char sheets/Professor Garfunkel_ The Felt Faculty Profile.png",
+    "source_sha256": "7b9842f679d9a4931391bc63a5df3003702b2cc5bbec495b07046c70021410f6",
+    "width": 1086,
+    "height": 1448,
+    "thumb_width": 600,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/garfunkel-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/garfunkel-thumb.webp"
+  },
+  "professors/glados": {
+    "source": "Char sheets/Muppet Science Academy_ Professor GLaDOS.png",
+    "source_sha256": "28d7ae9fca6c2e6b17315ab8327b647a8c241fa37848eda8219770f616ef6ac4",
+    "width": 1536,
+    "height": 1024,
+    "thumb_width": 640,
+    "thumb_height": 427,
+    "full": "/puppet-academy/assets/catalog/professors/glados-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/glados-thumb.webp"
+  },
+  "professors/gowron": {
+    "source": "Char sheets/Puppet Professor Gowron_ Honor Academy Poster.png",
+    "source_sha256": "3751bd495766eab2f7eae495f8a4d35d1ffb23f0b62792fcbb987a846c8a7ca7",
+    "width": 1122,
+    "height": 1402,
+    "thumb_width": 640,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/gowron-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/gowron-thumb.webp"
+  },
+  "professors/inara-talamasca": {
+    "source": "Char sheets/ChatGPT Image Oct 19, 2026, 09_02_16 PM-6.png",
+    "source_sha256": "41dc65337af9d8d038bafddbb6c96dfaa2bd4c76bddbcc96095ff7d19881d6b5",
+    "width": 1024,
+    "height": 1536,
+    "thumb_width": 533,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/inara-talamasca-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/inara-talamasca-thumb.webp"
+  },
+  "professors/kiko-kisaragi": {
+    "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_00 PM-3.png",
+    "source_sha256": "3dbbdd226f3d43b48f47d4a52516fd22636ba24b6769cf1ef9c398f5fd973325",
+    "width": 1122,
+    "height": 1402,
+    "thumb_width": 640,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/kiko-kisaragi-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/kiko-kisaragi-thumb.webp"
+  },
+  "professors/d-layman": {
+    "source": "Char sheets/Professor Layman’s Music Theory Poster.png",
+    "source_sha256": "08e68f702dc7702702815d776ab7ee02908ed06f152a33eccd0e197dd2a02369",
+    "width": 1122,
+    "height": 1402,
+    "thumb_width": 640,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/d-layman-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/d-layman-thumb.webp"
+  },
+  "professors/lenthrea-wartigress": {
+    "source": "Char sheets/Lenthrea Muppet.png",
+    "source_sha256": "dd52f6dd1a44f7f1d5bddf74b9dcf80f6255bae96c605657f0cc322f6b918174",
+    "width": 1024,
+    "height": 1536,
+    "thumb_width": 533,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/lenthrea-wartigress-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/lenthrea-wartigress-thumb.webp"
+  },
+  "professors/londo-mollari": {
+    "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_47 PM-1.png",
+    "source_sha256": "572350c9ba7b68783412899d09cd66a8860dd747521ccbee0ff1e08945187133",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/professors/londo-mollari-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/londo-mollari-thumb.webp"
+  },
+  "professors/lsd-fm": {
+    "source": "Char sheets/Prof.LSD.fm.webp",
+    "source_sha256": "0d2abf03c6e925fe6bc6cab8a7bbaaba0db41118a9ec1c5368785de920c1af08",
+    "width": 1024,
+    "height": 1024,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/professors/lsd-fm-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/lsd-fm-thumb.webp"
+  },
+  "professors/lucio-bellaforte": {
+    "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_02 PM-5.png",
+    "source_sha256": "3c0c7c1f4797557b0d90be9d256d8455fd4312b4b8b79abfdd86d85532c5fd68",
+    "width": 1122,
+    "height": 1402,
+    "thumb_width": 640,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/lucio-bellaforte-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/lucio-bellaforte-thumb.webp"
+  },
+  "professors/mags-macleod": {
+    "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_03 PM-6.png",
+    "source_sha256": "561eef53293a4a2078dd9d4b7dad87f23d536ba986aa2bd8b6c3ad7384129226",
+    "width": 1122,
+    "height": 1402,
+    "thumb_width": 640,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/mags-macleod-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/mags-macleod-thumb.webp"
+  },
+  "professors/meera-raman": {
+    "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_36_58 PM-1.png",
+    "source_sha256": "d22a1cfa552e95053324a3cd5fe0ccf4941421486f6b64b066cecfc08880938a",
+    "width": 1122,
+    "height": 1402,
+    "thumb_width": 640,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/meera-raman-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/meera-raman-thumb.webp"
+  },
+  "professors/miles-obrien": {
+    "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_49 PM-3.png",
+    "source_sha256": "227d1c81cf5f1a8837c8e275e1a82d9898b1225ec8c2cd5f8681ca042e95e07e",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/professors/miles-obrien-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/miles-obrien-thumb.webp"
+  },
+  "professors/nezkith": {
+    "source": "Char sheets/Professor Nezkith’s Culinary Chaos.png",
+    "source_sha256": "ccbaeaa1be2bf3bb5ea0929e3d0b24499d145145bc16122c9903cf578374cff8",
+    "width": 1122,
+    "height": 1402,
+    "thumb_width": 640,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/nezkith-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/nezkith-thumb.webp"
+  },
+  "professors/pondscum": {
+    "source": "Char sheets/Professor Pondscum_ Rot Is Life.png",
+    "source_sha256": "8c865c9fb5c0d04ada14922816cfe4f2ea4447fbd889d1632b131ffac7bba92b",
+    "width": 1086,
+    "height": 1448,
+    "thumb_width": 600,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/pondscum-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/pondscum-thumb.webp"
+  },
+  "professors/runa-rassafrass": {
+    "source": "Char sheets/Runa Rassafrass.png",
+    "source_sha256": "26e399c395b2b2ba17c16d7bc4d01e7fb547a366c46d9811f572fdd7380b054a",
+    "width": 1151,
+    "height": 1367,
+    "thumb_width": 640,
+    "thumb_height": 760,
+    "full": "/puppet-academy/assets/catalog/professors/runa-rassafrass-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/runa-rassafrass-thumb.webp"
+  },
+  "professors/vikingur": {
+    "source": "Char sheets/Vikingur_ Puppet Academy Professor Profile.png",
+    "source_sha256": "9713d0b0df4364c22831b853e2c51f92897a60442bc70ae52d3ba6c4c9ac72df",
+    "width": 1122,
+    "height": 1402,
+    "thumb_width": 640,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/vikingur-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/vikingur-thumb.webp"
+  },
+  "professors/zalixor": {
+    "source": "Char sheets/Neon Puppet Professor Zalixor Character Sheet.png",
+    "source_sha256": "4be5f9d7c56720ea41a7a2e24b89ccbbcb4fda16fddb2e1a1aa4bb0769014f3e",
+    "width": 1198,
+    "height": 1313,
+    "thumb_width": 640,
+    "thumb_height": 701,
+    "full": "/puppet-academy/assets/catalog/professors/zalixor-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/zalixor-thumb.webp"
+  },
+  "professors/zilla": {
+    "source": "Char sheets/Felt Professor Zilla Academy Dossier (1).png",
+    "source_sha256": "750d7ddf7237e7c215ec0c151023dd2292a5524adbd442bd29d061995c511302",
+    "width": 1086,
+    "height": 1448,
+    "thumb_width": 600,
+    "thumb_height": 800,
+    "full": "/puppet-academy/assets/catalog/professors/zilla-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/professors/zilla-thumb.webp"
+  },
+  "songs/the-great-matter-masquerade": {
+    "source": "Song Covers/Great Matter Masquuerade.png",
+    "source_sha256": "bb273bbc6327b726f3d03b3bc802f6634303b3cb279bce6337e5fbef2777727c",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/songs/the-great-matter-masquerade-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/songs/the-great-matter-masquerade-thumb.webp"
+  },
+  "songs/the-sideways-fall-of-stars": {
+    "source": "Song Covers/Sideways Fall of Stars.png",
+    "source_sha256": "0bc92969cd843712286044eb4fc78621e9619193b8b40d6da1d69c14a76d2ad9",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/songs/the-sideways-fall-of-stars-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/songs/the-sideways-fall-of-stars-thumb.webp"
+  },
+  "songs/fuuu-sion": {
+    "source": "Song Covers/ChatGPT Image Oct 19, 2026, 09_02_14 PM-2.png",
+    "source_sha256": "c88886fbe04fa9f9acced50c3e333a55cdcbbc1de32a49d79676448f57ff6580",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/songs/fuuu-sion-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/songs/fuuu-sion-thumb.webp"
+  },
+  "songs/stellar-death": {
+    "source": "Song Covers/ChatGPT Image Oct 19, 2026, 09_02_14 PM-1.png",
+    "source_sha256": "b8c0bd409605107ef259784dde03483dfc344e569f4e459196dde1872c27a471",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/songs/stellar-death-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/songs/stellar-death-thumb.webp"
+  },
+  "songs/today-is-a-good-day-to-share": {
+    "source": "Song Covers/ChatGPT Image Oct 19, 2026, 09_02_15 PM-5.png",
+    "source_sha256": "ae3925528c56ed45ea1152438f56fd88ccbc02bb0ac8f953c5b9354e5d7da2f9",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/songs/today-is-a-good-day-to-share-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/songs/today-is-a-good-day-to-share-thumb.webp"
+  },
+  "songs/the-duck-has-no-honor": {
+    "source": "Song Covers/ChatGPT Image Oct 19, 2026, 09_02_15 PM-4.png",
+    "source_sha256": "5c939dbdc9cf1488c02012cce14568c2737d111b3955ad7dbc791fa1c0bf0bf3",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/songs/the-duck-has-no-honor-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/songs/the-duck-has-no-honor-thumb.webp"
+  },
+  "songs/stop-multiplying": {
+    "source": "Song Covers/ChatGPT Image Oct 19, 2026, 09_02_15 PM-3.png",
+    "source_sha256": "27ea9f26273257ca03902a74b2d43d9cafdde3568c03cb79ab6c8bbc08309b67",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/songs/stop-multiplying-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/songs/stop-multiplying-thumb.webp"
+  },
+  "songs/let-the-sky-learn-my-name": {
+    "source": "Song Covers/Storm-Sung Fjord_ Let the Sky Learn My Name.png",
+    "source_sha256": "68d2500fca1168c4615a5bdbd98aefaa21d858669b0169500e06cb73c9564ee2",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/songs/let-the-sky-learn-my-name-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/songs/let-the-sky-learn-my-name-thumb.webp"
+  },
+  "songs/the-ice-wrote-the-coast": {
+    "source": "Song Covers/The Ice Wrote the Coast.png",
+    "source_sha256": "57023a516ecb2781a28d92f3d59b1437e984ed145e4546cef2662ad660e53bed",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/songs/the-ice-wrote-the-coast-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/songs/the-ice-wrote-the-coast-thumb.webp"
+  },
+  "songs/everything-rots": {
+    "source": "Song Covers/Professor Pondscum's Rotten Swamp Lecture.png",
+    "source_sha256": "eb1bf937f8569a34dbe7c30ff5b1a7b9015484112a432a37b21f265a34ca546b",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/songs/everything-rots-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/songs/everything-rots-thumb.webp"
+  },
+  "songs/bend-the-facts": {
+    "source": "Song Covers/Professor Amoyra Bends the Facts.png",
+    "source_sha256": "81bf0f7e670e3e7dc944a89b78c1a81b32d6d8ad0d6dde636a2c5100f7fe517e",
+    "width": 1254,
+    "height": 1254,
+    "thumb_width": 640,
+    "thumb_height": 640,
+    "full": "/puppet-academy/assets/catalog/songs/bend-the-facts-full.webp",
+    "thumb": "/puppet-academy/assets/catalog/songs/bend-the-facts-thumb.webp"
+  }
+}
