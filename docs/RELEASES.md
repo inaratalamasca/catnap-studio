@@ -31,7 +31,8 @@ Advanced source/downloads, paired configurations, identity records and runtime k
 - One gear opens Presentation controls, with separate Radio and Inbox buttons. The top status names Inbox or Suno playlist mode and goes green only for verified readiness without current playback or command errors.
 - Managed YouTube Play fills the Theatre viewport, without browser fullscreen. A red YouTube badge and a Loaded label distinguish the source and quiet staging.
 - Compact loaded/playing cards place artwork beside title, credit and warnings; click the thumbnail to copy its clean public image URL. Inbox-only does not fetch remote thumbnails.
-- Theatre + Inbox offers a nonblocking first-run stream-name prompt, retaining existing custom names and the Catnap Radio default.
+- Clean-install Theatre + Inbox can offer a nonblocking stream-name prompt; upgrades and existing name preferences are not prompted. Catnap Radio remains the default.
+- Radio token remembering is on by default and bound to the chosen relay origin. Explicit Start after permission or an explicit user choice/change saves locally; opening the panel does not migrate an active session key. Session-only and Forget remove the durable copy without stopping an active broadcast. Normal same-ID updates can retain this local storage; removal or profile changes are not guaranteed to do so, and it is not an encrypted vault.
 - Actual 0.7.0 host acceptance remains pending. The November 16 Dev1 activation/status/managed-lyrics confirmation applies to 0.6.10.
 
 ## Retained AIU Inbox features
