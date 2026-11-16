@@ -1,5 +1,11 @@
 # Changes
 
+## Dev1 status and managed lyrics confirmed — 2026-11-16
+
+- Recorded the host’s “Statuses and lyrics work” confirmation after manual 0.6.10 activation in Dev1. Acceptance covers that activation, the status indicators and managed lyrics only.
+- Left the repeated-click intake fix, playlist updates, AP, YouTube and advanced live acceptance as separate pending checks. The confirmed 0.6.6 manual LP sequence and 0.6.2 own-account/playlist/HQ evidence remain unchanged.
+- Updated current website/release/scope evidence without changing runtime code, versions, downloads, assets or Theatre Lite 0.5.0.
+
 ## Theatre Lite and AIU readiness choices — 2026-11-15
 
 - Kept the unchanged Theatre 0.5.0 release active as Theatre Lite for ordinary Suno/non-AIU hosting, prominently beside the separate AIU Inbox edition. Its original ZIP, checksum, filename and manifest are preserved.

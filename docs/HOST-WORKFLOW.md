@@ -6,7 +6,7 @@ This general guide records the existing process. The host's local `AGENTS.md`, c
 
 Theatre Lite 0.5.0 remains the active, unchanged presentation-only choice for ordinary Suno and non-AIU hosts. It needs no Inbox or playlist helper; the AIU setup and production steps below do not become Lite requirements.
 
-The AIU Inbox edition adds optional intake, playlist and managed-show features. Version 0.6.10 shows labeled Suno/Inbox readiness dots and a result for each setup step. In ordinary use of this edition the dots remain grey/inactive. The actual updated host workflow still needs its check.
+The AIU Inbox edition adds optional intake, playlist and managed-show features. Version 0.6.10 shows labeled Suno/Inbox readiness dots and a result for each setup step. In ordinary use of this edition the dots remain grey/inactive. On November 16, the host confirmed manual 0.6.10 activation in Dev1, working status indicators and managed lyrics. Intake retries, playlist updates, AP, YouTube and advanced live acceptance remain separate.
 
 ## Simpler managed queue preview
 
@@ -22,8 +22,9 @@ but Play timed out waiting for the selected native song; the 0.6.5 retry reporte
 “Target matched, audio not found”. Version 0.6.6 distinguished active music from
 Suno’s silent helper. The host confirmed the standalone 0.6.6 sequence: Play
 song 1, hold at its ending, Load Next paused, then Play song 2. That trial exposed
-missing managed lyrics. The 0.6.7 host retry still showed missing lyrics after Reload. The 0.6.8 lyrics/intake fixes remain pending
-a real retry. Version 0.6.9 groups matching Presentation/Inbox controls and labels
+missing managed lyrics. The 0.6.7 host retry still showed missing lyrics after Reload. The November 16 Dev1 0.6.10 check confirmed activation, status indicators
+and managed lyrics. The repeated-click intake fix and playlist updates remain
+pending a real check. Version 0.6.9 groups matching Presentation/Inbox controls and labels
 the displayed list Inbox Show or Suno Playlist; Inbox Submissions shows readable
 Pending/held counts and the read time. Mixed-source, AP, advanced live integration and
 Discord/HQ checks remain separate. Preparation remains bounded and muted;
