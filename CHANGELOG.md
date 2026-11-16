@@ -1,5 +1,11 @@
 # Changes
 
+## Plain-text lyrics preview — 2026-11-15
+
+- Prepared current Theatre + Inbox and Inbox-only download/version notes for 0.6.8, with private advanced Theatre 0.6.8 / Host Controls 0.4.8; release publication and live activation remain separate.
+- Preserved the confirmed 0.6.6 manual LP sequence and recorded that 0.6.7 still lacked managed lyrics despite the Reload control. The real 0.6.8 lyrics retry is pending.
+- Described preserved plain lyric linebreaks and selected-song local-panel priority without claiming that fixture success repairs the real host session.
+
 ## Native audio and managed lyrics preview — 2026-11-15
 
 - Updated current Theatre + Inbox and Inbox-only download/version notes to the 0.6.7 preview and private advanced compatibility to Theatre 0.6.7 / Host Controls 0.4.8, preserving earlier publication records below.

@@ -4,7 +4,7 @@ This general guide records the existing process. The host's local `AGENTS.md`, c
 
 ## Simpler managed queue preview
 
-The public Theatre + Inbox and Inbox-only 0.6.7 previews add a deterministic
+The public Theatre + Inbox and Inbox-only 0.6.8 previews add a deterministic
 workflow without an LLM or the advanced bot: Pending FIFO intake, source flags,
 uploader notes, own-account playlist creation and a managed mixed-source show.
 YouTube-only entries stay in managed order without a Suno placeholder; YouTube
@@ -16,8 +16,9 @@ but Play timed out waiting for the selected native song; the 0.6.5 retry reporte
 “Target matched, audio not found”. Version 0.6.6 distinguished active music from
 Suno’s silent helper. The host confirmed the standalone 0.6.6 sequence: Play
 song 1, hold at its ending, Load Next paused, then Play song 2. That trial exposed
-missing managed lyrics. Version 0.6.7 restores native lyrics-details preparation
-and selected-song matching; its real lyrics check is pending. Mixed-source, AP, advanced live integration and
+missing managed lyrics. The 0.6.7 host retry still showed missing lyrics,
+after Reload. Version 0.6.8 preserves plain lyric line breaks and uses
+the selected song’s own details panel; its real retry is pending. Mixed-source, AP, advanced live integration and
 Discord/HQ checks remain separate. Preparation remains bounded and muted;
 Pause, changed selection and timeout cancel it. Load remains separate from Play.
 
@@ -73,5 +74,5 @@ The advanced AIU hosting package for Ina produces the following. These are hosti
 - When both YouTube and Suno links are supplied, retain both: use Suno for playlist membership/identity and internally mark YouTube as the preferred playback source. This supersedes the older blanket “prefer Suno” rule. Do not autoplay the Suno audio over the preferred external video; implementation must pause native audio/advance, track slot completion and restore playback deliberately. An unavailable external source needs a visible host decision, not a silent source substitution.
 - Capture the YouTube alternative from the inbox when CSV omits it. Keep external-media identity, artwork/audio review and clearance distinct from the Suno track's lyric review.
 
-Legacy placeholder lifecycle and the broader full-hosting integration remain separately scoped work. The standalone 0.6.7 preview now owns optional managed inbox/playlist and mixed-source playback; artwork generation and the full cue-PDF/review package remain separate. Preview implementation and fixture checks are not full live acceptance.
+Legacy placeholder lifecycle and the broader full-hosting integration remain separately scoped work. The standalone 0.6.8 preview now owns optional managed inbox/playlist and mixed-source playback; artwork generation and the full cue-PDF/review package remain separate. Preview implementation and fixture checks are not full live acceptance.
 
