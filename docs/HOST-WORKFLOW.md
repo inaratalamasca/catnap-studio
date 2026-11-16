@@ -17,7 +17,7 @@ but Play timed out waiting for the selected native song; the 0.6.5 retry reporte
 Suno’s silent helper. The host confirmed the standalone 0.6.6 sequence: Play
 song 1, hold at its ending, Load Next paused, then Play song 2. That trial exposed
 missing managed lyrics. The 0.6.7 host retry still showed missing lyrics,
-with Reload available. Version 0.6.8 preserves plain lyric line breaks and uses
+after Reload. Version 0.6.8 preserves plain lyric line breaks and uses
 the selected song’s own details panel; its real retry is pending. Mixed-source, AP, advanced live integration and
 Discord/HQ checks remain separate. Preparation remains bounded and muted;
 Pause, changed selection and timeout cancel it. Load remains separate from Play.
