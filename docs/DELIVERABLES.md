@@ -13,7 +13,7 @@ Both are development previews with included setup instructions and noncommercial
 
 The **0.5.0 Chrome Web Store beta is pending review**; no published Store listing is claimed. Private advanced Theatre 0.6.10 / Host Controls 0.4.8 source and paired downloads are not public deliverables.
 
-The 0.6.2 own-profile authorization, playlist creation and clean Suno/HQ audio reports are useful smoke evidence. The 0.6.3 trial missed the native Play control; 0.6.4 found the row and quiet Load worked, but Play timed out waiting for the selected song. The 0.6.5 host retry reported “Target matched, audio not found”. Version 0.6.6 corrected active-music versus silent-helper selection; the host confirmed the standalone sequence Play song 1 → held ending → Load Next paused → Play song 2. The trial exposed missing managed lyrics; the 0.6.7 host retry still showed missing lyrics even after Reload. The 0.6.8 plain-lyrics/intake fixes remain pending a real retry in the updated build. Version 0.6.9 adds grouped controls, explicit Inbox Show/Suno Playlist labels and prominent Inbox Submissions counts. Mixed-source, AP, advanced live integration and Discord/HQ checks remain separate. Label screenshots from isolated fixtures as fixtures; do not present them as real-show acceptance.
+The 0.6.2 own-profile authorization, playlist creation and clean Suno/HQ audio reports are useful smoke evidence. The 0.6.3 trial missed the native Play control; 0.6.4 found the row and quiet Load worked, but Play timed out waiting for the selected song. The 0.6.5 host retry reported “Target matched, audio not found”. Version 0.6.6 corrected active-music versus silent-helper selection; the host confirmed the standalone sequence Play song 1 → held ending → Load Next paused → Play song 2. The trial exposed missing managed lyrics; the 0.6.7 host retry still showed missing lyrics even after Reload. On November 16, the host confirmed manual 0.6.10 activation in Dev1, working status indicators and managed lyrics. The repeated-click intake fix and playlist updates remain pending a real check. Version 0.6.9 adds grouped controls, explicit Inbox Show/Suno Playlist labels and prominent Inbox Submissions counts. Mixed-source, AP, advanced live integration and Discord/HQ checks remain separate. Label screenshots from isolated fixtures as fixtures; do not present them as real-show acceptance.
 
 ## Evidence and decisions still needed
 
@@ -21,7 +21,8 @@ None of these blocks a clearly labeled development preview. Record real evidence
 
 | Needed | Purpose | When |
 | --- | --- | --- |
-| Suno/Inbox readiness and each setup step | Verify labeled top dots, per-step results and grey/inactive ordinary use in the Inbox edition; Lite stays independent | 0.6.10 host workflow check pending |
+| Readiness across broader setup/recovery cases | Extend the Dev1 status-indicator confirmation to broader per-step/recovery cases; Lite stays independent | Activation/status indicators confirmed November 16; broader cases pending |
+| Repeated-click Inbox intake and playlist updates | Verify the intake fix, saved membership/order and appended updates | Host check pending |
 | Presentation and Inbox controls, queue-source heading and submission summary | Verify matching control groups, Inbox Show versus Suno Playlist and Pending/held/read-time context | 0.6.10 interface rehearsal |
 | Longer manual LP run and interruption recovery | Extend the confirmed two-song sequence through rebind/reconnect and unavailable media | Between-shows rehearsal |
 | Pause or changed selection during preparation; timeout | Cancel the pending start and remain held rather than playing late | Cold-player/cancellation rehearsal |
@@ -32,7 +33,7 @@ None of these blocks a clearly labeled development preview. Record real evidence
 | Managed/Legacy controller handoff | One writer, drained pending work and inactive defaults | Private advanced rehearsal |
 | Current two-panel Theatre at 1920×1080 | Baseline and Store listing screenshot | Safe between-shows rehearsal |
 | Three-panel Theatre with several entries | Demonstrate layout/current-song marker | After native/managed queue acceptance |
-| Managed lyrics after quiet Load/Load Next, delayed details and reopen | Verify normal-whitespace plain lyrics, matching-song details, Reload, old-lyric clearing and silence | Real host check pending; broader text cases remain member tests |
+| Broader managed-lyrics text/transition/recovery cases | Extend the Dev1 managed-lyrics confirmation to quiet Load Next, delayed details, Reload, reopen and source changes | Managed lyrics confirmed November 16; broader cases pending |
 | Square/portrait/animated/missing artwork | Containment and fallback behavior | Member test |
 | Lounge/BRB/after-show and local media banners | Explicit audio-source and overlay behavior | Rehearsal |
 | Controller separate from shared output | Operator/program separation | Private integration rehearsal |
