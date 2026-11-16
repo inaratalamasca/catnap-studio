@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Catnap Radio//Puppet Academy//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:puppet-academy-ap-20261119@catnapradio.com
+DTSTAMP:20261116T190000Z
+DTSTART:20261120T000000Z
+SUMMARY:Puppet Academy After Party with Ina & Len
+DESCRIPTION:Real lessons. Ridiculous professors. Join Catnap Radio's Puppet
+ Academy After Party. Guide: https://catnapradio.com/puppet-academy/
+LOCATION:AI:Underground community - follow Ina & Len's AP announcement
+URL:https://catnapradio.com/puppet-academy/
+END:VEVENT
+END:VCALENDAR
