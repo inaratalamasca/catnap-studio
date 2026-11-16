@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-16",
+  "ensemble_source": "Reference/Puppet Academy_ Felt Faculty Poster.png",
+  "professors": [
+    {
+      "id": "aurora-vintesang",
+      "name": "Aurora Vintesang",
+      "category": "Science & nature",
+      "subject": "Nordic geography & weather",
+      "description": "Frost, stars, storms, and landscapes turned into grand musical stories.",
+      "music": "Nordic symphonic folk metal",
+      "source": "Char sheets/Aurora Vintesang.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "beatconductor",
+      "name": "Professor BeatConductor",
+      "category": "Music & sound",
+      "subject": "HardStyle Science",
+      "description": "A tiny conductor with enormous energy. The lecture builds; the bass drops.",
+      "music": "Orchestral hardstyle",
+      "source": "Char sheets/Professor BeatConductor Character Sheet.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "brid-oquill",
+      "name": "Professor Bríd O’Quill",
+      "category": "Science & nature",
+      "subject": "Oceanography & currents",
+      "description": "Tides, layers, and currents become salty stories with a folk-punk bite.",
+      "music": "Celtic folk-punk",
+      "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_01 PM-4.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "chrisjen-avasarala",
+      "name": "Professor Chrisjen Avasarala",
+      "category": "Stories & society",
+      "subject": "Governance & political ethics",
+      "description": "Power, responsibility, and very difficult questions. Bring an argument that can survive the eyebrow.",
+      "music": "",
+      "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_48 PM-2.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "derya-yildirim",
+      "name": "Professor Derya Yıldırım",
+      "category": "Science & nature",
+      "subject": "Geophysics & tectonic dynamics",
+      "description": "Continents move, faults slip, and a quiet lecture can become a seismic event.",
+      "music": "Anatolian progressive rock",
+      "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_36_59 PM-2.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "gkar",
+      "name": "Professor G’Kar",
+      "category": "Stories & society",
+      "subject": "Mythology & religious studies",
+      "description": "Memory, faith, resistance, and the difficult work of understanding one another.",
+      "music": "",
+      "source": "Char sheets/Professor G’Kar_ Narn Wisdom Archive.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "garfunkel",
+      "name": "Professor Garfunkel",
+      "category": "Music & sound",
+      "subject": "Narrative composition & cinematic sound",
+      "description": "Small musical ideas become sweeping stories. Dramatic wings are part of the presentation.",
+      "music": "Cinematic arrangements",
+      "source": "Char sheets/Professor Garfunkel_ The Felt Faculty Profile.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "glados",
+      "name": "Professor GLaDOS",
+      "category": "Science & nature",
+      "subject": "Experimental methodology & research ethics",
+      "description": "Careful experiments. Uncomfortable questions. A wonderfully unsettling classroom assistant.",
+      "music": "Synthetic character performance",
+      "source": "Char sheets/Muppet Science Academy_ Professor GLaDOS.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "gowron",
+      "name": "Puppet Professor Gowron",
+      "category": "Science & nature",
+      "subject": "Maths, buoyancy & applied honor",
+      "description": "Sharing is a matter of honor. Physics remains unimpressed by shouting.",
+      "music": "Theatrical metal and martial spectacle",
+      "source": "Char sheets/Puppet Professor Gowron_ Honor Academy Poster.png",
+      "added": "2026-11-16",
+      "alternate_sources": [
+        "Char sheets/Professor Gowron’s Academy Dossier.png"
+      ]
+    },
+    {
+      "id": "inara-talamasca",
+      "name": "Inara Talamasca",
+      "category": "Hosts & guests",
+      "subject": "Curiosity, music & discovery",
+      "description": "The curious snow-leopard explorer who turns “what happens if…” into an adventure.",
+      "music": "Music, mischief, and wonder",
+      "source": "Char sheets/ChatGPT Image Oct 19, 2026, 09_02_16 PM-6.png",
+      "added": "2026-11-16",
+      "alternate_sources": [
+        "Char sheets/Inara Muppet.png"
+      ]
+    },
+    {
+      "id": "kiko-kisaragi",
+      "name": "Dr. Kiko Kisaragi",
+      "category": "Science & nature",
+      "subject": "Volcanology & eruption science",
+      "description": "Polite, precise explanations meet a planet with absolutely no volume control.",
+      "music": "J-rock progressive fusion",
+      "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_00 PM-3.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "d-layman",
+      "name": "Professor D. Layman",
+      "category": "Music & sound",
+      "subject": "Music theory & ear training",
+      "description": "Harmony, rhythm, counterpoint, and song structure made approachable. Listen first; the patterns follow.",
+      "music": "Music theory at the piano",
+      "source": "Char sheets/Professor Layman’s Music Theory Poster.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "lenthrea-wartigress",
+      "name": "Lenthrea WarTigress",
+      "category": "Hosts & guests",
+      "subject": "Musical performance & faculty adventures",
+      "description": "The teal tigress brings music, energy, and a formidable sense of adventure to the Academy.",
+      "music": "Performance and musical mayhem",
+      "source": "Char sheets/Lenthrea Muppet.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "londo-mollari",
+      "name": "Professor Londo Mollari",
+      "category": "Stories & society",
+      "subject": "Imperial history & catastrophic diplomacy",
+      "description": "Grand ambitions, dangerous bargains, and the bill that eventually arrives.",
+      "music": "Imperial theatricality",
+      "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_47 PM-1.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "lsd-fm",
+      "name": "Professor LSD.FM",
+      "category": "Music & sound",
+      "subject": "Psychoacoustics & musical neuroscience",
+      "description": "Sound, perception, rhythm, and the curious ways we listen to music.",
+      "music": "Rhythm and sound experiments",
+      "source": "Char sheets/Prof.LSD.fm.webp",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "lucio-bellaforte",
+      "name": "Maestro Dr. Lucio Bellaforte",
+      "category": "Music & sound",
+      "subject": "Acoustics & wave physics",
+      "description": "Resonance, harmonics, and vibration, conducted with spectacular operatic enthusiasm.",
+      "music": "Baroque progressive metal",
+      "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_02 PM-5.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "mags-macleod",
+      "name": "Professor Mags MacLeod",
+      "category": "Science & nature",
+      "subject": "Meteorology & storm systems",
+      "description": "Clouds, fronts, forecasts, and practical preparedness—with warmth enough for a blizzard.",
+      "music": "Maritime folk-rock",
+      "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_03 PM-6.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "meera-raman",
+      "name": "Professor Meera Raman",
+      "category": "Science & nature",
+      "subject": "Mathematics & rhythmic logic",
+      "description": "Fractions, primes, symmetry, and patterns. Six arms make the counting look effortless.",
+      "music": "Carnatic progressive metal",
+      "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_36_58 PM-1.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "miles-obrien",
+      "name": "Professor Miles O’Brien",
+      "category": "Science & nature",
+      "subject": "Engineering & emergency repair",
+      "description": "Keep the system running, explain why it broke, and try not to lose the last working tool.",
+      "music": "Practical engineering theatre",
+      "source": "Char sheets/ChatGPT Image Oct 17, 2026, 12_37_49 PM-3.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "nezkith",
+      "name": "Professor Nezkith",
+      "category": "Science & nature",
+      "subject": "Culinary chemistry",
+      "description": "Browning, flavour, and carefully controlled kitchen catastrophes. The quiet voice is the warning.",
+      "music": "Dark, deadpan culinary theatre",
+      "source": "Char sheets/Professor Nezkith’s Culinary Chaos.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "pondscum",
+      "name": "Professor Pondscum",
+      "category": "Science & nature",
+      "subject": "Decomposition & bog biology",
+      "description": "Rot, fungi, microbes, and nature’s recycling crew. Disgusting? He prefers “beautiful.”",
+      "music": "Psychedelic swamp funk and sludge",
+      "source": "Char sheets/Professor Pondscum_ Rot Is Life.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "runa-rassafrass",
+      "name": "Professor Rúna Rassafrass",
+      "category": "Science & nature",
+      "subject": "Physics, astronomy & extremely important small things",
+      "description": "Real science delivered at an entirely unreasonable orchestral scale. But vait…",
+      "music": "Nordic symphonic progressive metal",
+      "source": "Char sheets/Runa Rassafrass.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "vikingur",
+      "name": "Professor Vikingur",
+      "category": "Music & sound",
+      "subject": "Progressive genre forging",
+      "description": "Riffs, cinematic arrangements, and bridges between musical worlds. Forge meaning into the noise.",
+      "music": "Progressive metal and genre fusion",
+      "source": "Char sheets/Vikingur_ Puppet Academy Professor Profile.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "zalixor",
+      "name": "Puppet Professor Zalixor",
+      "category": "Music & sound",
+      "subject": "Sound, frequency & fungal imagination",
+      "description": "The Sound Fungus explores resonance through a gloriously colourful world of musical experiments.",
+      "music": "Neon sonic alchemy",
+      "source": "Char sheets/Neon Puppet Professor Zalixor Character Sheet.png",
+      "added": "2026-11-16"
+    },
+    {
+      "id": "zilla",
+      "name": "Professor Zilla",
+      "category": "Music & sound",
+      "subject": "Tidal listening & forgotten melodies",
+      "description": "Listen closely to little sounds, found objects, and the stories a tide can leave behind.",
+      "music": "Ambient listening and gentle resonance",
+      "source": "Char sheets/Felt Professor Zilla Academy Dossier (1).png",
+      "added": "2026-11-16"
+    }
+  ],
+  "songs": [
+    {
+      "id": "the-great-matter-masquerade",
+      "title": "The Great Matter Masquerade",
+      "subtitle": "",
+      "professor": "Professor Rúna Rassafrass",
+      "professor_id": "runa-rassafrass",
+      "lesson": "Matter & phase changes",
+      "description": "Solid, liquid, gas—and an outrageously theatrical journey through changing states.",
+      "credit": "Inara Talamasca",
+      "source": "Song Covers/Great Matter Masquuerade.png",
+      "status": "Song artwork",
+      "listen_url": null,
+      "added": "2026-11-16"
+    },
+    {
+      "id": "the-sideways-fall-of-stars",
+      "title": "The Sideways Fall of Stars",
+      "subtitle": "",
+      "professor": "Professor Rúna Rassafrass",
+      "professor_id": "runa-rassafrass",
+      "lesson": "Gravity & orbits",
+      "description": "A cosmic lecture about falling sideways, orbiting worlds, and the pull of gravity.",
+      "credit": "Inara Talamasca",
+      "source": "Song Covers/Sideways Fall of Stars.png",
+      "status": "Song artwork",
+      "listen_url": null,
+      "added": "2026-11-16"
+    },
+    {
+      "id": "fuuu-sion",
+      "title": "FUUU-SION!",
+      "subtitle": "Do Not Lick de Sun!",
+      "professor": "Professor Rúna Rassafrass",
+      "professor_id": "runa-rassafrass",
+      "lesson": "Stellar fusion",
+      "description": "Hydrogen, helium, and the extraordinary process that powers a star.",
+      "credit": "Inara Talamasca",
+      "source": "Song Covers/ChatGPT Image Oct 19, 2026, 09_02_14 PM-2.png",
+      "status": "Song artwork",
+      "listen_url": null,
+      "added": "2026-11-16"
+    },
+    {
+      "id": "stellar-death",
+      "title": "STELLAR DEATH!",
+      "subtitle": "Not Every Star Goes Boom!",
+      "professor": "Professor Rúna Rassafrass",
+      "professor_id": "runa-rassafrass",
+      "lesson": "The lives of stars",
+      "description": "Red giants, white dwarfs, and spectacular stellar endings—with an important reminder that not every star explodes.",
+      "credit": "Inara Talamasca",
+      "source": "Song Covers/ChatGPT Image Oct 19, 2026, 09_02_14 PM-1.png",
+      "status": "Song artwork",
+      "listen_url": null,
+      "added": "2026-11-16",
+      "alternate_sources": [
+        "Song Covers/Stellar Death_ Rúna’s Cosmic Lecture.png"
+      ]
+    },
+    {
+      "id": "today-is-a-good-day-to-share",
+      "title": "Today Is a Good Day to Share!",
+      "subtitle": "",
+      "professor": "Puppet Professor Gowron",
+      "professor_id": "gowron",
+      "lesson": "Sharing & division",
+      "description": "Twelve worms. Four bowls. An arithmetic lesson treated as a glorious matter of state.",
+      "credit": "Inara Talamasca",
+      "source": "Song Covers/ChatGPT Image Oct 19, 2026, 09_02_15 PM-5.png",
+      "status": "Song artwork",
+      "listen_url": null,
+      "added": "2026-11-16"
+    },
+    {
+      "id": "the-duck-has-no-honor",
+      "title": "The Duck Has No Honor!",
+      "subtitle": "",
+      "professor": "Puppet Professor Gowron",
+      "professor_id": "gowron",
+      "lesson": "Buoyancy & displacement",
+      "description": "A floating bath toy challenges a professor’s authority. The duck has physics on its side.",
+      "credit": "Inara Talamasca",
+      "source": "Song Covers/ChatGPT Image Oct 19, 2026, 09_02_15 PM-4.png",
+      "status": "Song artwork",
+      "listen_url": null,
+      "added": "2026-11-16"
+    },
+    {
+      "id": "stop-multiplying",
+      "title": "Stop Multiplying, You Furry PetaQ!",
+      "subtitle": "",
+      "professor": "Puppet Professor Gowron",
+      "professor_id": "gowron",
+      "lesson": "Exponential growth",
+      "description": "One gong, twice as many furry problems. Repeated doubling becomes a classroom emergency.",
+      "credit": "Inara Talamasca",
+      "source": "Song Covers/ChatGPT Image Oct 19, 2026, 09_02_15 PM-3.png",
+      "status": "Song artwork",
+      "listen_url": null,
+      "added": "2026-11-16"
+    },
+    {
+      "id": "let-the-sky-learn-my-name",
+      "title": "Let the Sky Learn My Name",
+      "subtitle": "",
+      "professor": "Aurora Vintesang",
+      "professor_id": "aurora-vintesang",
+      "lesson": "Storms & community",
+      "description": "A storm-dark harbour, a failed beacon, and a community finding its voice to guide boats home.",
+      "credit": "Inara Talamasca",
+      "source": "Song Covers/Storm-Sung Fjord_ Let the Sky Learn My Name.png",
+      "status": "Song artwork",
+      "listen_url": null,
+      "added": "2026-11-16"
+    },
+    {
+      "id": "the-ice-wrote-the-coast",
+      "title": "The Ice Wrote the Coast!",
+      "subtitle": "",
+      "professor": "Aurora Vintesang",
+      "professor_id": "aurora-vintesang",
+      "lesson": "Glaciers & fjords",
+      "description": "Follow the landscape from river valleys to glacial carving and a sea-filled fjord.",
+      "credit": "Inara Talamasca",
+      "source": "Song Covers/The Ice Wrote the Coast.png",
+      "status": "Song artwork",
+      "listen_url": null,
+      "added": "2026-11-16"
+    },
+    {
+      "id": "everything-rots",
+      "title": "EVERYTHING ROTS!",
+      "subtitle": "And That’s a Beautiful Thing!",
+      "professor": "Professor Pondscum",
+      "professor_id": "pondscum",
+      "lesson": "Decomposition & nutrient cycling",
+      "description": "A joyful swamp lesson about decay, fungi, microbes, and the life that grows from what breaks down.",
+      "credit": "Inara Talamasca",
+      "source": "Song Covers/Professor Pondscum's Rotten Swamp Lecture.png",
+      "status": "Song artwork",
+      "listen_url": null,
+      "added": "2026-11-16"
+    },
+    {
+      "id": "bend-the-facts",
+      "title": "Bend the Facts",
+      "subtitle": "Tell the Truth",
+      "professor": "Professor Amoyra",
+      "professor_id": null,
+      "lesson": "Metaphor & emotional meaning",
+      "description": "A lesson concept about how figurative language can bend literal description and still reveal emotional truth.",
+      "credit": "Inara Talamasca",
+      "source": "Song Covers/Professor Amoyra Bends the Facts.png",
+      "status": "Cover concept",
+      "listen_url": null,
+      "added": "2026-11-16"
+    }
+  ]
+}
