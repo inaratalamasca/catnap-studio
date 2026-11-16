@@ -5,8 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:puppet-academy-ap-20261119@catnapradio.com
-DTSTAMP:20261116T190000Z
-DTSTART:20261120T000000Z
+DTSTAMP:20261116T195202Z
+LAST-MODIFIED:20261116T195202Z
+SEQUENCE:1
+DTSTART:20261127T000000Z
 SUMMARY:Puppet Academy After Party with Ina & Len
 DESCRIPTION:Real lessons. Ridiculous professors. Join Catnap Radio's Puppet
  Academy After Party. Guide: https://catnapradio.com/puppet-academy/
