@@ -1,4 +1,4 @@
-/* Catnap music pages v1.0.0 */
+/* Catnap music pages v1.1.0 */
 .music-page {
   --music-ink: #f3ebdf;
   --music-muted: #c2b9cb;
@@ -87,7 +87,7 @@
 }
 .music-collection-art { display: block; border-radius: 0 15px 15px 0; }
 .music-collection-art img,
-.starfall-figure img { display: block; width: 100%; height: auto; }
+.starfall-figure :is(img, video) { display: block; width: 100%; height: auto; }
 .music-collection-art img { border-radius: inherit; }
 .music-trail {
   justify-content: flex-start;
@@ -114,10 +114,15 @@
 }
 .primer-details { margin: 14px 0 0; color: var(--music-muted); font-size: 13px; line-height: 1.5; }
 .starfall-figure { margin: 0; min-width: 0; }
-.starfall-figure img {
+.starfall-figure :is(img, video) {
   border: 1px solid #8d779288;
   border-radius: 11px;
   box-shadow: 0 25px 68px #05050884;
+}
+.starfall-figure .starfall-cover-still { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  .starfall-figure video { display: none; }
+  .starfall-figure .starfall-cover-still { display: block; }
 }
 .starfall-figure figcaption {
   margin-top: 9px;
