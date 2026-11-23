@@ -6,6 +6,8 @@ The license allows use, changes and redistribution for its permitted purposes, i
 
 ## Branding and third-party material
 
+The Starfall Universe primer and its cover art are published as creative works by Jah’s Kreations. They sit outside the repository’s software license.
+
 The software license does not grant trademark or branding rights. AI:Underground names/logos belong to their respective owners. The maintainer confirmed permission on November 15, 2026 to include AIU branding in Catnap's public source and extension downloads; that is not a blanket grant to reuse AIU branding for unrelated products. Catnap branding also retains its separate rights.
 
 Dependencies retain their own licenses. Community music, submitted artwork, creator identities, and third-party private code are not relicensed by Catnap. The original fictional Theatre test fixtures may be used with the Catnap project under its license. No private third-party implementation is included.
