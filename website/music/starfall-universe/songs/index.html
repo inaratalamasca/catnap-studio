@@ -9,7 +9,8 @@
   <link rel="canonical" href="https://catnapradio.com/music/starfall-universe/songs/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css?v=20261116-puppet1">
-  <link rel="stylesheet" href="/music/music.css?v=3">
+  <link rel="stylesheet" href="/music/music.css?v=4">
+  <script src="/music/starfall-universe/songs/cover-motion.js" defer></script>
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Catnap Radio">
   <meta property="og:title" content="Songs from Starfall">
@@ -38,8 +39,19 @@
 
       <h1>Songs from Starfall</h1>
       <p class="chronicle-deck">Find songs by story or setting. Each Suno link opens the selected recording.</p>
-    </header><nav class="song-jumps" aria-label="Song groups"><a class="music-text-link" href="#homeworld">Tal’Shyra and the Huntress</a><a class="music-text-link" href="#frontier">Kepler and Blackwater</a><a class="music-text-link" href="#missions">Signals and operations</a><a class="music-text-link" href="#after-hours">Stages and after hours</a><a class="music-text-link" href="#the-writs">Two Huntresses and the writs</a><a class="music-text-link" href="#between-writs">Between writs</a><a class="music-text-link" href="#companion">Companion recordings</a></nav><section class="chronicle-section"><h2>Featured covers</h2><div class="song-covers"><article class="song-cover">
-      <a class="song-cover-art" href="/music/starfall-universe/songs/#starfall-huntress" aria-label="Find Starfall Huntress in the song catalog"><img src="/music/starfall-universe/assets/covers/starfall-huntress.webp" width="1000" height="1000" alt="Inara in dark cybernetic armor, framed by blue light aboard a ship." decoding="async" loading="lazy"></a>
+    </header><nav class="song-jumps" aria-label="Song groups"><a class="music-text-link" href="#homeworld">Tal’Shyra and the Huntress</a><a class="music-text-link" href="#frontier">Kepler and Blackwater</a><a class="music-text-link" href="#missions">Signals and operations</a><a class="music-text-link" href="#after-hours">Stages and after hours</a><a class="music-text-link" href="#the-writs">Two Huntresses and the writs</a><a class="music-text-link" href="#between-writs">Between writs</a><a class="music-text-link" href="#companion">Companion recordings</a></nav><section class="chronicle-section">
+      <div class="song-gallery-heading">
+        <h2>Featured covers</h2>
+        <button id="cover-motion-toggle" class="cover-motion-toggle" type="button" hidden>Pause cover animations</button>
+      </div>
+      <div class="song-covers"><article class="song-cover">
+      <a class="song-cover-art song-motion-cover" href="/music/starfall-universe/assets/covers/starfall-huntress.webp" aria-label="Open a larger cover for Starfall Huntress" data-title="Starfall Huntress">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/covers/starfall-huntress.webp" width="1000" height="1000" alt="Inara in dark cybernetic armor, framed by blue light aboard a ship." decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/covers/starfall-huntress.webp" data-src="/music/starfall-universe/assets/animations/starfall-huntress-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Starfall Huntress</h3>
         <p>An ancient oath endures beneath Inara’s cybernetics as the Huntress pursues the truth between systems.</p>
@@ -93,7 +105,13 @@
 
       </div>
     </article><article class="song-cover">
-      <a class="song-cover-art" href="/music/starfall-universe/songs/#under-many-suns" aria-label="Find Under Many Suns in the song catalog"><img src="/music/starfall-universe/assets/covers/under-many-suns.webp" width="1000" height="1000" alt="Inara plays her violin in a brass observation lounge under three suns." decoding="async" loading="lazy"></a>
+      <a class="song-cover-art song-motion-cover" href="/music/starfall-universe/assets/covers/under-many-suns.webp" aria-label="Open a larger cover for Under Many Suns" data-title="Under Many Suns">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/covers/under-many-suns.webp" width="1000" height="1000" alt="Inara plays her violin in a brass observation lounge under three suns." decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/covers/under-many-suns.webp" data-src="/music/starfall-universe/assets/animations/under-many-suns-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Under Many Suns</h3>
         <p>The professional circuit moves through Veyr’Khal, Ironreach, Pelagia and other contrasting worlds aboard Snjókló. Different landscapes and work rhythms explain why one life can carry so many musical textures.</p>
@@ -102,7 +120,13 @@
 
       </div>
     </article><article class="song-cover">
-      <a class="song-cover-art" href="/music/starfall-universe/songs/#strings-from-the-black" aria-label="Find Strings from the Black in the song catalog"><img src="/music/starfall-universe/assets/covers/strings-from-the-black.webp" width="820" height="820" alt="Inara and her banjo at the edge of the Blackwater, with the song title in gold." decoding="async" loading="lazy"></a>
+      <a class="song-cover-art song-motion-cover" href="/music/starfall-universe/assets/covers/strings-from-the-black.webp" aria-label="Open a larger cover for Strings from the Black" data-title="Strings from the Black">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/covers/strings-from-the-black.webp" width="820" height="820" alt="Inara and her banjo at the edge of the Blackwater, with the song title in gold." decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/covers/strings-from-the-black.webp" data-src="/music/starfall-universe/assets/animations/strings-from-the-black-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Strings from the Black</h3>
         <p>A line of music heard through starless air becomes a shared instrumental journey. The title anchors the frontier ensemble collection rather than specifying another military sortie.</p>
@@ -111,49 +135,46 @@
 
       </div>
     </article></div></section><section class="chronicle-section" id="homeworld"><h2>Tal’Shyra and the Huntress</h2><p class="section-intro">Inara’s homeworld, the Three Years, and the vows she carries into the stars.</p><div class="song-list"><article class="song-entry" id="hear-the-world-breathe">
-      <img src="/music/starfall-universe/assets/song-art/hear-the-world-breathe.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/hear-the-world-breathe.webp" aria-label="Open a larger cover for Hear the World Breathe" data-title="Hear the World Breathe">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/hear-the-world-breathe.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/hear-the-world-breathe.webp" data-src="/music/starfall-universe/assets/hear-the-world-breathe-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Hear the World Breathe</h3>
         <p>Inara remembers a technologically capable Tal’Shyra designed for paws, wings, swimmers, wheels, roots and rivers. The final survey lens measures a living valley as available ground, beginning the approach to war.</p>
         <span class="song-edition">Link-only on Suno</span>
         <a class="song-link" href="https://suno.com/song/2af55bec-7d58-4578-a58d-5ed502ac5041" aria-label="Hear the World Breathe on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/hear-the-world-breathe.webp" aria-label="Animated cover artwork for Hear the World Breathe.">
-        <source src="/music/starfall-universe/assets/hear-the-world-breathe-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="what-you-wouldnt-save">
-      <img src="/music/starfall-universe/assets/song-art/what-you-wouldnt-save.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/what-you-wouldnt-save.webp" aria-label="Open a larger cover for What You Wouldn’t Save" data-title="What You Wouldn’t Save">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/what-you-wouldnt-save.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/what-you-wouldnt-save.webp" data-src="/music/starfall-universe/assets/animations/what-you-wouldnt-save-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>What You Wouldn’t Save</h3>
         <p>Corporate maps become weapons while outside petitions wait. Zyara’s restraint training becomes battlefield precision, two Sky-Roots fall, the clans hold together, and three descending vectors finally announce lawful intervention.</p>
         <span class="song-edition">Link-only on Suno</span>
         <a class="song-link" href="https://suno.com/song/2cb28dd1-b17e-4734-8892-105deb19ec27" aria-label="What You Wouldn’t Save on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/what-you-wouldnt-save.webp" aria-label="Animated cover artwork for What You Wouldn’t Save.">
-        <source src="/music/starfall-universe/assets/animations/what-you-wouldnt-save-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="the-roots-remember">
-      <img src="/music/starfall-universe/assets/song-art/the-roots-remember.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/the-roots-remember.webp" aria-label="Open a larger cover for The Roots Remember" data-title="The Roots Remember">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/the-roots-remember.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/the-roots-remember.webp" data-src="/music/starfall-universe/assets/animations/the-roots-remember-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>The Roots Remember</h3>
         <p>Tal’Shyra’s forest law and ancestral defense are weighed against their human cost. Roots fed by blood express the burden of protection; the lyric is not a command that every child must go to war.</p>
 
         <a class="song-link" href="https://suno.com/song/a07a2489-9213-4a9c-a4f1-0361aa684b91" aria-label="The Roots Remember on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/the-roots-remember.webp" aria-label="Animated cover artwork for The Roots Remember.">
-        <source src="/music/starfall-universe/assets/animations/the-roots-remember-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="the-blank-place-on-the-chart">
       <img src="/music/starfall-universe/assets/song-art/the-blank-place-on-the-chart.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -174,64 +195,60 @@
 
       </div>
     </article><article class="song-entry" id="starfall-huntress">
-      <img src="/music/starfall-universe/assets/song-art/starfall-huntress.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/starfall-huntress.webp" aria-label="Open a larger cover for Starfall Huntress" data-title="Starfall Huntress">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/starfall-huntress.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/starfall-huntress.webp" data-src="/music/starfall-universe/assets/animations/starfall-huntress-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Starfall Huntress</h3>
         <p>An ancient oath endures beneath Inara’s cybernetics as the Huntress pursues the truth between systems.</p>
 
         <a class="song-link" href="https://suno.com/song/bad4f93d-df70-4f97-a6fd-e483e62eda4c" aria-label="Starfall Huntress on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/starfall-huntress.webp" aria-label="Animated cover artwork for Starfall Huntress.">
-        <source src="/music/starfall-universe/assets/animations/starfall-huntress-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="by-my-own-claws">
-      <img src="/music/starfall-universe/assets/song-art/by-my-own-claws.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/by-my-own-claws.webp" aria-label="Open a larger cover for By My Own Claws" data-title="By My Own Claws">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/by-my-own-claws.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/by-my-own-claws.webp" data-src="/music/starfall-universe/assets/animations/by-my-own-claws-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>By My Own Claws</h3>
         <p>Inara’s melee portrait favors control, balance, close distance and seams in defense. Her body remains a trained instrument when weapons jam or circuits fail.</p>
 
         <a class="song-link" href="https://suno.com/song/bda2be28-01fc-42e4-8c08-e332b765cc70" aria-label="By My Own Claws on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/by-my-own-claws.webp" aria-label="Animated cover artwork for By My Own Claws.">
-        <source src="/music/starfall-universe/assets/animations/by-my-own-claws-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="i-answer-to-the-hunt">
-      <img src="/music/starfall-universe/assets/song-art/i-answer-to-the-hunt.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/i-answer-to-the-hunt.webp" aria-label="Open a larger cover for I Answer to the Hunt" data-title="I Answer to the Hunt">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/i-answer-to-the-hunt.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/i-answer-to-the-hunt.webp" data-src="/music/starfall-universe/assets/animations/i-answer-to-the-hunt-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>I Answer to the Hunt</h3>
         <p>The Huntress’s protective oath answers a threatened life when institutions fail to arrive. Its refusal of crowns is an ethical demand for responsibility, carried into the later Accord framework.</p>
 
         <a class="song-link" href="https://suno.com/song/a170677e-cf5d-48ed-b143-e5196e5ef656" aria-label="I Answer to the Hunt on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/i-answer-to-the-hunt.webp" aria-label="Animated cover artwork for I Answer to the Hunt.">
-        <source src="/music/starfall-universe/assets/animations/i-answer-to-the-hunt-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="under-many-suns">
-      <img src="/music/starfall-universe/assets/song-art/under-many-suns.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/under-many-suns.webp" aria-label="Open a larger cover for Under Many Suns" data-title="Under Many Suns">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/under-many-suns.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/under-many-suns.webp" data-src="/music/starfall-universe/assets/animations/under-many-suns-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Under Many Suns</h3>
         <p>The professional circuit moves through Veyr’Khal, Ironreach, Pelagia and other contrasting worlds aboard Snjókló. Different landscapes and work rhythms explain why one life can carry so many musical textures.</p>
         <span class="song-edition">Under Many Suns-Steam Edit 10</span><span class="song-edition">Link-only on Suno</span>
         <a class="song-link" href="https://suno.com/song/16f4242f-4115-4769-98fa-2f588a2820af" aria-label="Under Many Suns on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/under-many-suns.webp" aria-label="Animated cover artwork for Under Many Suns.">
-        <source src="/music/starfall-universe/assets/animations/under-many-suns-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="huntress-released">
       <img src="/music/starfall-universe/assets/song-art/huntress-released.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -315,19 +332,18 @@
 
       </div>
     </article><article class="song-entry" id="blackwater-dancing">
-      <img src="/music/starfall-universe/assets/song-art/blackwater-dancing.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/blackwater-dancing.webp" aria-label="Open a larger cover for Blackwater Dancing" data-title="Blackwater Dancing">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/blackwater-dancing.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/blackwater-dancing.webp" data-src="/music/starfall-universe/assets/animations/blackwater-dancing-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Blackwater Dancing</h3>
         <p>Inara introduces Lenthrea to the Drifter’s Blackwater handling beside Rakkit and Junie: feel the pull before the warning, read spin, soften the thrusters. The cockpit lesson is also an intimate duet.</p>
 
         <a class="song-link" href="https://suno.com/song/5c4fd666-8755-4aae-992c-04747f6fe23c" aria-label="Blackwater Dancing on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/blackwater-dancing.webp" aria-label="Animated cover artwork for Blackwater Dancing.">
-        <source src="/music/starfall-universe/assets/animations/blackwater-dancing-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="hop-the-bend">
       <img src="/music/starfall-universe/assets/song-art/hop-the-bend.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -348,19 +364,18 @@
 
       </div>
     </article><article class="song-entry" id="strings-from-the-black">
-      <img src="/music/starfall-universe/assets/song-art/strings-from-the-black.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/strings-from-the-black.webp" aria-label="Open a larger cover for Strings from the Black" data-title="Strings from the Black">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/strings-from-the-black.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/strings-from-the-black.webp" data-src="/music/starfall-universe/assets/animations/strings-from-the-black-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Strings from the Black</h3>
         <p>A line of music heard through starless air becomes a shared instrumental journey. The title anchors the frontier ensemble collection rather than specifying another military sortie.</p>
 
         <a class="song-link" href="https://suno.com/song/1116a10f-3e72-40fa-ae13-f9c03612cde5" aria-label="Strings from the Black on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/strings-from-the-black.webp" aria-label="Animated cover artwork for Strings from the Black.">
-        <source src="/music/starfall-universe/assets/animations/strings-from-the-black-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="hyperspace-hoedown">
       <img src="/music/starfall-universe/assets/song-art/hyperspace-hoedown.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -399,19 +414,18 @@
 
       </div>
     </article><article class="song-entry" id="ride-the-bent-sky">
-      <img src="/music/starfall-universe/assets/song-art/ride-the-bent-sky.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/ride-the-bent-sky.webp" aria-label="Open a larger cover for Ride the Bent Sky" data-title="Ride the Bent Sky">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/ride-the-bent-sky.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/ride-the-bent-sky.webp" data-src="/music/starfall-universe/assets/animations/ride-the-bent-sky-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Ride the Bent Sky</h3>
         <p>The Drifter leads a convoy through Blackwater Creek, with Rakkit reading the navigation line, Junie marking drift, Len’s harp and Bassan’s low strings beneath the work. Piloting skill preserves the convoy through a changing seam.</p>
 
         <a class="song-link" href="https://suno.com/song/f22fa5bd-29b9-4be5-9de5-cd2a19797cb1" aria-label="Ride the Bent Sky on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/ride-the-bent-sky.webp" aria-label="Animated cover artwork for Ride the Bent Sky.">
-        <source src="/music/starfall-universe/assets/animations/ride-the-bent-sky-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="blackwater-blues">
       <img src="/music/starfall-universe/assets/song-art/blackwater-blues.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -423,19 +437,18 @@
 
       </div>
     </article></div></section><section class="chronicle-section" id="missions"><h2>Signals and operations</h2><p class="section-intro">Distress calls, field operations, and the cost of an unfinished mission.</p><div class="song-list"><article class="song-entry" id="frozen-orbit">
-      <img src="/music/starfall-universe/assets/song-art/frozen-orbit.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/frozen-orbit.webp" aria-label="Open a larger cover for Frozen Orbit" data-title="Frozen Orbit">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/frozen-orbit.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/frozen-orbit.webp" data-src="/music/starfall-universe/assets/animations/frozen-orbit-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Frozen Orbit</h3>
         <p>A stranded military survivor is pulled from a frozen world by Inara. The rescue introduces Ichigo through collaboration; it is the beginning of the connection later developed in Dead Beacon Choir.</p>
         <span class="song-edition">Frozen Orbit - Inara x Hollow Idolz</span>
         <a class="song-link" href="https://suno.com/song/be94435a-f4fe-480d-9db3-e447f9fd3b83" aria-label="Frozen Orbit on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/frozen-orbit.webp" aria-label="Animated cover artwork for Frozen Orbit.">
-        <source src="/music/starfall-universe/assets/animations/frozen-orbit-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="dead-beacon-choir">
       <img src="/music/starfall-universe/assets/song-art/dead-beacon-choir.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -474,19 +487,18 @@
 
       </div>
     </article><article class="song-entry" id="shadow-vector">
-      <img src="/music/starfall-universe/assets/song-art/shadow-vector.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/shadow-vector.webp" aria-label="Open a larger cover for Shadow Vector" data-title="Shadow Vector">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/shadow-vector.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/shadow-vector.webp" data-src="/music/starfall-universe/assets/animations/shadow-vector-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Shadow Vector</h3>
         <p>Snjókló’s stealth approach and precomputed vectors deliver an overwhelming strike against the returning hyena/rogue-AI threat. The current canon adds a gate transit and three-second opportunity; older lyrics are a compressed account.</p>
 
         <a class="song-link" href="https://suno.com/song/fde534ba-82c2-4536-b825-68121c0da5b0" aria-label="Shadow Vector on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/shadow-vector.webp" aria-label="Animated cover artwork for Shadow Vector.">
-        <source src="/music/starfall-universe/assets/animations/shadow-vector-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="holding-station">
       <img src="/music/starfall-universe/assets/song-art/holding-station.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -498,19 +510,18 @@
 
       </div>
     </article><article class="song-entry" id="the-walls-answer">
-      <img src="/music/starfall-universe/assets/song-art/the-walls-answer.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/the-walls-answer.webp" aria-label="Open a larger cover for The Walls Answer" data-title="The Walls Answer">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/the-walls-answer.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/the-walls-answer.webp" data-src="/music/starfall-universe/assets/animations/the-walls-answer-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>The Walls Answer</h3>
         <p>Miss Jenkins draws on shipminds, implants and drones to coordinate a hostage rescue with Inara, Lenthrea and their marines.</p>
         <span class="song-edition">Link-only on Suno</span>
         <a class="song-link" href="https://suno.com/song/1e175d8f-9ae6-433a-ae8f-c652179e9d53" aria-label="The Walls Answer on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/the-walls-answer.webp" aria-label="Animated cover artwork for The Walls Answer.">
-        <source src="/music/starfall-universe/assets/animations/the-walls-answer-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article></div></section><section class="chronicle-section" id="after-hours"><h2>Stages and after hours</h2><p class="section-intro">Kepler’s lounges, Shae’lo’ra’s midnight shows, and the music people make between departures.</p><div class="song-list"><article class="song-entry" id="shaelora-evening">
       <img src="/music/starfall-universe/assets/song-art/shaelora-evening.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -567,19 +578,18 @@
 
       </div>
     </article><article class="song-entry" id="velour-starlight">
-      <img src="/music/starfall-universe/assets/song-art/velour-starlight.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/velour-starlight.webp" aria-label="Open a larger cover for Velour &amp; Starlight" data-title="Velour &amp; Starlight">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/velour-starlight.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/velour-starlight.webp" data-src="/music/starfall-universe/assets/animations/velour-starlight-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Velour &amp; Starlight</h3>
         <p>Inara and Zack’s duet holds an intense station-night attraction without demanding forever. Their pauses, departure and return belong to a complicated off-duty connection, not a fixed crew roster.</p>
         <span class="song-edition">Velour &amp; Starlight by Inara (feat. Zack Steele)</span>
         <a class="song-link" href="https://suno.com/song/90076f04-082a-4769-816f-524902578541" aria-label="Velour &amp; Starlight on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/velour-starlight.webp" aria-label="Animated cover artwork for Velour &amp; Starlight.">
-        <source src="/music/starfall-universe/assets/animations/velour-starlight-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="stars-in-each-others-eyes-feat-zack-steele">
       <img src="/music/starfall-universe/assets/song-art/stars-in-each-others-eyes-feat-zack-steele.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -645,124 +655,116 @@
 
       </div>
     </article><article class="song-entry" id="midnight-brass-parade">
-      <img src="/music/starfall-universe/assets/song-art/midnight-brass-parade.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/midnight-brass-parade.webp" aria-label="Open a larger cover for Midnight Brass Parade" data-title="Midnight Brass Parade">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/midnight-brass-parade.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/midnight-brass-parade.webp" data-src="/music/starfall-universe/assets/animations/midnight-brass-parade-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Midnight Brass Parade</h3>
         <p>The opening invitation to rise, move and join the brass-led crowd. Also archived under its first line, Hey Brother What You Sayin’; these are one lyric-song family.</p>
         <span class="song-edition">Midnight Brass Parade (Hey Brother What You Sayin’)</span>
         <a class="song-link" href="https://suno.com/song/9a993b57-23b5-4818-86e3-72d7a09a93d0" aria-label="Midnight Brass Parade on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/midnight-brass-parade.webp" aria-label="Animated cover artwork for Midnight Brass Parade.">
-        <source src="/music/starfall-universe/assets/animations/midnight-brass-parade-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="graveyard-bandstand">
-      <img src="/music/starfall-universe/assets/song-art/graveyard-bandstand.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/graveyard-bandstand.webp" aria-label="Open a larger cover for Graveyard Bandstand" data-title="Graveyard Bandstand">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/graveyard-bandstand.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/graveyard-bandstand.webp" data-src="/music/starfall-universe/assets/animations/graveyard-bandstand-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Graveyard Bandstand</h3>
         <p>Lavender hair catches moonlight as a midnight brass band makes a home for restless dancers and spirits. Its ghostly imagery belongs to the show’s nocturnal folklore.</p>
 
         <a class="song-link" href="https://suno.com/song/77550640-08b2-4446-a988-1aaa54780b58" aria-label="Graveyard Bandstand on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/graveyard-bandstand.webp" aria-label="Animated cover artwork for Graveyard Bandstand.">
-        <source src="/music/starfall-universe/assets/animations/graveyard-bandstand-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="the-clocktower-swing">
-      <img src="/music/starfall-universe/assets/song-art/the-clocktower-swing.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/the-clocktower-swing.webp" aria-label="Open a larger cover for The Clocktower Swing" data-title="The Clocktower Swing">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/the-clocktower-swing.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/the-clocktower-swing.webp" data-src="/music/starfall-universe/assets/animations/the-clocktower-swing-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>The Clocktower Swing</h3>
         <p>Clockwork urban nightlife takes rhythmic shape through electro-swing brass and a moving clocktower pulse. The clock is a venue motif, not a device that changes chronology.</p>
 
         <a class="song-link" href="https://suno.com/song/e824f70d-dd42-4098-981a-e332bcb99f1a" aria-label="The Clocktower Swing on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/the-clocktower-swing.webp" aria-label="Animated cover artwork for The Clocktower Swing.">
-        <source src="/music/starfall-universe/assets/animations/the-clocktower-swing-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="velvet-moon-cabaret">
-      <img src="/music/starfall-universe/assets/song-art/velvet-moon-cabaret.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/velvet-moon-cabaret.webp" aria-label="Open a larger cover for Velvet Moon Cabaret" data-title="Velvet Moon Cabaret">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/velvet-moon-cabaret.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/velvet-moon-cabaret.webp" data-src="/music/starfall-universe/assets/animations/velvet-moon-cabaret-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Velvet Moon Cabaret</h3>
         <p>The velvet-lit cabaret at the center of the electro-swing circuit opens its doors. Moonlight, brass, paws and shared dancing turn the setting into a social place rather than a mission briefing.</p>
 
         <a class="song-link" href="https://suno.com/song/6af402cc-8672-4c4e-8095-7ea118667a7e" aria-label="Velvet Moon Cabaret on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/velvet-moon-cabaret.webp" aria-label="Animated cover artwork for Velvet Moon Cabaret.">
-        <source src="/music/starfall-universe/assets/animations/velvet-moon-cabaret-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="shadow-bass-boulevard">
-      <img src="/music/starfall-universe/assets/song-art/shadow-bass-boulevard.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/shadow-bass-boulevard.webp" aria-label="Open a larger cover for Shadow Bass Boulevard" data-title="Shadow Bass Boulevard">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/shadow-bass-boulevard.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/shadow-bass-boulevard.webp" data-src="/music/starfall-universe/assets/animations/shadow-bass-boulevard-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Shadow Bass Boulevard</h3>
         <p>A nocturnal avenue of low horns, slap bass and claw-to-claw swing. It broadens the musical geography beyond a single lounge.</p>
 
         <a class="song-link" href="https://suno.com/song/c78205fa-bcc2-4c38-9a01-88fbb176b697" aria-label="Shadow Bass Boulevard on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/shadow-bass-boulevard.webp" aria-label="Animated cover artwork for Shadow Bass Boulevard.">
-        <source src="/music/starfall-universe/assets/animations/shadow-bass-boulevard-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="phantom-dancefloor">
-      <img src="/music/starfall-universe/assets/song-art/phantom-dancefloor.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/phantom-dancefloor.webp" aria-label="Open a larger cover for Phantom Dancefloor" data-title="Phantom Dancefloor">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/phantom-dancefloor.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/phantom-dancefloor.webp" data-src="/music/starfall-universe/assets/animations/phantom-dancefloor-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Phantom Dancefloor</h3>
         <p>Charleston ghosts, skeletal players and old clocktower spirits crowd a theatrical dancefloor. Read its haunting as cabaret folklore unless a later story makes it literal.</p>
 
         <a class="song-link" href="https://suno.com/song/0f78a88a-403f-45ba-9281-a1ccd16b27a3" aria-label="Phantom Dancefloor on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/phantom-dancefloor.webp" aria-label="Animated cover artwork for Phantom Dancefloor.">
-        <source src="/music/starfall-universe/assets/animations/phantom-dancefloor-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="the-rings-of-shaelora">
-      <img src="/music/starfall-universe/assets/song-art/the-rings-of-shaelora.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/the-rings-of-shaelora.webp" aria-label="Open a larger cover for The Rings of Shaelo’ra" data-title="The Rings of Shaelo’ra">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/the-rings-of-shaelora.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/the-rings-of-shaelora.webp" data-src="/music/starfall-universe/assets/animations/the-rings-of-shaelora-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>The Rings of Shaelo’ra</h3>
         <p>The cabaret looks outward to the rings and lights of Shae’lo’ra, linking local dance music to the orbital landscape.</p>
 
         <a class="song-link" href="https://suno.com/song/2da9b30b-16d5-4050-aa81-f43f5fa2d06a" aria-label="The Rings of Shaelo’ra on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/the-rings-of-shaelora.webp" aria-label="Animated cover artwork for The Rings of Shaelo’ra.">
-        <source src="/music/starfall-universe/assets/animations/the-rings-of-shaelora-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="last-shuttle-home">
-      <img src="/music/starfall-universe/assets/song-art/last-shuttle-home.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/last-shuttle-home.webp" aria-label="Open a larger cover for Last Shuttle Home" data-title="Last Shuttle Home">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/last-shuttle-home.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/last-shuttle-home.webp" data-src="/music/starfall-universe/assets/animations/last-shuttle-home-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Last Shuttle Home</h3>
         <p>After the band’s last set, taxi shuttles carry dancers through orbital lanes while the rings turn beyond the glass. Everyday transport closes the night.</p>
 
         <a class="song-link" href="https://suno.com/song/bb38e42d-072c-49e9-995d-d625bc5ed05f" aria-label="Last Shuttle Home on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/last-shuttle-home.webp" aria-label="Animated cover artwork for Last Shuttle Home.">
-        <source src="/music/starfall-universe/assets/animations/last-shuttle-home-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article></div></section><aside class="instrumental-collection"><h3>After-hours instrumentals</h3><p>Two instrumental collections picture the arcades, canals and late-night station routes.</p><div class="music-actions"><a class="music-text-link" href="https://suno.com/playlist/5f445176-c91e-4340-9531-f2b8f8eab262">Shae’lo’ra Nights (BDM) ↗</a><a class="music-text-link" href="https://suno.com/playlist/2f716df0-bb9e-453d-96b9-4e87be6ac410">Kepler After Dark ↗</a></div></aside><section class="chronicle-section" id="the-writs"><h2>Two Huntresses and the writs</h2><p class="section-intro">Inara and Lenthrea investigate, rescue, and answer for their choices together.</p><div class="song-list"><article class="song-entry" id="no-salvage-claim-on-a-soul">
       <img src="/music/starfall-universe/assets/song-art/no-salvage-claim-on-a-soul.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -936,19 +938,18 @@
 
       </div>
     </article><article class="song-entry" id="the-honey-moons-of-kepler">
-      <img src="/music/starfall-universe/assets/song-art/the-honey-moons-of-kepler.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/the-honey-moons-of-kepler.webp" aria-label="Open a larger cover for The Honey-Moons of Kepler" data-title="The Honey-Moons of Kepler">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/the-honey-moons-of-kepler.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/the-honey-moons-of-kepler.webp" data-src="/music/starfall-universe/assets/animations/the-honey-moons-of-kepler-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>The Honey-Moons of Kepler</h3>
         <p>After vows on Tal’Shyra, the two Prefects travel through Kepler’s moons and orbital delights with pins put away. Harp, banjo, mandolin and violin connect the honeymoon route to the frontier’s music.</p>
         <span class="song-edition">Link-only on Suno</span>
         <a class="song-link" href="https://suno.com/song/bfa154a0-6dcb-4e80-9052-7e89f704dd35" aria-label="The Honey-Moons of Kepler on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/the-honey-moons-of-kepler.webp" aria-label="Animated cover artwork for The Honey-Moons of Kepler.">
-        <source src="/music/starfall-universe/assets/animations/the-honey-moons-of-kepler-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="colors-past-the-eventide">
       <img src="/music/starfall-universe/assets/song-art/colors-past-the-eventide.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -969,19 +970,18 @@
 
       </div>
     </article><article class="song-entry" id="space-between-us">
-      <img src="/music/starfall-universe/assets/song-art/space-between-us.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/space-between-us.webp" aria-label="Open a larger cover for Space Between Us" data-title="Space Between Us">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/space-between-us.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/space-between-us.webp" data-src="/music/starfall-universe/assets/animations/space-between-us-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>Space Between Us</h3>
         <p>Two people hold on to an unnamed closeness in a performance that can sit beside Starfall’s lounge songs.</p>
 
         <a class="song-link" href="https://suno.com/song/d7639919-1750-4afc-830d-ab422b8a0834" aria-label="Space Between Us on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/space-between-us.webp" aria-label="Animated cover artwork for Space Between Us.">
-        <source src="/music/starfall-universe/assets/animations/space-between-us-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article><article class="song-entry" id="the-ninth-footfall">
       <img src="/music/starfall-universe/assets/song-art/the-ninth-footfall.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -993,19 +993,18 @@
 
       </div>
     </article><article class="song-entry" id="what-didnt-make-it-past-the-stars">
-      <img src="/music/starfall-universe/assets/song-art/what-didnt-make-it-past-the-stars.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+      <a class="song-motion-cover" href="/music/starfall-universe/assets/song-art/what-didnt-make-it-past-the-stars.webp" aria-label="Open a larger cover for What Didn’t Make It (Past the Stars)" data-title="What Didn’t Make It (Past the Stars)">
+        <span class="song-motion-frame">
+          <img src="/music/starfall-universe/assets/song-art/what-didnt-make-it-past-the-stars.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
+          <video hidden muted loop playsinline preload="none" width="720" height="720"
+                 poster="/music/starfall-universe/assets/song-art/what-didnt-make-it-past-the-stars.webp" data-src="/music/starfall-universe/assets/animations/what-didnt-make-it-past-the-stars-loop.mp4" aria-hidden="true"></video>
+        </span>
+      </a>
       <div class="song-copy">
         <h3>What Didn’t Make It (Past the Stars)</h3>
         <p>A spacefaring elegy carries an absent person in a vessel’s hull-hum, filters and unfinished jump.</p>
         <span class="song-edition">What Didn’t Make It (Past the Stars-Astral Cover)-5</span><span class="song-edition">Link-only on Suno</span>
         <a class="song-link" href="https://suno.com/song/958eed78-6e52-4661-94b0-5058edc6c879" aria-label="What Didn’t Make It (Past the Stars) on Suno">Open on Suno <span aria-hidden="true">↗</span></a>
-        <details class="song-animation">
-      <summary>Animated cover</summary>
-      <video controls muted loop playsinline preload="none" width="720" height="720"
-             poster="/music/starfall-universe/assets/song-art/what-didnt-make-it-past-the-stars.webp" aria-label="Animated cover artwork for What Didn’t Make It (Past the Stars).">
-        <source src="/music/starfall-universe/assets/animations/what-didnt-make-it-past-the-stars-loop.mp4" type="video/mp4">
-      </video>
-    </details>
       </div>
     </article></div></section><section class="chronicle-section" id="companion"><h2>Companion recordings</h2><p class="section-intro">Related pieces from the Starfall music folders, including guest vocals and collaborations.</p><div class="song-list"><article class="song-entry" id="look-what-you-did-to-love">
       <img src="/music/starfall-universe/assets/song-art/look-what-you-did-to-love.webp" width="360" height="360" alt="" decoding="async" loading="lazy">
@@ -1108,6 +1107,13 @@
       </div>
     </article></div></section>
   </main>
+  <dialog class="song-cover-preview" id="song-cover-preview" aria-labelledby="song-cover-preview-title">
+    <div class="song-cover-preview-heading">
+      <h2 id="song-cover-preview-title">Cover preview</h2>
+      <button type="button" class="cover-motion-toggle" id="song-cover-preview-close">Close</button>
+    </div>
+    <video controls muted loop playsinline preload="none" width="720" height="720" aria-label="Cover animation"></video>
+  </dialog>
   <footer class="music-footer">
     <span>© 2026 Catnap Radio</span>
     <a href="/music/">Inara’s Music</a>
