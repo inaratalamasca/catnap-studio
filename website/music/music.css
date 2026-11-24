@@ -1,4 +1,4 @@
-/* Catnap music pages v1.3.0 */
+/* Catnap music pages v1.4.0 */
 .music-page {
   --music-ink: #f3ebdf;
   --music-muted: #c2b9cb;
@@ -327,13 +327,10 @@
 }
 .song-cover {
   min-width: 0;
-  overflow: hidden;
   border: 1px solid var(--music-line);
   border-radius: 9px;
   background: #171525;
 }
-.song-cover-art { display: block; background: #0c0a13; }
-.song-cover-art img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; }
 .song-cover-art:focus-visible { outline-offset: -4px; }
 .song-copy { min-width: 0; }
 .song-cover .song-copy { padding: 15px; }
@@ -388,13 +385,6 @@
   align-items: start;
   gap: clamp(10px, 1.5vw, 17px);
 }
-.song-entry > img {
-  width: 100%;
-  height: auto;
-  border: 1px solid var(--music-line);
-  border-radius: 5px;
-}
-
 .song-gallery-heading {
   display: flex;
   flex-wrap: wrap;
@@ -418,14 +408,14 @@
 .cover-motion-toggle:hover { border-color: var(--music-gold); }
 .cover-motion-toggle:focus-visible { outline: 2px solid var(--music-gold); outline-offset: 3px; }
 
-.song-motion-cover {
+.song-art-tile {
   position: relative;
   display: block;
   aspect-ratio: 1;
   width: 100%;
-  cursor: zoom-in;
 }
-.song-motion-frame {
+.song-motion-cover { cursor: zoom-in; }
+.song-art-frame {
   position: relative;
   display: block;
   aspect-ratio: 1;
@@ -433,36 +423,45 @@
   background: #0c0a13;
   pointer-events: none;
 }
-.song-entry .song-motion-frame {
+.song-entry .song-art-frame {
   border: 1px solid var(--music-line);
   border-radius: 5px;
 }
-.song-motion-frame > img,
-.song-motion-frame > video {
+.song-cover .song-art-frame { border-radius: 8px 8px 0 0; }
+.song-art-frame > img,
+.song-art-frame > video {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-.song-motion-frame > video { position: absolute; inset: 0; }
-.song-motion-frame > video[hidden] { display: none; }
+.song-art-frame > video { position: absolute; inset: 0; }
+.song-art-frame > video[hidden] { display: none; }
 
 @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
-  .song-motion-frame { transition: transform 170ms ease; }
-  .song-entry .song-motion-cover:is(:hover, :focus-visible) { z-index: 2; }
-  .song-entry .song-motion-cover:is(:hover, :focus-visible) .song-motion-frame {
-    transform-origin: top left;
-    transform: scale(3.8);
+  .song-art-frame { transition: transform 170ms ease; }
+  .song-art-tile:is(:hover, :focus-visible) { z-index: 2; }
+  .song-art-tile:is(:hover, :focus-visible) .song-art-frame {
+    transform-origin: var(--art-zoom-origin, center);
+    transform: scale(var(--art-zoom, 1.3));
     box-shadow: 0 14px 48px #000b;
-    border-color: var(--music-gold);
+    outline: 1px solid var(--music-gold);
+    border-radius: 7px;
   }
-  .song-cover .song-motion-cover:is(:hover, :focus-visible) .song-motion-frame {
-    transform: scale(1.06);
+  .song-entry .song-art-tile {
+    --art-zoom: 3.8;
+    --art-zoom-origin: top left;
   }
-  @media (min-width: 470px) and (max-width: 940px) {
-    .song-entry .song-motion-cover:is(:hover, :focus-visible) .song-motion-frame {
-      transform: scale(2.8);
-    }
+  @media (min-width: 681px) {
+    .song-cover:nth-child(3n + 1) { --art-zoom-origin: left center; }
+    .song-cover:nth-child(3n) { --art-zoom-origin: right center; }
+  }
+  @media (min-width: 411px) and (max-width: 680px) {
+    .song-cover:nth-child(odd) { --art-zoom-origin: left center; }
+    .song-cover:nth-child(even) { --art-zoom-origin: right center; }
+  }
+  @media (max-width: 410px) {
+    .song-cover { --art-zoom: 1.08; }
   }
 }
 
