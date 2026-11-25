@@ -42,7 +42,8 @@ figcaption{font-size:14px;font-weight:740;line-height:1.2;color:var(--sub);margi
 .radio-grid ol{padding-left:19px;margin:6px 0 0}
 .radio-grid li{font-size:15px;margin-bottom:7px}
 .between{display:grid;grid-template-columns:1fr 1.3fr;gap:12px;margin-top:15px}
-.between img{height:103px}
+.between img{height:147px}
+.between .card{display:flex;flex-direction:column;justify-content:center}
 .between p{font-size:15px;margin-top:5px}
 footer{position:absolute;bottom:18px;left:39px;right:39px;padding-top:10px;border-top:1px solid #75548c;display:flex;gap:15px;justify-content:space-between;color:var(--sub);font-size:12px;align-items:center}footer a{white-space:nowrap;font-size:14px;font-weight:780}
 </style></head>
@@ -57,18 +58,18 @@ footer{position:absolute;bottom:18px;left:39px;right:39px;padding-top:10px;borde
     <article class="card"><h3>▶ Community</h3><p>Open a Suno playlist. Make the cover and lyrics shine.</p></article>
     <article class="card teal-card"><h3>♫ Host</h3><p>Run the queue. Tap in visuals. Put the music on air.<sup>*</sup></p></article>
   </div>
-  <footer><span>Desktop Chrome &amp; Brave · No GPT or AI account</span><a href="https://catnapradio.com/theatre/">catnapradio.com/theatre ↗</a></footer>
+  <footer><span>Desktop Chrome &amp; Brave · No AI accounts required.</span><a href="https://catnapradio.com/theatre/">catnapradio.com/theatre ↗</a></footer>
 </section>
 
 <section class="sheet">
   <p class="overline">Community · with Ina</p>
   <div class="head"><h2>Pick your look.</h2><p>Open a Suno playlist and click Theatre. That’s the whole idea.</p></div>
   <div class="images3">
-    <figure class="shot"><img src="/theatre/media/layout-playlist.webp" alt="Playlist, artwork and lyrics"><figcaption>Playlist + artwork + lyrics</figcaption></figure>
-    <figure class="shot"><img src="/theatre/media/layout-lyrics.webp" alt="Artwork beside the lyrics"><figcaption>Artwork + lyrics</figcaption></figure>
-    <figure class="shot"><img src="/theatre/media/layout-artwork.webp" alt="Large cover art"><figcaption>Artwork focus</figcaption></figure>
+    <figure class="shot"><img src="/theatre/media/layout-playlist-0.10.4.webp" alt="Playlist, artwork and lyrics"><figcaption>Playlist + artwork + lyrics</figcaption></figure>
+    <figure class="shot"><img src="/theatre/media/layout-lyrics-0.10.4.webp" alt="Artwork beside the lyrics"><figcaption>Artwork + lyrics</figcaption></figure>
+    <figure class="shot"><img src="/theatre/media/layout-artwork-0.10.4.webp" alt="Large cover art"><figcaption>Artwork focus</figcaption></figure>
   </div>
-  <p><strong>Both editions</strong> can show art and lyrics, quick banners, pictures and muted clips. The background visualizer moves with playback.</p>
+  <p><strong>Both editions</strong> include big art, lyrics and a background visualizer. Open the gear to change its style, tint, opacity and strength.</p>
   <div class="visuals">
     <figure class="shot"><img src="/theatre/media/both-visual-stages.webp" alt="Both visual stages active in a Suno playlist"><figcaption>Both visual stages</figcaption></figure>
     <div><p class="overline teal">Community &amp; Host · Media Board</p><h3>Put a loop on stage.</h3><p>Put art, GIFs and muted videos beside the lyrics or playlist, or over the cover.</p><p class="future"><strong>Planned</strong><br>Live video panes, VRChat performers and puppets.<sup>*</sup></p></div>
@@ -81,15 +82,15 @@ footer{position:absolute;bottom:18px;left:39px;right:39px;padding-top:10px;borde
   <div class="head"><h2>Keep the queue moving.</h2><p>Your running order and the audience’s view follow the same song.</p></div>
   <div class="grid2 queue-demo">
     <figure class="shot"><img src="/theatre/media/running-order.webp" alt="Host running order with hold and load controls"><figcaption>Host · running order</figcaption></figure>
-    <figure class="shot"><img src="/theatre/media/layout-playlist.webp" alt="Matching track in Theatre"><figcaption>Audience · Theatre</figcaption></figure>
+    <figure class="shot"><img src="/theatre/media/layout-playlist-0.10.4.webp" alt="Theatre with the current song, artwork and lyrics"><figcaption>Audience · Theatre</figcaption></figure>
   </div>
   <div class="grid2 tool-rows">
     <article class="card teal-card"><h3>Inbox → Suno<sup>*</sup></h3><p>AIU Uploader requests become a Suno playlist. Move, hold, release or mark Played. Optional Discord announcements share the track.</p></article>
     <article class="card"><h3>Add next</h3><p>Suno and YouTube can come from the inbox. Add other sources by hand.</p>
-      <div class="chips"><span>Suno</span><span>YouTube</span><span>Mureka</span><span>Treblo</span><span>Mozart</span><span>SoundCloud</span><span>Spotify</span><span>MP3</span><span>WAV</span><span>FLAC</span><span>M4A</span><span>MP4 visuals</span></div>
+      <div class="chips"><span>Suno</span><span>YouTube</span><span>Mureka</span><span>Treblo</span><span>Mozart</span><span>SoundCloud</span><span>Spotify</span><span>MP3</span><span>WAV</span><span>FLAC</span><span>M4A</span><span>OGG</span><span>Opus</span><span>AAC</span><span>MP4 visuals</span></div>
     </article>
   </div>
-  <footer><span><sup>*</sup> Playlist reads and changes use Suno MCP access and the workstation companion.</span><a href="https://catnapradio.com/theatre/install/host/">Host setup ↗</a></footer>
+  <footer><span><sup>*</sup> Inbox-to-playlist sync uses Suno MCP access and the workstation companion.</span><a href="https://catnapradio.com/theatre/install/host/">Host setup ↗</a></footer>
 </section>
 
 <section class="sheet">
@@ -105,8 +106,8 @@ footer{position:absolute;bottom:18px;left:39px;right:39px;padding-top:10px;borde
     <figure class="shot"><img src="/theatre/media/phone-listener.webp" alt="Catnap Radio on a phone"><figcaption>Listener · tap Play</figcaption></figure>
   </div>
   <div class="between">
-    <figure class="shot"><img src="/theatre/media/lounge.webp" alt="Theatre lounge before a show"></figure>
-    <article class="card"><h3>Before. Break. After.</h3><p>Use the lounge for AIU Radio, next-show details, and your Suno playlist link. Host features are optional. Approve them in the service you use.</p></article>
+    <figure class="shot"><img src="/theatre/media/show-screen-host-preview.webp" alt="Catnap Radio’s animated schedule poster on Theatre’s pre-show screen"></figure>
+    <article class="card"><h3>Before, between and after.</h3><p><strong>Host preview.</strong> Put your poster and schedule in Theatre. Switch screens in Presentation controls and play AIU Radio if you want.</p></article>
   </div>
   <footer><span><sup>*</sup> Music broadcast uses Catnap’s hosted relay. See the site for current features and downloads.</span><a href="https://catnapradio.com/theatre/">catnapradio.com/theatre ↗</a></footer>
 </section>
