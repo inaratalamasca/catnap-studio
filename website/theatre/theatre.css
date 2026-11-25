@@ -61,8 +61,7 @@ sup{color:var(--amber);font-weight:850;font-size:.7em;vertical-align:super}
 .story h2{margin:10px 0 12px}
 .story p:not(.kicker){color:var(--muted);max-width:52ch}
 .layout-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
-.layout-tabs button{color:var(--muted);background:#1e142d;border:1px solid #675582;border-radius:9px;padding:.63rem .81rem;cursor:pointer}
-.layout-tabs button[aria-pressed=true]{background:#ded0fa;color:#211630;border-color:transparent;font-weight:790}
+.layout-tabs label{color:var(--muted);background:#1e142d;border:1px solid #675582;border-radius:9px;padding:.63rem .81rem;cursor:pointer}
 .screen{overflow:hidden;border:1px solid #423653;border-radius:15px;background:#15121e}
 .screen img{width:100%;object-fit:contain}
 .screen figcaption{padding:10px 13px;color:var(--muted);font-size:.83rem;background:#211a30}
@@ -87,7 +86,7 @@ sup{color:var(--amber);font-weight:850;font-size:.7em;vertical-align:super}
 .split-story,.format-story,.connection{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:center}
 .board{margin-top:15px}
 .show-loop{position:relative;max-width:510px;margin:auto;border-radius:18px;border:1px solid #806fa263;overflow:hidden;background:#1a1230}
-.show-loop video{width:100%;aspect-ratio:1;object-fit:cover}
+.show-loop img{width:100%;aspect-ratio:1;object-fit:cover}
 .show-loop figcaption{position:absolute;bottom:12px;left:12px;display:flex;gap:7px;align-items:center;border-radius:9px;padding:8px 10px;background:#140d22ee;font-size:.8rem}
 .future{grid-column:1/-1;border:1px dashed #9374b8;border-radius:13px;padding:14px 16px;display:flex;gap:1rem;align-items:baseline;color:var(--muted)}
 .future strong{color:var(--lilac)}
@@ -122,10 +121,31 @@ sup{color:var(--amber);font-weight:850;font-size:.7em;vertical-align:super}
   .guide-art{transform:none;max-width:520px}.editions{gap:9px;margin-bottom:32px}.ticket{padding:11px;gap:7px}.ticket-icon{width:26px;height:29px;font-size:.86rem;border-radius:7px}.ticket strong{font-size:1rem}.ticket small{font-size:.72rem}.ticket .arrow{display:none}
   .story{padding:33px 0}.radio-story,.split-story,.format-story,.connection,.guide-lead{grid-template-columns:1fr}.audio-samples{max-width:510px}.future{display:block}.future strong{display:block;margin-bottom:4px}
   .tools-grid{grid-template-columns:1fr}.queue-pair{grid-template-columns:1fr}.queue-pair img{aspect-ratio:auto}.footer{flex-direction:column;align-items:start}.footer nav{flex-wrap:wrap}.guide-lead img{max-width:260px}
-  .layout-tabs button{font-size:.82rem;padding:.48rem .55rem}.guide-page{padding-top:30px}
+  .layout-tabs label{font-size:.82rem;padding:.48rem .55rem}.guide-page{padding-top:30px}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;scroll-behavior:auto!important}}
 
 .dual-demo,.controls-preview{grid-column:1/-1}
 .controls-preview summary{cursor:pointer;color:var(--lilac);font-weight:770}
 .controls-preview .screen{max-width:550px;margin-top:12px}
+
+.preview-switcher{min-inline-size:0;border:0;margin:0;padding:0}
+.visually-hidden,.preview-pick{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.preview-switcher figure[data-preview]{display:none}
+#layout-playlist:checked ~ [data-preview="playlist"],
+#layout-lyrics:checked ~ [data-preview="lyrics"],
+#layout-artwork:checked ~ [data-preview="artwork"],
+#host-layout-both:checked ~ [data-preview="both-visuals"],
+#host-layout-playlist:checked ~ [data-preview="playlist-visual"]{display:block}
+#layout-playlist:checked ~ .layout-tabs [for="layout-playlist"],
+#layout-lyrics:checked ~ .layout-tabs [for="layout-lyrics"],
+#layout-artwork:checked ~ .layout-tabs [for="layout-artwork"],
+#host-layout-both:checked ~ .layout-tabs [for="host-layout-both"],
+#host-layout-playlist:checked ~ .layout-tabs [for="host-layout-playlist"]{
+  background:#ded0fa;color:#211630;border-color:transparent;font-weight:790
+}
+#layout-playlist:focus-visible ~ .layout-tabs [for="layout-playlist"],
+#layout-lyrics:focus-visible ~ .layout-tabs [for="layout-lyrics"],
+#layout-artwork:focus-visible ~ .layout-tabs [for="layout-artwork"],
+#host-layout-both:focus-visible ~ .layout-tabs [for="host-layout-both"],
+#host-layout-playlist:focus-visible ~ .layout-tabs [for="host-layout-playlist"]{outline:3px solid var(--amber);outline-offset:4px}
