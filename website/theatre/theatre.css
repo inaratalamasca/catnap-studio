@@ -149,3 +149,6 @@ sup{color:var(--amber);font-weight:850;font-size:.7em;vertical-align:super}
 #layout-artwork:focus-visible ~ .layout-tabs [for="layout-artwork"],
 #host-layout-both:focus-visible ~ .layout-tabs [for="host-layout-both"],
 #host-layout-playlist:focus-visible ~ .layout-tabs [for="host-layout-playlist"]{outline:3px solid var(--amber);outline-offset:4px}
+
+.store-unavailable,.store-unavailable:hover{color:#aaa8b3;background:#23222b;border-color:#55525f;cursor:default;filter:none}
+.store-unavailable small{font-size:.72rem;font-weight:600;color:#aaa8b3}
