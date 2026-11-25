@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#100c1b">
+<title>Install Catnap Theatre Host</title><meta name="description" content="Install the Host preview and choose optional radio, AIU Inbox and Discord announcements.">
+<link rel="canonical" href="https://catnapradio.com/theatre/install/host/"><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="../../theatre.css">
+</head>
+<body>
+<header class="mast shell"><a class="brand" href="../../"><img src="../../media/catnap-mark.png" alt="" width="34" height="34"> Catnap Theatre</a><nav aria-label="Guides"><a href="../../">Features</a><a href="../community/">Community guide</a></nav></header>
+<main class="guide-page shell">
+  <div class="guide-lead"><div><p class="kicker teal">Host · with Len</p><h1>Set up once.<br>Run your show.</h1><p class="intro">Start with Theatre. Turn on Inbox, Radio, and Discord announcements only when you want them.</p><div class="actions"><a class="button teal-button" href="https://github.com/inaratalamasca/catnap-radio-hosting/releases/download/v0.10.6-host-preview/Catnap-Theatre-Host-Preview-0.10.6.zip">Download Host 0.10.6 ZIP ↓</a><button class="button store-unavailable" type="button" disabled><img src="../../media/chrome-icon.png" width="22" height="22" alt="">Chrome Web Store <small>Pending approval</small></button></div><p class="fine">Working development build · 0.10.6 · AIU pilot access</p></div><img class="len" src="../../media/ina-and-len.webp" width="1320" height="880" alt="Len at a teal-lit music mixer beside Ina"></div>
+
+  <section class="guide-panel" id="install"><h2>Install the extension first</h2>
+    <ol><li><strong>Download the Host ZIP</strong> while signed in to GitHub with pilot access. Your AIU Admin or Protocol Agent can also provide it. Extract the ZIP to a folder you’ll keep.</li><li>On desktop Chrome or Brave, open <code>chrome://extensions</code> or <code>brave://extensions</code>. Turn on <strong>Developer mode</strong> and click <strong>Load unpacked</strong>.</li><li>Choose the Host folder containing <code>manifest.json</code>. Pin Catnap in the toolbar. Open a Suno playlist and click <strong>Theatre</strong>.</li></ol>
+    <p class="fine">The Host ZIP is distributed to the AIU pilot. Install or update it between broadcasts.</p>
+  </section>
+
+  <section class="guide-panel" id="inbox"><h2>Optional · Inbox and Suno playlists<sup>*</sup></h2>
+    <p><strong>Needs Suno MCP access and the Suno companion.</strong> The companion links Catnap to Suno for playlist reads and changes. You can skip it for Theatre, Media Board, Radio, and Discord announcements.</p>
+    <div class="actions"><a class="button teal-button" href="https://github.com/inaratalamasca/catnap-radio-hosting/releases/download/v0.10.6-host-preview/Catnap-Suno-Setup-Windows-x64-0.7.2.zip">Download Windows setup 0.7.2 ZIP ↓</a></div>
+    <p>On Windows x64, extract the setup ZIP and double-click <strong>Set Up Suno.cmd</strong>. It includes Node.js and pairs Catnap with Brave or Chrome for your Windows account. Run the same setup file to repair an older companion install.</p>
+    <details><summary>macOS and Linux setup</summary><p>Install <a href="https://nodejs.org/en/download">Node.js 22 or later</a>. On macOS, open <code>native/Set-Up-Suno.command</code> in the extracted Host folder. On Linux, open that folder in Terminal and run <code>bash native/install-linux.sh</code>. Both use the Host extension ID from the package.</p></details>
+    <ol><li><strong>1 · Suno</strong> In Theatre’s gear menu, open <strong>Inbox &amp; show → Setup</strong>. Choose <strong>Connect Suno &amp; load playlists</strong> and approve on Suno’s own screen.</li><li><strong>2 · LP/AP &amp; playlist</strong> Choose Listening Party or After Party. Create a playlist or choose an existing one. Open it in Suno from the setup step.</li><li><strong>3 · Inbox</strong> Sign into the <a href="https://uploader.aiu.fm/">AIU Uploader</a> in the same profile with access to the selected inbox. Enable access, find your inbox, then choose <strong>Load inbox &amp; sync this playlist</strong>.</li><li><strong>4 · Theatre</strong> Select the opened playlist tab and choose <strong>Use this Theatre for the show</strong>.</li></ol>
+    <p class="fine">If Suno shows <strong>Authorized</strong> and the inbox read fails, check your AIU Uploader account and access to that inbox.</p>
+    <figure class="screen"><img src="../../media/on-show.webp" alt="Host On show tab with playback controls, inbox sync button and current track artwork"><figcaption>Use On show once the setup is green</figcaption></figure>
+  </section>
+
+  <section class="guide-panel"><h2>Run the queue</h2>
+    <ol><li>Under <strong>On show</strong>, <strong>Load next</strong> stages the song. Press <strong>Play</strong> when you’re ready. AP can autoplay.</li><li>In <strong>Running order</strong>, move, hold, release, or mark a track Played. Use <strong>Add next</strong> for links you’re adding yourself.</li><li>Use <strong>Update inbox &amp; sync</strong> on show for a manual refresh. AP can also refresh the inbox and playlist automatically when enabled.</li></ol>
+  </section>
+
+  <section class="guide-panel" id="radio"><h2>Optional · Broadcast music<sup>*</sup></h2>
+    <ol><li>Get your own casting key from an AIU Admin or Protocol Agent.</li><li>Set the key under <strong>Setup → Radio settings</strong>, or in Catnap’s Radio window.</li><li>Click the Catnap toolbar icon on the playing Suno or AIU Player tab and choose <strong>Start music broadcast</strong>. Confirm a takeover if another show is broadcasting.</li><li>Share the <a href="https://listen.catnapradio.com/">Catnap listen page</a>. Listeners can choose <strong>Radio</strong> on a phone and keep Discord voices audible.</li></ol>
+    <p>To change the audience link shown in Theatre, set <strong>Listener page URL</strong> in Radio settings and click <strong>Save listener link</strong>.</p>
+  </section>
+  <section class="guide-panel"><h2>Optional · Announce in Discord</h2><p>Open the right text channel in Discord in this browser profile. In Theatre, open <strong>Announcements</strong>, select the channel, choose when to announce, and start. It uses your existing signed-in tab.</p></section>
+  <section class="guide-panel"><h2>Layouts and visuals</h2><p>Choose <strong>Song details</strong> in Presentation controls to show the lyrics, styles, description, date, plays, and likes available for a Suno song.</p><p>Open <strong>Media Board</strong> to add a picture, GIF, MP4 or WebM and show it on a stage. Use <strong>Show screens</strong> in Presentation controls for a pre-show, break, or after-show in the Theatre tab.</p><figure class="screen"><img src="../../media/presentation-controls-0.10.6.png" width="1010" height="725" loading="lazy" alt="Host 0.10.6 Presentation controls at two widths with evenly spaced launchers and an Announcements status row"><figcaption>Host 0.10.6 Presentation controls</figcaption></figure></section>
+  <section class="guide-panel"><h2>Accounts and helpers</h2><p>Catnap doesn’t collect passwords. There’s no GPT or AI account step. AIU Inbox uses the AIU Uploader, playlist changes use Suno’s approval screen, Discord announcements use your open channel tab, and Radio uses your issued casting key.</p><p class="fine"><sup>*</sup> Inbox-to-playlist needs the workstation companion and Suno MCP. Music broadcast uses the Catnap hosted relay. Hosts don’t set up Docker.</p></section>
+</main>
+<footer class="footer shell"><div><strong>Catnap Theatre</strong><small>Host start guide</small></div><nav aria-label="More Theatre links"><a href="../../">Back to Theatre</a><a href="../community/">Community setup</a></nav></footer>
+</body></html>
